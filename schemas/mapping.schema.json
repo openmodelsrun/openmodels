@@ -1,0 +1,119 @@
+{
+  "title": "Mapping Schema",
+  "description": "JSON Schema for provider-model mapping definitions in the OpenModels registry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_id",
+    "provider_id",
+    "provider_model_name",
+    "pricing",
+    "rate_limits",
+    "available_regions",
+    "created_at",
+    "updated_at"
+  ],
+  "properties": {
+    "model_id": {
+      "type": "string",
+      "description": "Reference to the canonical model ID (must exist in models registry)",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "provider_id": {
+      "type": "string",
+      "description": "Reference to the provider ID (must exist in providers registry)",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "provider_model_name": {
+      "type": "string",
+      "description": "The provider's internal name for this model (as used in their API)",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "pricing": {
+      "type": "object",
+      "description": "Pricing information for this model at this provider",
+      "additionalProperties": false,
+      "required": [
+        "input_per_million",
+        "output_per_million",
+        "currency"
+      ],
+      "properties": {
+        "input_per_million": {
+          "type": "number",
+          "description": "Price per 1 million input tokens",
+          "minimum": 0
+        },
+        "output_per_million": {
+          "type": "number",
+          "description": "Price per 1 million output tokens",
+          "minimum": 0
+        },
+        "currency": {
+          "type": "string",
+          "description": "ISO 4217 currency code (3 uppercase letters)",
+          "pattern": "^[A-Z]{3}$",
+          "minLength": 3,
+          "maxLength": 3
+        }
+      }
+    },
+    "rate_limits": {
+      "type": "object",
+      "description": "Rate limiting constraints for this model at this provider",
+      "additionalProperties": false,
+      "required": [
+        "requests_per_minute",
+        "tokens_per_minute"
+      ],
+      "properties": {
+        "requests_per_minute": {
+          "type": "integer",
+          "description": "Maximum number of API requests allowed per minute",
+          "minimum": 1
+        },
+        "tokens_per_minute": {
+          "type": "integer",
+          "description": "Maximum number of tokens (input + output) allowed per minute",
+          "minimum": 1
+        }
+      }
+    },
+    "context_window_override": {
+      "type": ["integer", "null"],
+      "description": "Provider-specific context window size override (null if using model's default)",
+      "minimum": 1,
+      "maximum": 10000000
+    },
+    "available_regions": {
+      "type": "array",
+      "description": "List of regions where this model is available (must be subset of provider's regions)",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "description": "Region identifier (e.g., 'us-east-1', 'eu-west-1') or 'global'",
+        "pattern": "^([a-z]{2}-[a-z]+-\\d+|global)$",
+        "minLength": 1,
+        "maxLength": 50
+      }
+    },
+    "created_at": {
+      "type": "string",
+      "description": "ISO 8601 timestamp indicating when the mapping entry was created",
+      "format": "date-time",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d{3})?Z$"
+    },
+    "updated_at": {
+      "type": "string",
+      "description": "ISO 8601 timestamp indicating when the mapping entry was last updated",
+      "format": "date-time",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d{3})?Z$"
+    }
+  }
+}

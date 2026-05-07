@@ -1,0 +1,106 @@
+{
+  "title": "Model Schema",
+  "description": "JSON Schema for canonical LLM model definitions in the OpenModels registry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "description",
+    "capabilities",
+    "modalities",
+    "context_window",
+    "licensing",
+    "created_at",
+    "updated_at"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the model in kebab-case format (lowercase alphanumeric with hyphens)",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable display name for the model",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "description": {
+      "type": "string",
+      "description": "Detailed description of the model's purpose, capabilities, and characteristics",
+      "minLength": 10,
+      "maxLength": 2000
+    },
+    "capabilities": {
+      "type": "array",
+      "description": "List of capabilities supported by the model",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "chat",
+          "completion",
+          "function-calling",
+          "embeddings",
+          "fine-tuning",
+          "vision",
+          "audio",
+          "code-generation",
+          "reasoning"
+        ]
+      }
+    },
+    "modalities": {
+      "type": "array",
+      "description": "List of input/output modalities supported by the model",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "text",
+          "image",
+          "audio",
+          "video",
+          "code"
+        ]
+      }
+    },
+    "context_window": {
+      "type": "integer",
+      "description": "Maximum context window size in tokens",
+      "minimum": 1,
+      "maximum": 10000000
+    },
+    "licensing": {
+      "type": "string",
+      "description": "License type for the model",
+      "enum": [
+        "proprietary",
+        "apache-2.0",
+        "mit",
+        "gpl-3.0",
+        "bsd-3-clause",
+        "cc-by-4.0",
+        "cc-by-sa-4.0",
+        "other"
+      ]
+    },
+    "created_at": {
+      "type": "string",
+      "description": "ISO 8601 timestamp indicating when the model entry was created",
+      "format": "date-time",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d{3})?Z$"
+    },
+    "updated_at": {
+      "type": "string",
+      "description": "ISO 8601 timestamp indicating when the model entry was last updated",
+      "format": "date-time",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d{3})?Z$"
+    }
+  }
+}
