@@ -36,7 +36,7 @@
     },
     "pricing": {
       "type": "object",
-      "description": "Pricing information for this model at this provider",
+      "description": "Pricing information for this model at this provider. Extensible to support future pricing dimensions.",
       "additionalProperties": false,
       "required": [
         "input_per_million",
@@ -60,6 +60,36 @@
           "pattern": "^[A-Z]{3}$",
           "minLength": 3,
           "maxLength": 3
+        },
+        "cache_write_per_million": {
+          "type": "number",
+          "description": "Price per 1 million tokens written to cache (optional)",
+          "minimum": 0
+        },
+        "cache_read_per_million": {
+          "type": "number",
+          "description": "Price per 1 million tokens read from cache (optional)",
+          "minimum": 0
+        },
+        "image_per_unit": {
+          "type": "number",
+          "description": "Price per image unit (optional, for vision models)",
+          "minimum": 0
+        },
+        "audio_per_second": {
+          "type": "number",
+          "description": "Price per second of audio (optional, for audio models)",
+          "minimum": 0
+        },
+        "reasoning_tokens_per_million": {
+          "type": "number",
+          "description": "Price per 1 million reasoning tokens (optional, for reasoning models)",
+          "minimum": 0
+        },
+        "search_grounding_per_query": {
+          "type": "number",
+          "description": "Price per search grounding query (optional)",
+          "minimum": 0
         }
       }
     },

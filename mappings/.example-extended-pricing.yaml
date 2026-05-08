@@ -1,0 +1,32 @@
+# Example mapping with extended pricing dimensions
+# This demonstrates the extensible pricing model for future capabilities
+# NOTE: This is a documentation example - model_id and provider_id may not exist in registry
+
+model_id: claude-3-opus
+provider_id: anthropic
+provider_model_name: claude-3-opus-20240229
+pricing:
+  # Required base pricing
+  input_per_million: 15.0
+  output_per_million: 75.0
+  currency: USD
+  
+  # Optional extended pricing dimensions
+  cache_write_per_million: 3.75      # Prompt caching write cost
+  cache_read_per_million: 1.50       # Prompt caching read cost
+  image_per_unit: 0.048              # Vision capability pricing
+  # audio_per_second: 0.001          # Future: audio input pricing
+  # reasoning_tokens_per_million: 30.0  # Future: reasoning tokens (e.g., o1-style)
+  # search_grounding_per_query: 0.05 # Future: search grounding pricing
+
+rate_limits:
+  requests_per_minute: 50
+  tokens_per_minute: 40000
+
+context_window_override: null
+available_regions:
+  - us-east-1
+  - eu-west-1
+
+created_at: "2024-03-15T10:00:00.000Z"
+updated_at: "2024-03-15T10:00:00.000Z"
