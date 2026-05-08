@@ -1,0 +1,7 @@
+# Python dependencies for OpenModels registry validation
+
+# YAML parsing
+PyYAML>=6.0.1
+
+# JSON Schema validation
+jsonschema>=4.20.0
