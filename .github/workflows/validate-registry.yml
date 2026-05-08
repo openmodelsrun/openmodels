@@ -1,0 +1,97 @@
+name: Validate Registry
+
+on:
+  pull_request:
+    paths:
+      - 'models/**'
+      - 'providers/**'
+      - 'mappings/**'
+      - 'schemas/**'
+      - 'validate_registry.py'
+      - 'requirements.txt'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Run validation script
+        id: validate
+        run: |
+          set +e
+          python validate_registry.py > validation_output.txt 2>&1
+          EXIT_CODE=$?
+          echo "exit_code=$EXIT_CODE" >> $GITHUB_OUTPUT
+          exit 0
+        continue-on-error: true
+      
+      - name: Read validation output
+        id: output
+        if: always()
+        run: |
+          echo "VALIDATION_OUTPUT<<EOF" >> $GITHUB_ENV
+          cat validation_output.txt >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+      
+      - name: Post validation results as PR comment
+        if: always() && github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const output = process.env.VALIDATION_OUTPUT;
+            const exitCode = '${{ steps.validate.outputs.exit_code }}';
+            
+            const comment = `## Registry Validation Results
+            
+            ${output}
+            
+            ---
+            *Validation ${exitCode === '0' ? 'passed ✅' : 'failed ❌'}*`;
+            
+            // Find existing comment
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            });
+            
+            const botComment = comments.find(comment => 
+              comment.user.type === 'Bot' && 
+              comment.body.includes('Registry Validation Results')
+            );
+            
+            // Update or create comment
+            if (botComment) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: botComment.id,
+                body: comment
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: comment
+              });
+            }
+      
+      - name: Fail workflow if validation failed
+        if: steps.validate.outputs.exit_code != '0'
+        run: |
+          echo "Validation failed. Please fix the errors above."
+          exit 1
