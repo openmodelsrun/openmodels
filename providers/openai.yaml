@@ -1,0 +1,11 @@
+id: openai
+name: OpenAI
+description: Leading AI research company providing API access to GPT-4, GPT-3.5, DALL-E, and other foundation models through a developer-friendly REST API with global availability.
+api_base_url: https://api.openai.com/v1
+auth_type: bearer
+regions:
+  - us-east-1
+  - eu-west-1
+compatibility: openai
+created_at: "2024-01-01T00:00:00.000Z"
+updated_at: "2024-06-15T00:00:00.000Z"

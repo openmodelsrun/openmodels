@@ -1,0 +1,13 @@
+id: google
+name: Google Cloud Vertex AI
+description: Google Cloud's enterprise AI platform providing access to Gemini models with enterprise-grade security, compliance, and global infrastructure. Supports streaming, function calling, and multimodal inputs.
+api_base_url: https://generativelanguage.googleapis.com/v1
+auth_type: oauth2
+regions:
+  - us-east-1
+  - us-west-2
+  - eu-west-1
+  - global
+compatibility: google
+created_at: "2024-01-01T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

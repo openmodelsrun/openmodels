@@ -1,0 +1,11 @@
+id: anthropic
+name: Anthropic
+description: AI safety company providing API access to the Claude family of models, known for helpfulness, harmlessness, and honesty with strong reasoning and analysis capabilities.
+api_base_url: https://api.anthropic.com/v1
+auth_type: api-key
+regions:
+  - us-east-1
+  - eu-west-1
+compatibility: anthropic
+created_at: "2024-01-01T00:00:00.000Z"
+updated_at: "2024-06-15T00:00:00.000Z"

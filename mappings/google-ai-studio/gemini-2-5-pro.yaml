@@ -1,0 +1,17 @@
+model_id: gemini-2-5-pro
+provider_id: google-ai-studio
+provider_model_name: gemini-2.5-pro
+pricing:
+  input_per_million: 2.50
+  output_per_million: 15.0
+  currency: USD
+rate_limits:
+  requests_per_minute: 15
+  tokens_per_minute: 1000000
+context_window_override: null
+available_regions:
+  - us-east-1
+  - eu-west-1
+  - global
+created_at: "2025-06-17T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

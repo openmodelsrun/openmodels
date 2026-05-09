@@ -1,0 +1,17 @@
+model_id: command-r7b
+provider_id: cohere
+provider_model_name: command-r7b-12-2024
+pricing:
+  input_per_million: 0.0375
+  output_per_million: 0.15
+  currency: USD
+rate_limits:
+  requests_per_minute: 500
+  tokens_per_minute: 1000000
+context_window_override: null
+available_regions:
+  - us-east-1
+  - eu-west-1
+  - global
+created_at: "2024-12-01T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

@@ -1,0 +1,18 @@
+id: grok-4-20
+name: Grok 4.20
+description: xAI's multi-agent capable model with 2M token context window. Available in reasoning, non-reasoning, and multi-agent variants for diverse enterprise workloads.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - code
+context_window: 2000000
+licensing: proprietary
+created_at: "2026-02-01T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

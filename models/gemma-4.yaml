@@ -1,0 +1,17 @@
+id: gemma-4
+name: Gemma 4 31B
+description: Google's flagship open-weight dense model with 31B parameters. All parameters active per forward pass. Ranks among top open models with strong performance on AIME 2026 (89.2%) and MMLU Pro (85.2%). Supports vision and extended context.
+capabilities:
+  - chat
+  - completion
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - code
+context_window: 262144
+licensing: apache-2.0
+created_at: "2026-04-02T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

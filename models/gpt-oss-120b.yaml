@@ -1,0 +1,16 @@
+id: gpt-oss-120b
+name: GPT-OSS 120B
+description: OpenAI's first open-weight large model with 120 billion parameters. Released under Apache 2.0 license, offering strong performance on reasoning and coding tasks while being fully self-hostable.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - code
+context_window: 131072
+licensing: apache-2.0
+created_at: "2026-04-01T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

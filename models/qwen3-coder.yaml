@@ -1,0 +1,15 @@
+id: qwen3-coder
+name: Qwen3 Coder
+description: Alibaba's Qwen3 Coder model optimized for software development tasks including code generation, debugging, code review, and technical documentation with strong multilingual programming support.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+modalities:
+  - text
+  - code
+context_window: 131072
+licensing: apache-2.0
+created_at: "2025-04-01T00:00:00.000Z"
+updated_at: "2025-05-15T00:00:00.000Z"

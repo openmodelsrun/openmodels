@@ -1,0 +1,11 @@
+id: deepseek
+name: DeepSeek
+description: Chinese AI research company providing direct API access to their DeepSeek family of models with competitive pricing and strong performance on coding and reasoning tasks.
+api_base_url: https://api.deepseek.com/v1
+auth_type: bearer
+regions:
+  - us-east-1
+  - global
+compatibility: openai
+created_at: "2024-12-01T00:00:00.000Z"
+updated_at: "2025-01-15T00:00:00.000Z"

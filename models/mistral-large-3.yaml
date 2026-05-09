@@ -1,0 +1,18 @@
+id: mistral-large-3
+name: Mistral Large 3
+description: Mistral AI's largest open-weight model with 41B active parameters (675B total MoE). State-of-the-art general-purpose multimodal model with 256K context window and powerful agentic capabilities. Released under Apache 2.0.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - code
+context_window: 256000
+licensing: apache-2.0
+created_at: "2025-12-01T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

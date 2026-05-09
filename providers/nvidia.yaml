@@ -1,0 +1,12 @@
+id: nvidia
+name: NVIDIA NIM
+description: NVIDIA's inference microservice platform providing optimized deployment of LLMs on GPU infrastructure. Offers free endpoints for select models and partner endpoints through Deep Infra, Together AI, Bitdeer, GMI Cloud, and CoreWeave.
+api_base_url: https://integrate.api.nvidia.com/v1
+auth_type: api-key
+regions:
+  - us-east-1
+  - us-west-2
+  - global
+compatibility: openai
+created_at: "2024-01-01T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

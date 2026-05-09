@@ -1,0 +1,10 @@
+id: meta
+name: Meta AI
+description: Meta's AI research division providing the open-weight Llama family of models. Models are available through various inference providers and can be self-hosted.
+api_base_url: https://www.meta.ai/api
+auth_type: none
+regions:
+  - global
+compatibility: custom
+created_at: "2024-01-01T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

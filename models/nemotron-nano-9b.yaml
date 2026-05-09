@@ -1,0 +1,15 @@
+id: nemotron-nano-9b
+name: Nemotron Nano 9B v2
+description: NVIDIA's compact 9B parameter model trained from scratch for both reasoning and non-reasoning tasks. Generates reasoning traces before final responses. Efficient for edge and on-device deployment.
+capabilities:
+  - chat
+  - completion
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - code
+context_window: 131072
+licensing: other
+created_at: "2025-06-01T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

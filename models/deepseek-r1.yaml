@@ -1,0 +1,15 @@
+id: deepseek-r1
+name: DeepSeek R1
+description: DeepSeek's reasoning-focused model trained with reinforcement learning for complex multi-step reasoning. Excels at math, science, and coding problems requiring chain-of-thought reasoning.
+capabilities:
+  - chat
+  - completion
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - code
+context_window: 131072
+licensing: mit
+created_at: "2025-01-20T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

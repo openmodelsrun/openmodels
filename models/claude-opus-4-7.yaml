@@ -1,0 +1,18 @@
+id: claude-opus-4-7
+name: Claude Opus 4.7
+description: Anthropic's latest and most advanced model with state-of-the-art reasoning, coding, and analysis capabilities. Features improved tool use, extended thinking, and enhanced safety alignment.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - code
+context_window: 300000
+licensing: proprietary
+created_at: "2026-04-01T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

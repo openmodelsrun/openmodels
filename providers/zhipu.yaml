@@ -1,0 +1,11 @@
+id: zhipu
+name: Zhipu AI
+description: Chinese AI company providing the GLM family of models with strong bilingual (Chinese/English) capabilities. Known for competitive performance on reasoning and coding benchmarks.
+api_base_url: https://open.bigmodel.cn/api/paas/v4
+auth_type: api-key
+regions:
+  - us-east-1
+  - global
+compatibility: openai
+created_at: "2024-01-01T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

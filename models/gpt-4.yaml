@@ -1,0 +1,16 @@
+id: gpt-4
+name: GPT-4
+description: OpenAI's flagship large language model with advanced reasoning, instruction following, and code generation capabilities. Supports multimodal inputs including text and images.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - code-generation
+modalities:
+  - text
+  - image
+context_window: 128000
+licensing: proprietary
+created_at: "2024-01-01T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"
