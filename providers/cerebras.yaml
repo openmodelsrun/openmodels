@@ -1,0 +1,10 @@
+id: cerebras
+name: Cerebras
+description: Ultra-fast inference provider powered by the Cerebras Wafer Scale Engine, known for extremely high tokens/sec throughput. Offers OpenAI-compatible API with free tier access.
+api_base_url: https://api.cerebras.ai/v1
+auth_type: api-key
+regions:
+  - us-east-1
+compatibility: openai
+created_at: "2024-06-01T00:00:00.000Z"
+updated_at: "2025-05-01T00:00:00.000Z"

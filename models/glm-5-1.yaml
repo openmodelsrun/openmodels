@@ -1,0 +1,16 @@
+id: glm-5-1
+name: GLM-5.1
+description: Zhipu AI's latest bilingual model with strong Chinese and English capabilities. Features improved reasoning, coding, and tool use with competitive performance on academic benchmarks.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - code
+context_window: 131072
+licensing: proprietary
+created_at: "2026-03-01T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

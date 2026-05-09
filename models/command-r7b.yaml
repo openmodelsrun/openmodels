@@ -1,0 +1,15 @@
+id: command-r7b
+name: Command R7B
+description: Cohere's compact 7B parameter model optimized for RAG, tool use, and code tasks. Delivers top-tier speed and efficiency on commodity GPUs and edge devices with 128K context window.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+modalities:
+  - text
+  - code
+context_window: 128000
+licensing: other
+created_at: "2024-12-01T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

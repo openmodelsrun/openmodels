@@ -1,0 +1,15 @@
+id: deepseek-v4-flash
+name: DeepSeek V4 Flash
+description: DeepSeek's efficient V4 model with 284B total parameters (13B activated). Optimized for speed and cost-efficiency while maintaining strong performance. Supports 1M token context window.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+modalities:
+  - text
+  - code
+context_window: 1000000
+licensing: mit
+created_at: "2026-04-24T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

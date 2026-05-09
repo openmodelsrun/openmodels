@@ -1,0 +1,16 @@
+id: deepseek-v4
+name: DeepSeek V4
+description: DeepSeek's fourth-generation model with improved mixture-of-experts architecture, enhanced reasoning and coding capabilities, and stronger multilingual performance. Competitive with frontier proprietary models.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - code
+context_window: 256000
+licensing: mit
+created_at: "2026-02-01T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

@@ -1,0 +1,16 @@
+model_id: kimi-k2-6
+provider_id: moonshot
+provider_model_name: kimi-k2.6
+pricing:
+  input_per_million: 1.0
+  output_per_million: 3.0
+  currency: USD
+rate_limits:
+  requests_per_minute: 200
+  tokens_per_minute: 500000
+context_window_override: null
+available_regions:
+  - us-east-1
+  - global
+created_at: "2026-03-01T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

@@ -1,0 +1,11 @@
+id: xai
+name: xAI
+description: AI company founded by Elon Musk providing the Grok family of models. Known for real-time information access and strong reasoning capabilities with OpenAI-compatible API.
+api_base_url: https://api.x.ai/v1
+auth_type: bearer
+regions:
+  - us-east-1
+  - global
+compatibility: openai
+created_at: "2024-06-01T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

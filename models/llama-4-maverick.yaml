@@ -1,0 +1,18 @@
+id: llama-4-maverick
+name: Llama 4 Maverick
+description: Meta's quality-focused MoE model with 17B active parameters (400B total, 128 experts). Targets quality-critical tasks with benchmark scores competitive with GPT-4o and Gemini 2.5 Pro.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - code
+context_window: 1000000
+licensing: other
+created_at: "2025-04-05T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

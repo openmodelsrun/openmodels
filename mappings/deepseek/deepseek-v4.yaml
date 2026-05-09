@@ -1,0 +1,16 @@
+model_id: deepseek-v4
+provider_id: deepseek
+provider_model_name: deepseek-chat-v4
+pricing:
+  input_per_million: 0.27
+  output_per_million: 1.10
+  currency: USD
+rate_limits:
+  requests_per_minute: 500
+  tokens_per_minute: 1000000
+context_window_override: null
+available_regions:
+  - us-east-1
+  - global
+created_at: "2026-02-01T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

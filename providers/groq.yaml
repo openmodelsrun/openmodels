@@ -1,0 +1,11 @@
+id: groq
+name: Groq
+description: Ultra-fast LPU (Language Processing Unit) inference provider offering extremely low latency. Supports streaming, function calling, and audio transcription via Whisper models. Per-model rate limits apply.
+api_base_url: https://api.groq.com/openai/v1
+auth_type: api-key
+regions:
+  - us-east-1
+  - eu-west-1
+compatibility: openai
+created_at: "2024-01-01T00:00:00.000Z"
+updated_at: "2025-05-01T00:00:00.000Z"

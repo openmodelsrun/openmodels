@@ -1,0 +1,11 @@
+id: minimax
+name: MiniMax
+description: Chinese AI company providing large language models with strong multilingual and multimodal capabilities. Known for competitive pricing and high-quality text generation.
+api_base_url: https://api.minimax.chat/v1
+auth_type: api-key
+regions:
+  - us-east-1
+  - global
+compatibility: openai
+created_at: "2024-01-01T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

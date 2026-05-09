@@ -7,6 +7,34 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.4.0] - 2026-05-09
+
+### Added
+- **44 model definitions** covering all major LLM families as of May 2026:
+  - OpenAI: GPT-4, GPT-5, GPT-5.4, GPT-5.4 Mini, GPT-5.5, GPT-5.5 Pro, GPT-OSS 20B, GPT-OSS 120B
+  - Anthropic: Claude 3 Opus, Claude Haiku 4.5, Claude Sonnet 4.5, Claude Sonnet 4.6, Claude Opus 4.6, Claude Opus 4.7
+  - Google: Gemini 2.5 Pro, Gemini 2.5 Flash, Gemini 3.1 Pro, Gemma 4 31B
+  - xAI: Grok 4, Grok 4.1 Fast, Grok 4.20, Grok 4.3
+  - DeepSeek: DeepSeek V3, DeepSeek R1, DeepSeek V4, DeepSeek V4 Pro, DeepSeek V4 Flash
+  - Meta: Llama 3.3 70B, Llama 4 Scout, Llama 4 Maverick
+  - Mistral: Mistral Medium 3.5, Mistral Large 3, Mistral Small 4, Devstral 2
+  - NVIDIA: Nemotron 3 Super 120B, Nemotron Nano 9B
+  - Moonshot: Kimi K2.6
+  - Cohere: Command A, Command R7B
+  - Alibaba: Qwen3 Coder, Qwen 3.6
+  - Zhipu: GLM-4.7, GLM-5.1
+  - MiniMax: M2.7
+- **19 provider definitions** with verified API endpoints and auth types:
+  - Anthropic, Cerebras, Cloudflare Workers AI, Cohere, Deep Infra, DeepSeek, Google AI Studio, Google (Vertex AI), Groq, Meta, MiniMax, Mistral, Moonshot, NVIDIA NIM, OpenAI, OpenRouter, Together AI, xAI, Zhipu AI
+- **72 provider-model mappings** with pricing sourced from official documentation
+- NVIDIA NIM free endpoint mappings for open-weight models
+- Deep Infra serverless inference mappings with competitive pricing
+- Pricing data verified against official sources (OpenAI, Anthropic, xAI, Mistral, Google, DeepSeek, NVIDIA docs)
+
+### Changed
+- Registry schema version bumped to 0.4.0
+- Updated GPT-4 and Claude 3 Opus `updated_at` timestamps
+
 ## [0.3.0] - 2026-05-09
 
 ### Changed
@@ -33,7 +61,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial project setup
 - Base JSON schemas (model.schema.json, provider.schema.json, mapping.schema.json)
 
-[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.3.0...HEAD
+[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.4.0...HEAD
+[0.4.0]: https://github.com/openmodels/openmodels/compare/v0.3.0...v0.4.0
 [0.3.0]: https://github.com/openmodels/openmodels/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/openmodels/openmodels/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/openmodels/openmodels/releases/tag/v0.1.0

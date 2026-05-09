@@ -1,0 +1,12 @@
+id: google-ai-studio
+name: Google AI Studio
+description: Google's developer platform for accessing Gemini and Gemma models via OpenAI-compatible API. Free tier available with generous rate limits. Data may be used for training outside EU/EEA/UK/CH regions.
+api_base_url: https://generativelanguage.googleapis.com/v1beta/openai
+auth_type: api-key
+regions:
+  - us-east-1
+  - eu-west-1
+  - global
+compatibility: openai
+created_at: "2024-01-01T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

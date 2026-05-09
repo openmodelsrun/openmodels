@@ -1,0 +1,19 @@
+model_id: claude-3-opus
+provider_id: anthropic
+provider_model_name: claude-3-opus-20240229
+pricing:
+  input_per_million: 15.0
+  output_per_million: 75.0
+  currency: USD
+  cache_write_per_million: 3.75
+  cache_read_per_million: 1.50
+  image_per_unit: 0.048
+rate_limits:
+  requests_per_minute: 50
+  tokens_per_minute: 40000
+context_window_override: null
+available_regions:
+  - us-east-1
+  - eu-west-1
+created_at: "2024-03-04T00:00:00.000Z"
+updated_at: "2024-06-15T00:00:00.000Z"

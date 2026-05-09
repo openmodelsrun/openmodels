@@ -1,0 +1,18 @@
+id: grok-4-1-fast
+name: Grok 4.1 Fast
+description: xAI's fast and cost-effective model with 2M token context window. Offers both reasoning and non-reasoning modes at significantly lower pricing than flagship models.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - code
+context_window: 2000000
+licensing: proprietary
+created_at: "2025-11-01T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

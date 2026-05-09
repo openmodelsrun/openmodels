@@ -1,0 +1,16 @@
+id: qwen3-6
+name: Qwen 3.6
+description: Alibaba's latest Qwen model with enhanced reasoning, multilingual capabilities, and improved instruction following. Features strong performance on coding, math, and general knowledge benchmarks.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - code
+context_window: 131072
+licensing: apache-2.0
+created_at: "2026-03-01T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

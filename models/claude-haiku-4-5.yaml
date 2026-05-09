@@ -1,0 +1,18 @@
+id: claude-haiku-4-5
+name: Claude Haiku 4.5
+description: Anthropic's fastest model with near-frontier intelligence. Optimized for high-throughput, low-latency applications requiring quick responses at minimal cost. Supports extended thinking.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - code
+context_window: 200000
+licensing: proprietary
+created_at: "2025-10-01T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

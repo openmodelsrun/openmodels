@@ -1,0 +1,21 @@
+id: gemini-2-5-pro
+name: Gemini 2.5 Pro
+description: Google's high-capability reasoning model with adaptive thinking for complex agentic and multimodal challenges. Features 1M token context window and strong performance on coding and scientific tasks.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - audio
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - audio
+  - video
+  - code
+context_window: 1000000
+licensing: proprietary
+created_at: "2025-06-17T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

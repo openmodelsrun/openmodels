@@ -1,0 +1,16 @@
+model_id: llama-4-maverick
+provider_id: deepinfra
+provider_model_name: meta-llama/Llama-4-Maverick-17B-128E-Instruct
+pricing:
+  input_per_million: 0.20
+  output_per_million: 0.60
+  currency: USD
+rate_limits:
+  requests_per_minute: 600
+  tokens_per_minute: 1000000
+context_window_override: null
+available_regions:
+  - us-east-1
+  - eu-west-1
+created_at: "2025-04-05T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

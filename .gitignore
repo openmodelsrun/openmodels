@@ -1,18 +1,71 @@
+# ============================================
+# OpenModels Registry - .gitignore
+# ============================================
+
 # macOS
 .DS_Store
 .AppleDouble
 .LSOverride
-
-# Thumbnails
 ._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 *.swp
 *.swo
-*~
+*.sublime-workspace
+*.sublime-project
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# Environment variables / secrets
+.env
+.env.local
+.env.*.local
+*.env
 
 # Logs
 *.log
+logs/
+
+# Test / coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+coverage/
+.mypy_cache/
+.tox/
+
+# Node (in case someone runs npm in this dir)
+node_modules/
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
+*.swp

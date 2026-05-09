@@ -1,0 +1,15 @@
+id: llama-3-3-70b
+name: Llama 3.3 70B Instruct
+description: Meta's flagship open-weight model with 70 billion parameters. Strong multilingual capabilities with competitive performance on reasoning and coding benchmarks. Available for self-hosting and through various inference providers.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+modalities:
+  - text
+  - code
+context_window: 131072
+licensing: other
+created_at: "2024-12-06T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

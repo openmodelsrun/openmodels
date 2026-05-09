@@ -1,0 +1,17 @@
+model_id: glm-4-7
+provider_id: nvidia
+provider_model_name: z-ai/glm-4.7
+pricing:
+  input_per_million: 0.0
+  output_per_million: 0.0
+  currency: USD
+rate_limits:
+  requests_per_minute: 100
+  tokens_per_minute: 500000
+context_window_override: null
+available_regions:
+  - us-east-1
+  - us-west-2
+  - global
+created_at: "2025-10-01T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"
