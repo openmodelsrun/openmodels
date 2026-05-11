@@ -1,0 +1,16 @@
+id: qwen3-235b
+name: Qwen3 235B
+description: Alibaba's Qwen3 235B mixture-of-experts model delivering frontier-level performance with advanced reasoning, function calling, and code generation capabilities at massive scale.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - reasoning
+  - code-generation
+modalities:
+  - text
+  - code
+context_window: 131072
+licensing: apache-2.0
+created_at: "2025-04-01T00:00:00.000Z"
+updated_at: "2025-05-15T00:00:00.000Z"

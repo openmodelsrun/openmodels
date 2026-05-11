@@ -1,0 +1,16 @@
+model_id: qwen3-32b
+provider_id: alibaba-model-studio
+provider_model_name: qwen3-32b
+pricing:
+  input_per_million: 0.56
+  output_per_million: 2.24
+  currency: USD
+rate_limits:
+  requests_per_minute: 120
+  tokens_per_minute: 500000
+context_window_override: null
+available_regions:
+  - us-east-1
+  - eu-west-1
+created_at: "2025-01-10T00:00:00.000Z"
+updated_at: "2025-01-10T00:00:00.000Z"

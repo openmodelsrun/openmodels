@@ -1,0 +1,14 @@
+id: gemma-4-e4b
+name: Gemma 4 E4B
+description: Google's efficient 4 billion parameter variant from the Gemma 4 family. Designed for resource-constrained environments while maintaining strong text generation quality. Text-only model with a 32K context window, balancing performance and efficiency.
+capabilities:
+  - chat
+  - completion
+  - code-generation
+modalities:
+  - text
+  - code
+context_window: 32768
+licensing: apache-2.0
+created_at: "2026-04-02T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

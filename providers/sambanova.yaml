@@ -1,0 +1,10 @@
+id: sambanova
+name: SambaNova
+description: AI hardware and software platform offering high-performance inference services powered by custom DataScale systems, providing OpenAI-compatible API endpoints for open-source models with industry-leading throughput.
+api_base_url: https://api.sambanova.ai/v1
+auth_type: api-key
+regions:
+  - us-west-2
+compatibility: openai
+created_at: "2025-01-10T00:00:00.000Z"
+updated_at: "2025-01-10T00:00:00.000Z"

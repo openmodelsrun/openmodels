@@ -4,7 +4,7 @@ The open-source registry of LLM models, inference providers, and provider-model 
 
 [![Validate Registry](https://github.com/openmodels-run/openmodels/actions/workflows/validate-registry.yml/badge.svg)](https://github.com/openmodels-run/openmodels/actions/workflows/validate-registry.yml)
 
-**Current stats:** 44 models · 19 providers · 72 mappings
+**Current stats:** 50+ models · 26+ providers · 100+ mappings
 
 ## Overview
 
@@ -16,21 +16,23 @@ OpenModels is a structured, version-controlled registry that serves as the singl
 |--------|--------|
 | OpenAI | GPT-4, GPT-5, GPT-5.4, GPT-5.4 Mini, GPT-5.5, GPT-5.5 Pro, GPT-OSS 20B, GPT-OSS 120B |
 | Anthropic | Claude 3 Opus, Claude Haiku 4.5, Claude Sonnet 4.5, Claude Sonnet 4.6, Claude Opus 4.6, Claude Opus 4.7 |
-| Google | Gemini 2.5 Pro, Gemini 2.5 Flash, Gemini 3.1 Pro, Gemma 4 31B |
+| Google | Gemini 2.5 Pro, Gemini 2.5 Flash, Gemini 3.1 Pro, Gemma 3 (1B/4B/12B/27B), Gemma 4 (E2B/E4B/26B/31B) |
 | xAI | Grok 4, Grok 4.1 Fast, Grok 4.20, Grok 4.3 |
 | DeepSeek | DeepSeek V3, DeepSeek R1, DeepSeek V4, DeepSeek V4 Pro, DeepSeek V4 Flash |
-| Meta | Llama 3.3 70B, Llama 4 Scout, Llama 4 Maverick |
-| Mistral | Mistral Medium 3.5, Mistral Large 3, Mistral Small 4, Devstral 2 |
+| Meta | Llama 3.1 8B, Llama 3.2 (3B/11B/90B), Llama 3.3 70B, Llama 4 Scout, Llama 4 Maverick |
+| Mistral | Mistral Medium 3.5, Mistral Large 3, Mistral Small 3.1, Mistral Small 4, Devstral 2 |
+| Microsoft | Phi-4, Phi-4 Mini |
+| Alibaba | Qwen3 32B, Qwen3 235B, Qwen3 Coder, QwQ-32B, Qwen 3.6 |
 | NVIDIA | Nemotron 3 Super 120B, Nemotron Nano 9B |
 | Moonshot | Kimi K2.6 |
 | Cohere | Command A, Command R7B |
-| Alibaba | Qwen3 Coder, Qwen 3.6 |
 | Zhipu | GLM-4.7, GLM-5.1 |
 | MiniMax | M2.7 |
+| OpenAI (Audio) | Whisper |
 
 ### Providers
 
-Anthropic · Cerebras · Cloudflare Workers AI · Cohere · Deep Infra · DeepSeek · Google AI Studio · Google (Vertex AI) · Groq · Meta · MiniMax · Mistral · Moonshot · NVIDIA NIM · OpenAI · OpenRouter · Together AI · xAI · Zhipu AI
+Alibaba Model Studio · Anthropic · Baseten · Cerebras · Cloudflare Workers AI · Cohere · Deep Infra · DeepSeek · Fireworks · Google AI Studio · Google (Vertex AI) · Groq · Hyperbolic · Inference.net · Meta · MiniMax · Mistral · Modal · Moonshot · Nebius · NLP Cloud · Novita · NVIDIA NIM · OpenAI · OpenRouter · SambaNova · Scaleway · Together AI · xAI · Zhipu AI
 
 ## Structure
 

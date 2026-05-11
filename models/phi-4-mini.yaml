@@ -1,0 +1,14 @@
+id: phi-4-mini
+name: Phi-4 Mini
+description: Microsoft's Phi-4 Mini model with 3.8B parameters providing lightweight yet capable language understanding and code generation, optimized for resource-constrained deployments with a large 128K context window.
+capabilities:
+  - chat
+  - completion
+  - code-generation
+modalities:
+  - text
+  - code
+context_window: 128000
+licensing: mit
+created_at: "2025-02-01T00:00:00.000Z"
+updated_at: "2025-05-15T00:00:00.000Z"

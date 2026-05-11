@@ -1,0 +1,11 @@
+id: modal
+name: Modal
+description: Serverless cloud platform for running AI workloads with on-demand GPU access, offering custom model deployment and OpenAI-compatible inference endpoints with automatic scaling and pay-per-second pricing.
+api_base_url: https://api.modal.com/v1
+auth_type: bearer
+regions:
+  - us-east-1
+  - us-west-2
+compatibility: openai
+created_at: "2025-01-10T00:00:00.000Z"
+updated_at: "2025-01-10T00:00:00.000Z"

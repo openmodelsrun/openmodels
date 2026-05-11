@@ -1,0 +1,16 @@
+id: gemma-3-4b
+name: Gemma 3 4B
+description: Google's compact open-weight model with 4 billion parameters from the Gemma 3 family. Supports multimodal inputs including text and images with a 128K context window. Balances efficiency and capability for vision and language tasks.
+capabilities:
+  - chat
+  - completion
+  - vision
+  - code-generation
+modalities:
+  - text
+  - image
+  - code
+context_window: 131072
+licensing: apache-2.0
+created_at: "2025-03-12T00:00:00.000Z"
+updated_at: "2025-03-12T00:00:00.000Z"

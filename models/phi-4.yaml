@@ -1,0 +1,15 @@
+id: phi-4
+name: Phi-4
+description: Microsoft's Phi-4 model with 14B parameters excelling at reasoning and code generation tasks, delivering strong performance relative to its compact size with efficient inference characteristics.
+capabilities:
+  - chat
+  - completion
+  - reasoning
+  - code-generation
+modalities:
+  - text
+  - code
+context_window: 16384
+licensing: mit
+created_at: "2024-12-01T00:00:00.000Z"
+updated_at: "2025-05-15T00:00:00.000Z"

@@ -1,0 +1,17 @@
+id: mistral-small-3-1
+name: Mistral Small 3.1
+description: Mistral AI's Small 3.1 model with 24B parameters offering efficient multimodal capabilities including vision, function calling, and code generation with a large 128K context window.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - code-generation
+modalities:
+  - text
+  - image
+  - code
+context_window: 128000
+licensing: apache-2.0
+created_at: "2025-03-01T00:00:00.000Z"
+updated_at: "2025-05-15T00:00:00.000Z"

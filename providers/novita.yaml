@@ -1,0 +1,10 @@
+id: novita
+name: Novita
+description: AI model inference platform providing affordable access to open-source language models with OpenAI-compatible API endpoints, offering pay-per-token pricing and global availability.
+api_base_url: https://api.novita.ai/v3/openai
+auth_type: api-key
+regions:
+  - us-east-1
+compatibility: openai
+created_at: "2025-01-10T00:00:00.000Z"
+updated_at: "2025-01-10T00:00:00.000Z"

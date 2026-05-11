@@ -1,0 +1,11 @@
+id: inference-net
+name: Inference.net
+description: Distributed AI inference network providing affordable access to open-source language models through a decentralized GPU marketplace, offering OpenAI-compatible API endpoints with competitive per-token pricing.
+api_base_url: https://api.inference.net/v1
+auth_type: api-key
+regions:
+  - us-east-1
+  - eu-west-1
+compatibility: openai
+created_at: "2025-01-10T00:00:00.000Z"
+updated_at: "2025-01-10T00:00:00.000Z"

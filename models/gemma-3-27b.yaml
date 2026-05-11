@@ -1,0 +1,17 @@
+id: gemma-3-27b
+name: Gemma 3 27B
+description: Google's largest open-weight model in the Gemma 3 family with 27 billion parameters. Supports multimodal inputs including text and images with a 128K context window. Delivers strong performance across reasoning, code generation, and vision tasks, competitive with larger proprietary models.
+capabilities:
+  - chat
+  - completion
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - code
+context_window: 131072
+licensing: apache-2.0
+created_at: "2025-03-12T00:00:00.000Z"
+updated_at: "2025-03-12T00:00:00.000Z"

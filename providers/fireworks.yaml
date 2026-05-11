@@ -1,0 +1,11 @@
+id: fireworks
+name: Fireworks
+description: High-speed AI inference platform optimized for low-latency serving of open-source models, offering OpenAI-compatible API endpoints with custom model deployment and fine-tuning capabilities.
+api_base_url: https://api.fireworks.ai/inference/v1
+auth_type: api-key
+regions:
+  - us-east-1
+  - us-west-2
+compatibility: openai
+created_at: "2025-01-10T00:00:00.000Z"
+updated_at: "2025-01-10T00:00:00.000Z"

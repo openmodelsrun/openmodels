@@ -1,0 +1,11 @@
+id: nlp-cloud
+name: NLP Cloud
+description: Production-ready AI inference API offering managed deployment of open-source and proprietary language models with dedicated GPU instances, providing high availability and data privacy compliance.
+api_base_url: https://api.nlpcloud.io/v1
+auth_type: bearer
+regions:
+  - us-east-1
+  - eu-west-1
+compatibility: custom
+created_at: "2025-01-10T00:00:00.000Z"
+updated_at: "2025-01-10T00:00:00.000Z"

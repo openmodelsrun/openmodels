@@ -1,0 +1,16 @@
+id: llama-3-2-90b
+name: Llama 3.2 90B Vision Instruct
+description: Meta's largest multimodal open-weight model with 90 billion parameters from the Llama 3.2 family. Delivers strong performance on both text and image understanding tasks with competitive results on visual reasoning benchmarks. Designed for high-quality inference requiring vision capabilities.
+capabilities:
+  - chat
+  - completion
+  - vision
+  - code-generation
+modalities:
+  - text
+  - image
+  - code
+context_window: 131072
+licensing: other
+created_at: "2024-09-25T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

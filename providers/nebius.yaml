@@ -1,0 +1,10 @@
+id: nebius
+name: Nebius
+description: Cloud AI platform providing scalable GPU infrastructure and managed inference services for large language models, with data centers in Europe and competitive pricing for open-source model hosting.
+api_base_url: https://api.studio.nebius.ai/v1
+auth_type: api-key
+regions:
+  - eu-west-1
+compatibility: openai
+created_at: "2025-01-10T00:00:00.000Z"
+updated_at: "2025-01-10T00:00:00.000Z"

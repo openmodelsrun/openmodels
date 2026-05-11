@@ -1,0 +1,15 @@
+model_id: llama-3-3-70b
+provider_id: sambanova
+provider_model_name: Meta-Llama-3.3-70B-Instruct
+pricing:
+  input_per_million: 0.60
+  output_per_million: 0.60
+  currency: USD
+rate_limits:
+  requests_per_minute: 100
+  tokens_per_minute: 500000
+context_window_override: null
+available_regions:
+  - us-west-2
+created_at: "2025-01-10T00:00:00.000Z"
+updated_at: "2025-01-10T00:00:00.000Z"

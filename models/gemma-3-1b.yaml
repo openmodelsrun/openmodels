@@ -1,0 +1,12 @@
+id: gemma-3-1b
+name: Gemma 3 1B
+description: Google's lightweight open-weight model with 1 billion parameters from the Gemma 3 family. Designed for on-device and resource-constrained deployments. Supports text-only tasks with a 32K context window. Efficient for chat and basic completion workloads.
+capabilities:
+  - chat
+  - completion
+modalities:
+  - text
+context_window: 32768
+licensing: apache-2.0
+created_at: "2025-03-12T00:00:00.000Z"
+updated_at: "2025-03-12T00:00:00.000Z"

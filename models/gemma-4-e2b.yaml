@@ -1,0 +1,12 @@
+id: gemma-4-e2b
+name: Gemma 4 E2B
+description: Google's efficient 2 billion parameter variant from the Gemma 4 family. Optimized for on-device and edge deployments with minimal resource requirements. Text-only model with a 32K context window, suitable for lightweight chat and completion tasks.
+capabilities:
+  - chat
+  - completion
+modalities:
+  - text
+context_window: 32768
+licensing: apache-2.0
+created_at: "2026-04-02T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

@@ -1,0 +1,15 @@
+id: llama-3-1-8b
+name: Llama 3.1 8B Instruct
+description: Meta's efficient open-weight model with 8 billion parameters from the Llama 3.1 family. Optimized for instruction following with strong performance on general tasks, coding, and multilingual benchmarks. Ideal for cost-effective deployment and edge inference scenarios.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+modalities:
+  - text
+  - code
+context_window: 131072
+licensing: other
+created_at: "2024-07-23T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

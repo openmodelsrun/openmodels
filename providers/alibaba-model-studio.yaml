@@ -1,0 +1,11 @@
+id: alibaba-model-studio
+name: Alibaba Model Studio
+description: Alibaba Cloud AI platform providing access to Qwen family models and other large language models through DashScope API, offering OpenAI-compatible endpoints with multi-region availability.
+api_base_url: https://dashscope-intl.aliyuncs.com/compatible-mode/v1
+auth_type: api-key
+regions:
+  - us-east-1
+  - eu-west-1
+compatibility: openai
+created_at: "2025-01-10T00:00:00.000Z"
+updated_at: "2025-01-10T00:00:00.000Z"

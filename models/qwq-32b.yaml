@@ -1,0 +1,13 @@
+id: qwq-32b
+name: QwQ 32B
+description: Alibaba's QwQ 32B reasoning-focused model designed for complex problem solving, mathematical reasoning, and step-by-step logical analysis with strong chain-of-thought capabilities.
+capabilities:
+  - chat
+  - completion
+  - reasoning
+modalities:
+  - text
+context_window: 131072
+licensing: apache-2.0
+created_at: "2025-03-01T00:00:00.000Z"
+updated_at: "2025-05-15T00:00:00.000Z"

@@ -1,0 +1,17 @@
+id: gemma-3-12b
+name: Gemma 3 12B
+description: Google's mid-size open-weight model with 12 billion parameters from the Gemma 3 family. Supports multimodal inputs including text and images with a 128K context window. Strong performance on reasoning and code generation tasks at moderate compute cost.
+capabilities:
+  - chat
+  - completion
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - code
+context_window: 131072
+licensing: apache-2.0
+created_at: "2025-03-12T00:00:00.000Z"
+updated_at: "2025-03-12T00:00:00.000Z"

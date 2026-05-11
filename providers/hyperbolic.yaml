@@ -1,0 +1,10 @@
+id: hyperbolic
+name: Hyperbolic
+description: Decentralized AI compute platform offering affordable GPU inference for open-source models, providing OpenAI-compatible API endpoints with competitive pricing and global availability.
+api_base_url: https://api.hyperbolic.xyz/v1
+auth_type: api-key
+regions:
+  - us-west-2
+compatibility: openai
+created_at: "2025-01-10T00:00:00.000Z"
+updated_at: "2025-01-10T00:00:00.000Z"
