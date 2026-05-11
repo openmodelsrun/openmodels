@@ -2,7 +2,7 @@
 
 The open-source registry of LLM models, inference providers, and provider-model mappings. Community-maintained, schema-validated, and machine-readable.
 
-[![Validate Registry](https://github.com/openmodels-run/openmodels/actions/workflows/validate-registry.yml/badge.svg)](https://github.com/openmodels-run/openmodels/actions/workflows/validate-registry.yml)
+[![Validate Registry](https://github.com/openmodelsrun/openmodels/actions/workflows/validate-registry.yml/badge.svg)](https://github.com/openmodelsrun/openmodels/actions/workflows/validate-registry.yml)
 
 **Current stats:** 50+ models · 26+ providers · 100+ mappings
 
@@ -222,8 +222,8 @@ The OpenModels platform provides a REST API and web interface for querying regis
 
 - **API Documentation:** Available at `/api/docs` (Swagger UI) and `/api/docs/openapi.json` (OpenAPI spec)
 - **Web Interface:** Browse models, compare providers, and view real-time telemetry
-- **Platform Repository:** [github.com/openmodels-run/platform](https://github.com/openmodels-run/platform)
-- **Documentation Site:** [github.com/openmodels-run/docs](https://github.com/openmodels-run/docs)
+- **Platform Repository:** [github.com/openmodelsrun/openmodels](https://github.com/openmodelsrun/openmodels)
+- **Documentation Site:** [github.com/openmodelsrun/docs](https://github.com/openmodelsrun/docs)
 
 ## License
 
