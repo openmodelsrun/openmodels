@@ -4,7 +4,7 @@ The open-source registry of LLM models, inference providers, and provider-model 
 
 [![Validate Registry](https://github.com/openmodelsrun/openmodels/actions/workflows/validate-registry.yml/badge.svg)](https://github.com/openmodelsrun/openmodels/actions/workflows/validate-registry.yml)
 
-**Current stats:** 50+ models · 26+ providers · 100+ mappings
+**Current stats:** 70+ models · 37+ providers · 130+ mappings
 
 ## Overview
 
@@ -19,20 +19,24 @@ OpenModels is a structured, version-controlled registry that serves as the singl
 | Google | Gemini 2.5 Pro, Gemini 2.5 Flash, Gemini 3.1 Pro, Gemma 3 (1B/4B/12B/27B), Gemma 4 (E2B/E4B/26B/31B) |
 | xAI | Grok 4, Grok 4.1 Fast, Grok 4.20, Grok 4.3 |
 | DeepSeek | DeepSeek V3, DeepSeek R1, DeepSeek V4, DeepSeek V4 Pro, DeepSeek V4 Flash |
-| Meta | Llama 3.1 8B, Llama 3.2 (3B/11B/90B), Llama 3.3 70B, Llama 4 Scout, Llama 4 Maverick |
-| Mistral | Mistral Medium 3.5, Mistral Large 3, Mistral Small 3.1, Mistral Small 4, Devstral 2 |
+| Meta | Llama 3.1 8B, Llama 3.2 (3B/11B/90B), Llama 3.3 70B, Llama 4 Scout, Llama 4 Maverick, Muse Spark |
+| Mistral | Mistral Medium 3.5, Mistral Large 3, Mistral Small 3.1, Mistral Small 4, Devstral 2, Codestral |
 | Microsoft | Phi-4, Phi-4 Mini |
-| Alibaba | Qwen3 32B, Qwen3 235B, Qwen3 Coder, QwQ-32B, Qwen 3.6 |
+| Alibaba | Qwen3 32B, Qwen3 235B, Qwen3 Coder, QwQ-32B, Qwen 3.6 (35B-A3B, 27B, Plus) |
 | NVIDIA | Nemotron 3 Super 120B, Nemotron Nano 9B |
 | Moonshot | Kimi K2.6 |
 | Cohere | Command A, Command R7B |
 | Zhipu | GLM-4.7, GLM-5.1 |
 | MiniMax | M2.7 |
+| Yandex | YandexGPT 5 Lite |
+| Sber | GigaChat 3.1 Ultra, GigaChat 3.1 Lightning |
+| ISSAI | KazLLM 1.0 70B |
+| Astana Hub | AlemLLM |
 | OpenAI (Audio) | Whisper |
 
 ### Providers
 
-Alibaba Model Studio · Anthropic · Baseten · Cerebras · Cloudflare Workers AI · Cohere · Deep Infra · DeepSeek · Fireworks · Google AI Studio · Google (Vertex AI) · Groq · Hyperbolic · Inference.net · Meta · MiniMax · Mistral · Modal · Moonshot · Nebius · NLP Cloud · Novita · NVIDIA NIM · OpenAI · OpenRouter · SambaNova · Scaleway · Together AI · xAI · Zhipu AI
+Alibaba Model Studio · Amazon Bedrock · Anthropic · Anyscale · Azure AI · Baseten · Cerebras · Cloudflare Workers AI · Cohere · Deep Infra · DeepSeek · Fireworks · Google AI Studio · Google (Vertex AI) · Groq · Hugging Face Inference · Hyperbolic · Inference.net · Meta · MiniMax · Mistral · Modal · Moonshot · Nebius · NLP Cloud · Novita · NVIDIA NIM · OpenAI · OpenRouter · Perplexity · Replicate · SambaNova · Sber · Scaleway · SiliconFlow · Together AI · xAI · Yandex Cloud · Zhipu AI
 
 ## Structure
 
@@ -222,7 +226,7 @@ The OpenModels platform provides a REST API and web interface for querying regis
 
 - **API Documentation:** Available at `/api/docs` (Swagger UI) and `/api/docs/openapi.json` (OpenAPI spec)
 - **Web Interface:** Browse models, compare providers, and view real-time telemetry
-- **Platform Repository:** [github.com/openmodelsrun/openmodels](https://github.com/openmodelsrun/openmodels)
+- **Registry Repository:** [github.com/openmodelsrun/openmodels](https://github.com/openmodelsrun/openmodels)
 - **Documentation Site:** [github.com/openmodelsrun/docs](https://github.com/openmodelsrun/docs)
 
 ## License

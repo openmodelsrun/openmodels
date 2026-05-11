@@ -1,0 +1,16 @@
+id: gigachat-3-1-ultra
+name: GigaChat 3.1 Ultra
+description: Sber's flagship large-scale Mixture-of-Experts model with 702B total parameters and 36B active. Designed for multilingual assistant workloads, reasoning, code generation, tool use, and large-cluster deployment. Open-weight release.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - code
+context_window: 32000
+licensing: other
+created_at: "2025-12-01T00:00:00.000Z"
+updated_at: "2026-05-11T00:00:00.000Z"

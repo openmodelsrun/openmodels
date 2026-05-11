@@ -1,0 +1,15 @@
+id: alemllm
+name: AlemLLM
+description: Kazakhstan's flagship Mixture-of-Experts language model developed by Astana Hub with technical support from 01.AI. Features 247B total parameters with 22B active per token, achieving state-of-the-art results on Kazakh, Russian, and English benchmarks. Outperforms GPT-4o on Kazakh language tasks.
+capabilities:
+  - chat
+  - completion
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - code
+context_window: 131072
+licensing: apache-2.0
+created_at: "2025-08-01T00:00:00.000Z"
+updated_at: "2026-05-11T00:00:00.000Z"

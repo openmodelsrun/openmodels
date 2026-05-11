@@ -1,0 +1,13 @@
+id: azure-ai
+name: Azure AI
+description: Microsoft's cloud AI platform providing access to OpenAI models, open-source models, and enterprise AI services through Azure AI Studio. Offers global deployment with enterprise-grade security and compliance.
+api_base_url: https://models.inference.ai.azure.com
+auth_type: api-key
+regions:
+  - us-east-1
+  - us-west-2
+  - eu-west-1
+  - ap-southeast-1
+compatibility: openai
+created_at: "2024-01-01T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

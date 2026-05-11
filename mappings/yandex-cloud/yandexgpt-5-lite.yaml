@@ -1,0 +1,15 @@
+model_id: yandexgpt-5-lite
+provider_id: yandex-cloud
+provider_model_name: yandexgpt-lite/latest
+pricing:
+  input_per_million: 0.20
+  output_per_million: 0.40
+  currency: USD
+rate_limits:
+  requests_per_minute: 100
+  tokens_per_minute: 200000
+context_window_override: null
+available_regions:
+  - ru-central-1
+created_at: "2025-06-01T00:00:00.000Z"
+updated_at: "2026-05-11T00:00:00.000Z"

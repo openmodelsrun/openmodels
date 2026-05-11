@@ -1,0 +1,20 @@
+id: muse-spark
+name: Muse Spark
+description: Meta Superintelligence Labs' first model, featuring advanced reasoning, multimodal understanding, and agentic capabilities. Processes voice, text, and image inputs with tool use and multi-agent orchestration. Powers Meta AI across its product ecosystem.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - audio
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - audio
+  - code
+context_window: 256000
+licensing: proprietary
+created_at: "2026-04-08T00:00:00.000Z"
+updated_at: "2026-05-11T00:00:00.000Z"

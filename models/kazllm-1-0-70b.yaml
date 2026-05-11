@@ -1,0 +1,14 @@
+id: kazllm-1-0-70b
+name: ISSAI KazLLM 1.0 70B
+description: Large language model developed by ISSAI (Nazarbayev University) customized from Llama 3.1 70B to improve helpfulness of responses in the Kazakh language. Part of Kazakhstan's initiative to ensure the country benefits from generative AI advancements.
+capabilities:
+  - chat
+  - completion
+  - code-generation
+modalities:
+  - text
+  - code
+context_window: 128000
+licensing: other
+created_at: "2024-12-10T00:00:00.000Z"
+updated_at: "2026-05-11T00:00:00.000Z"

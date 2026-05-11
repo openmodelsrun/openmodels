@@ -1,0 +1,15 @@
+id: gigachat-3-1-lightning
+name: GigaChat 3.1 Lightning
+description: Sber's compact Mixture-of-Experts model with 10B total parameters and 1.8B active. Designed for fast multilingual assistant workloads, reasoning, code, function calling, and product-style deployment on edge devices.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+modalities:
+  - text
+  - code
+context_window: 8000
+licensing: other
+created_at: "2025-12-01T00:00:00.000Z"
+updated_at: "2026-05-11T00:00:00.000Z"

@@ -1,0 +1,16 @@
+model_id: muse-spark
+provider_id: meta
+provider_model_name: muse-spark
+pricing:
+  input_per_million: 5.0
+  output_per_million: 25.0
+  currency: USD
+rate_limits:
+  requests_per_minute: 100
+  tokens_per_minute: 200000
+context_window_override: null
+available_regions:
+  - us-east-1
+  - us-west-2
+created_at: "2026-04-08T00:00:00.000Z"
+updated_at: "2026-05-11T00:00:00.000Z"

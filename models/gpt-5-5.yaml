@@ -1,6 +1,6 @@
 id: gpt-5-5
 name: GPT-5.5
-description: OpenAI's latest flagship model with significantly improved reasoning, multimodal understanding, and code generation. Features enhanced instruction following, reduced hallucinations, and expanded context window.
+description: OpenAI's most capable model designed for complex real-world work including coding, online research, information analysis, and document creation. Features advanced agentic capabilities with tool search and multi-step task execution.
 capabilities:
   - chat
   - completion
@@ -14,7 +14,7 @@ modalities:
   - image
   - audio
   - code
-context_window: 256000
+context_window: 1000000
 licensing: proprietary
-created_at: "2026-02-01T00:00:00.000Z"
-updated_at: "2026-05-01T00:00:00.000Z"
+created_at: "2026-04-24T00:00:00.000Z"
+updated_at: "2026-05-11T00:00:00.000Z"

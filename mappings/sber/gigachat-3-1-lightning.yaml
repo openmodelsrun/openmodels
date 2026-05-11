@@ -1,0 +1,15 @@
+model_id: gigachat-3-1-lightning
+provider_id: sber
+provider_model_name: GigaChat-Lightning
+pricing:
+  input_per_million: 0.10
+  output_per_million: 0.20
+  currency: USD
+rate_limits:
+  requests_per_minute: 300
+  tokens_per_minute: 500000
+context_window_override: null
+available_regions:
+  - ru-central-1
+created_at: "2025-12-01T00:00:00.000Z"
+updated_at: "2026-05-11T00:00:00.000Z"

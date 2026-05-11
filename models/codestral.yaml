@@ -1,0 +1,14 @@
+id: codestral
+name: Codestral
+description: Mistral AI's cutting-edge code generation model specializing in low-latency, high-frequency tasks such as fill-in-the-middle (FIM), code completion, correction, and test generation. Features efficient architecture with 2x faster generation than its predecessor.
+capabilities:
+  - chat
+  - completion
+  - code-generation
+modalities:
+  - text
+  - code
+context_window: 256000
+licensing: other
+created_at: "2025-01-14T00:00:00.000Z"
+updated_at: "2026-05-11T00:00:00.000Z"

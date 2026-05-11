@@ -1,0 +1,11 @@
+id: replicate
+name: Replicate
+description: Cloud platform for running open-source AI models with a simple API. Hosts over 1000 community models with serverless GPU inference, pay-per-second pricing, and no infrastructure management required.
+api_base_url: https://api.replicate.com/v1
+auth_type: bearer
+regions:
+  - us-east-1
+  - us-west-2
+compatibility: custom
+created_at: "2024-01-01T00:00:00.000Z"
+updated_at: "2026-05-01T00:00:00.000Z"

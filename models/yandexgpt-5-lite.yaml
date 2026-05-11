@@ -1,0 +1,14 @@
+id: yandexgpt-5-lite
+name: YandexGPT 5 Lite
+description: Yandex's compact 8B parameter language model trained on 15T tokens of primarily Russian and English text. Features 32K context window with strong performance on web, code, and mathematics tasks. Open-weight release.
+capabilities:
+  - chat
+  - completion
+  - code-generation
+modalities:
+  - text
+  - code
+context_window: 32000
+licensing: apache-2.0
+created_at: "2025-06-01T00:00:00.000Z"
+updated_at: "2026-05-11T00:00:00.000Z"

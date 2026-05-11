@@ -1,0 +1,18 @@
+id: qwen3-6-35b-a3b
+name: Qwen 3.6 35B-A3B
+description: Alibaba's efficient Mixture-of-Experts model with 35B total parameters and 3B active per token. Frontier-level agentic coding performance with 73.4% on SWE-bench Verified and 92.7 on AIME 2026. Released under Apache 2.0.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - code
+context_window: 131072
+licensing: apache-2.0
+created_at: "2026-04-16T00:00:00.000Z"
+updated_at: "2026-05-11T00:00:00.000Z"

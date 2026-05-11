@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.7.0] - 2026-05-11
+
+### Added
+- **9 new providers** — Amazon Bedrock, Azure AI, Replicate, Anyscale, SiliconFlow, Hugging Face Inference, Perplexity, Yandex Cloud, Sber
+- **11 new models:**
+  - GPT-5.5 (OpenAI's most capable model for complex real-world work)
+  - Muse Spark (Meta Superintelligence Labs' first model with agentic capabilities)
+  - Codestral (Mistral's specialized code generation model)
+  - Qwen 3.6 35B-A3B, Qwen 3.6 27B, Qwen 3.6 Plus (Alibaba's latest generation)
+  - YandexGPT 5 Lite (Yandex's 8B open-weight model for Russian/English)
+  - GigaChat 3.1 Ultra, GigaChat 3.1 Lightning (Sber's MoE models)
+  - ISSAI KazLLM 1.0 70B (Kazakh language model from Nazarbayev University)
+  - AlemLLM (Kazakhstan's 247B MoE flagship from Astana Hub)
+- **27 new mappings** expanding coverage of existing models across new providers (Amazon Bedrock, Azure AI, SiliconFlow, Hugging Face, Replicate, Anyscale, Perplexity, Fireworks, Groq)
+
+### Changed
+- Total coverage: 70+ models · 37+ providers · 130+ mappings
+- Registry version bumped to 0.7.0
+
 ## [0.6.0] - 2026-05-11
 
 ### Added
@@ -72,7 +91,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial project setup
 - Base JSON schemas (model.schema.json, provider.schema.json, mapping.schema.json)
 
-[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.6.0...HEAD
+[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.7.0...HEAD
+[0.7.0]: https://github.com/openmodels/openmodels/compare/v0.6.0...v0.7.0
 [0.6.0]: https://github.com/openmodels/openmodels/compare/v0.4.0...v0.6.0
 [0.4.0]: https://github.com/openmodels/openmodels/compare/v0.3.0...v0.4.0
 [0.3.0]: https://github.com/openmodels/openmodels/compare/v0.2.0...v0.3.0
