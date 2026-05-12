@@ -1,0 +1,16 @@
+model_id: hy3-preview
+provider_id: siliconflow
+provider_model_name: Tencent/Hy3-preview
+pricing:
+  input_per_million: 0.14
+  output_per_million: 0.28
+  currency: USD
+rate_limits:
+  requests_per_minute: 300
+  tokens_per_minute: 500000
+context_window_override: null
+available_regions:
+  - ap-east-1
+  - global
+created_at: "2026-04-22T00:00:00.000Z"
+updated_at: "2026-05-12T00:00:00.000Z"

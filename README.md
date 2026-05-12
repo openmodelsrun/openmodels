@@ -4,7 +4,7 @@ The open-source registry of LLM models, inference providers, and provider-model 
 
 [![Validate Registry](https://github.com/openmodelsrun/openmodels/actions/workflows/validate-registry.yml/badge.svg)](https://github.com/openmodelsrun/openmodels/actions/workflows/validate-registry.yml)
 
-**Current stats:** 77 models · 41 providers · 123 mappings
+**Current stats:** 79 models · 41 providers · 126 mappings
 
 ## Overview
 
@@ -35,6 +35,8 @@ OpenModels is a structured, version-controlled registry that serves as the singl
 | IBM | Granite 4.1 8B, Granite 4.1 30B |
 | Xiaomi | MiMo-V2.5-Pro |
 | MTS AI | Cotype Nano |
+| Tencent | Hy3 Preview |
+| Poolside | Laguna M.1 |
 | OpenAI (Audio) | Whisper |
 
 ### Providers

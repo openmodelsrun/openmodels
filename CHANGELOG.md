@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.7.2] - 2026-05-12
+
+### Added
+- **Hy3 Preview** — Tencent's 295B MoE / 21B active, fast+slow thinking, 256K context, open-weight
+- **Laguna M.1** — Poolside AI's 225B MoE / 23B active, agentic coding flagship, 128K context
+- Mappings: Hy3 Preview on SiliconFlow and OpenRouter, Laguna M.1 on OpenRouter
+
+### Changed
+- Total coverage: 79 models · 41 providers · 126 mappings
+
 ## [0.7.1] - 2026-05-12
 
 ### Added
@@ -29,7 +39,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Total coverage: 77 models · 41 providers · 123 mappings
-- Registry version bumped to 0.7.1
 
 ## [0.7.0] - 2026-05-11
 
@@ -115,7 +124,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial project setup
 - Base JSON schemas (model.schema.json, provider.schema.json, mapping.schema.json)
 
-[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.7.1...HEAD
+[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.7.2...HEAD
+[0.7.2]: https://github.com/openmodels/openmodels/compare/v0.7.1...v0.7.2
 [0.7.1]: https://github.com/openmodels/openmodels/compare/v0.7.0...v0.7.1
 [0.7.0]: https://github.com/openmodels/openmodels/compare/v0.6.0...v0.7.0
 [0.6.0]: https://github.com/openmodels/openmodels/compare/v0.4.0...v0.6.0
