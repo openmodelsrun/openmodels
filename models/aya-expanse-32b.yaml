@@ -1,0 +1,13 @@
+id: aya-expanse-32b
+name: Aya Expanse 32B
+description: Highly performant 32B multilingual language model from Cohere For AI, designed to rival monolingual model performance across 23 languages. Built using innovations in multilingual data arbitrage, direct preference optimization, and model merging techniques. Outperforms previous multilingual models on both automatic and human evaluations.
+capabilities:
+  - chat
+  - completion
+  - reasoning
+modalities:
+  - text
+context_window: 8192
+licensing: other
+created_at: "2024-10-01T00:00:00.000Z"
+updated_at: "2026-05-12T00:00:00.000Z"

@@ -1,0 +1,12 @@
+id: tiny-aya
+name: Tiny Aya
+description: Compact multilingual language model from Cohere For AI with 3.35B parameters, optimized for efficient and balanced multilingual representation across 70+ languages including many lower-resourced ones. Designed for edge deployment without cloud dependency. Trained on 64 NVIDIA H100 GPUs with specialized regional variants available (Global, Earth, Fire).
+capabilities:
+  - chat
+  - completion
+modalities:
+  - text
+context_window: 8192
+licensing: apache-2.0
+created_at: "2026-02-17T00:00:00.000Z"
+updated_at: "2026-05-12T00:00:00.000Z"

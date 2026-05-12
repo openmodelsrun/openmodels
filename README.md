@@ -2,9 +2,7 @@
 
 The open-source registry of LLM models, inference providers, and provider-model mappings. Community-maintained, schema-validated, and machine-readable.
 
-[![Validate Registry](https://github.com/openmodelsrun/openmodels/actions/workflows/validate-registry.yml/badge.svg)](https://github.com/openmodelsrun/openmodels/actions/workflows/validate-registry.yml)
-
-**Current stats:** 79 models · 41 providers · 126 mappings
+**Current stats:** 82 models · 41 providers · 127 mappings
 
 ## Overview
 

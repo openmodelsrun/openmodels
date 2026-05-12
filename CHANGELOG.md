@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.7.3] - 2026-05-12
+
+### Added
+- **MiniCPM-V 4.6** — OpenBMB's ultra-efficient 1B multimodal model (vision + video), edge-deployable, 256K context
+- **Aya Expanse 32B** — Cohere For AI's 32B multilingual model, 23 languages, 8K context
+- **Tiny Aya** — Cohere For AI's compact 3.35B multilingual model, 70+ languages, edge-optimized
+
+### Changed
+- Total coverage: 82 models · 41 providers · 127 mappings
+
 ## [0.7.2] - 2026-05-12
 
 ### Added
@@ -124,7 +134,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial project setup
 - Base JSON schemas (model.schema.json, provider.schema.json, mapping.schema.json)
 
-[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.7.2...HEAD
+[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.7.3...HEAD
+[0.7.3]: https://github.com/openmodels/openmodels/compare/v0.7.2...v0.7.3
 [0.7.2]: https://github.com/openmodels/openmodels/compare/v0.7.1...v0.7.2
 [0.7.1]: https://github.com/openmodels/openmodels/compare/v0.7.0...v0.7.1
 [0.7.0]: https://github.com/openmodels/openmodels/compare/v0.6.0...v0.7.0

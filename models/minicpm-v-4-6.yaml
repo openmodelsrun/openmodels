@@ -1,0 +1,15 @@
+id: minicpm-v-4-6
+name: MiniCPM-V 4.6
+description: Ultra-efficient multimodal language model from OpenBMB built on SigLIP2-400M and Qwen3.5-0.8B (~1B parameters). Supports single-image, multi-image, and video understanding with mixed 4x/16x visual token compression. Designed for edge deployment on iOS, Android, and HarmonyOS.
+capabilities:
+  - chat
+  - completion
+  - vision
+modalities:
+  - text
+  - image
+  - video
+context_window: 256000
+licensing: apache-2.0
+created_at: "2026-05-08T00:00:00.000Z"
+updated_at: "2026-05-12T00:00:00.000Z"
