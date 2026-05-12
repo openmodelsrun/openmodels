@@ -1,0 +1,12 @@
+id: cotype-nano
+name: Cotype Nano
+description: MTS AI's lightweight 1.5B parameter language model optimized for resource-constrained environments. Excels at Russian and English language tasks including content creation, translation, and text analysis. Runs efficiently on both CPU and GPU, including laptops and smartphones.
+capabilities:
+  - chat
+  - completion
+modalities:
+  - text
+context_window: 32000
+licensing: apache-2.0
+created_at: "2024-11-01T00:00:00.000Z"
+updated_at: "2026-05-12T00:00:00.000Z"

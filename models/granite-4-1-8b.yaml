@@ -1,0 +1,15 @@
+id: granite-4-1-8b
+name: Granite 4.1 8B
+description: IBM's dense decoder-only 8B parameter language model from the Granite 4.1 family. Supports 131K-token context, tool calling, RAG, code generation with fill-in-the-middle, text summarization, classification, and extraction across 12 languages. Released under Apache 2.0.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+modalities:
+  - text
+  - code
+context_window: 131072
+licensing: apache-2.0
+created_at: "2026-05-01T00:00:00.000Z"
+updated_at: "2026-05-12T00:00:00.000Z"

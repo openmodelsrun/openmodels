@@ -1,0 +1,16 @@
+id: granite-4-1-30b
+name: Granite 4.1 30B
+description: IBM's largest dense decoder-only 30B parameter language model from the Granite 4.1 family. Trained on approximately 15T tokens with long-context extension up to 512K tokens. Supports tool calling, RAG, code generation, multilingual tasks across 12 languages. Released under Apache 2.0.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - code
+context_window: 524288
+licensing: apache-2.0
+created_at: "2026-05-01T00:00:00.000Z"
+updated_at: "2026-05-12T00:00:00.000Z"

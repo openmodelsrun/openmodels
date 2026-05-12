@@ -1,0 +1,15 @@
+model_id: mimo-v2-5-pro
+provider_id: xiaomi
+provider_model_name: mimo-v2.5-pro
+pricing:
+  input_per_million: 1.0
+  output_per_million: 3.0
+  currency: USD
+rate_limits:
+  requests_per_minute: 60
+  tokens_per_minute: 200000
+context_window_override: null
+available_regions:
+  - global
+created_at: "2026-04-22T00:00:00.000Z"
+updated_at: "2026-05-12T00:00:00.000Z"

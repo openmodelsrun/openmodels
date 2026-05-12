@@ -7,6 +7,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.7.1] - 2026-05-12
+
+### Added
+- **4 new models:**
+  - MiMo-V2.5-Pro (Xiaomi's 1.02T MoE flagship with 1M context, MIT license)
+  - Granite 4.1 8B (IBM's dense 8B model, 131K context, Apache 2.0)
+  - Granite 4.1 30B (IBM's dense 30B model, 512K context, Apache 2.0)
+  - Cotype Nano (MTS AI's lightweight 1.5B model for Russian/English, Apache 2.0)
+- **2 new providers:**
+  - Xiaomi MiMo (OpenAI-compatible API for MiMo model family)
+  - IBM watsonx.ai (enterprise AI platform with Granite models)
+- **5 new mappings:**
+  - MiMo-V2.5-Pro on OpenRouter ($1/$3 per 1M tokens)
+  - MiMo-V2.5-Pro on Xiaomi direct API
+  - Granite 4.1 8B on OpenRouter ($0.05/$0.10 per 1M tokens)
+  - Granite 4.1 8B on IBM watsonx
+  - Granite 4.1 30B on IBM watsonx
+- **Vendor logo mappings** for IBM, Xiaomi MiMo, MTS AI (Cotype), GigaChat, Yandex, ISSAI (KazLLM)
+- **Provider logo aliases** for IBM watsonx, NLP Cloud, Xiaomi, Yandex Cloud
+
+### Changed
+- Total coverage: 77 models · 41 providers · 123 mappings
+- Registry version bumped to 0.7.1
+
 ## [0.7.0] - 2026-05-11
 
 ### Added
@@ -91,7 +115,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial project setup
 - Base JSON schemas (model.schema.json, provider.schema.json, mapping.schema.json)
 
-[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.7.0...HEAD
+[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.7.1...HEAD
+[0.7.1]: https://github.com/openmodels/openmodels/compare/v0.7.0...v0.7.1
 [0.7.0]: https://github.com/openmodels/openmodels/compare/v0.6.0...v0.7.0
 [0.6.0]: https://github.com/openmodels/openmodels/compare/v0.4.0...v0.6.0
 [0.4.0]: https://github.com/openmodels/openmodels/compare/v0.3.0...v0.4.0

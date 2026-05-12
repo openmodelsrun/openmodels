@@ -4,7 +4,7 @@ The open-source registry of LLM models, inference providers, and provider-model 
 
 [![Validate Registry](https://github.com/openmodelsrun/openmodels/actions/workflows/validate-registry.yml/badge.svg)](https://github.com/openmodelsrun/openmodels/actions/workflows/validate-registry.yml)
 
-**Current stats:** 70+ models · 37+ providers · 130+ mappings
+**Current stats:** 77 models · 41 providers · 123 mappings
 
 ## Overview
 
@@ -32,11 +32,14 @@ OpenModels is a structured, version-controlled registry that serves as the singl
 | Sber | GigaChat 3.1 Ultra, GigaChat 3.1 Lightning |
 | ISSAI | KazLLM 1.0 70B |
 | Astana Hub | AlemLLM |
+| IBM | Granite 4.1 8B, Granite 4.1 30B |
+| Xiaomi | MiMo-V2.5-Pro |
+| MTS AI | Cotype Nano |
 | OpenAI (Audio) | Whisper |
 
 ### Providers
 
-Alibaba Model Studio · Amazon Bedrock · Anthropic · Anyscale · Azure AI · Baseten · Cerebras · Cloudflare Workers AI · Cohere · Deep Infra · DeepSeek · Fireworks · Google AI Studio · Google (Vertex AI) · Groq · Hugging Face Inference · Hyperbolic · Inference.net · Meta · MiniMax · Mistral · Modal · Moonshot · Nebius · NLP Cloud · Novita · NVIDIA NIM · OpenAI · OpenRouter · Perplexity · Replicate · SambaNova · Sber · Scaleway · SiliconFlow · Together AI · xAI · Yandex Cloud · Zhipu AI
+Alibaba Model Studio · Amazon Bedrock · Anthropic · Anyscale · Azure AI · Baseten · Cerebras · Cloudflare Workers AI · Cohere · Deep Infra · DeepSeek · Fireworks · Google AI Studio · Google (Vertex AI) · Groq · Hugging Face Inference · Hyperbolic · IBM watsonx.ai · Inference.net · Meta · MiniMax · Mistral · Modal · Moonshot · Nebius · NLP Cloud · Novita · NVIDIA NIM · OpenAI · OpenRouter · Perplexity · Replicate · SambaNova · Sber · Scaleway · SiliconFlow · Together AI · xAI · Xiaomi MiMo · Yandex Cloud · Zhipu AI
 
 ## Structure
 
