@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.7.4] - 2026-05-19
+
+### Added
+- **Gemini 3 Flash** — Google's balanced model combining Gemini 3 Pro reasoning with Flash-line latency and cost efficiency. 1M context, configurable thinking levels, streaming function calling.
+- **Gemini 3.1 Flash-Lite** — Google's most cost-efficient model optimized for high-volume, low-latency tasks. 2.5x faster TTFT vs Gemini 2.5 Flash, 1M context, full multimodal support.
+- Mappings: Gemini 3 Flash on Google Vertex AI and Google AI Studio ($0.50/$3.00 per 1M tokens)
+- Mappings: Gemini 3.1 Flash-Lite on Google Vertex AI and Google AI Studio ($0.25/$1.50 per 1M tokens)
+
+### Changed
+- Total coverage: 84 models · 41 providers · 131 mappings
+
 ## [0.7.3] - 2026-05-12
 
 ### Added
@@ -134,7 +145,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial project setup
 - Base JSON schemas (model.schema.json, provider.schema.json, mapping.schema.json)
 
-[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.7.3...HEAD
+[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.7.4...HEAD
+[0.7.4]: https://github.com/openmodels/openmodels/compare/v0.7.3...v0.7.4
 [0.7.3]: https://github.com/openmodels/openmodels/compare/v0.7.2...v0.7.3
 [0.7.2]: https://github.com/openmodels/openmodels/compare/v0.7.1...v0.7.2
 [0.7.1]: https://github.com/openmodels/openmodels/compare/v0.7.0...v0.7.1

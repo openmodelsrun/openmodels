@@ -1,0 +1,21 @@
+id: gemini-3-flash
+name: Gemini 3 Flash
+description: Google's balanced model combining Gemini 3 Pro's reasoning capabilities with the Flash line's latency, efficiency, and cost. Features configurable thinking levels, multimodal function responses, and streaming function calling for complex agentic workflows.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - audio
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - audio
+  - video
+  - code
+context_window: 1000000
+licensing: proprietary
+created_at: "2025-12-17T00:00:00.000Z"
+updated_at: "2026-05-19T00:00:00.000Z"

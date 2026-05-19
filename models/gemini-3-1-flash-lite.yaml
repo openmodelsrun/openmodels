@@ -1,0 +1,20 @@
+id: gemini-3-1-flash-lite
+name: Gemini 3.1 Flash-Lite
+description: Google's most cost-efficient Gemini model optimized for high-volume, low-latency use cases. Delivers 2.5x faster time to first token versus Gemini 2.5 Flash with full multimodal support. Ideal for agentic tasks, data extraction, translation, and classification.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - audio
+  - code-generation
+modalities:
+  - text
+  - image
+  - audio
+  - video
+  - code
+context_window: 1000000
+licensing: proprietary
+created_at: "2026-03-03T00:00:00.000Z"
+updated_at: "2026-05-19T00:00:00.000Z"
