@@ -2,7 +2,7 @@
 
 The open-source registry of LLM models, inference providers, and provider-model mappings. Community-maintained, schema-validated, and machine-readable.
 
-**Current stats:** 84 models · 41 providers · 131 mappings
+**Current stats:** 86 models · 41 providers · 133 mappings
 
 ## Overview
 
@@ -20,7 +20,7 @@ OpenModels is a structured, version-controlled registry that serves as the singl
 | Meta | Llama 3.1 8B, Llama 3.2 (3B/11B/90B), Llama 3.3 70B, Llama 4 Scout, Llama 4 Maverick, Muse Spark |
 | Mistral | Mistral Medium 3.5, Mistral Large 3, Mistral Small 3.1, Mistral Small 4, Devstral 2, Codestral |
 | Microsoft | Phi-4, Phi-4 Mini |
-| Alibaba | Qwen3 32B, Qwen3 235B, Qwen3 Coder, QwQ-32B, Qwen 3.6 (35B-A3B, 27B, Plus) |
+| Alibaba | Qwen3 32B, Qwen3 235B, Qwen3 Coder, QwQ-32B, Qwen 3.6 (35B-A3B, 27B, Plus), Qwen 3.7 (Max, Plus) |
 | NVIDIA | Nemotron 3 Super 120B, Nemotron Nano 9B |
 | Moonshot | Kimi K2.6 |
 | Cohere | Command A, Command R7B |

@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.7.5] - 2026-05-21
+
+### Added
+- **Qwen 3.7 Max** — Alibaba's flagship proprietary model for advanced agentic coding, complex reasoning, and long-horizon task execution. Ranked #13 in Arena AI Text, #7 in Math, #10 in Coding. Supports 1000+ tool integrations and 35-hour sustained autonomous operation.
+- **Qwen 3.7 Plus** — Alibaba's multimodal variant optimized for vision understanding. Ranked #5 globally in Arena AI Vision leaderboard.
+- Mappings: Qwen 3.7 Max on Alibaba Model Studio ($1.30/$7.80 per 1M tokens)
+- Mappings: Qwen 3.7 Plus on Alibaba Model Studio ($0.80/$2.40 per 1M tokens)
+
+### Changed
+- Total coverage: 86 models · 41 providers · 133 mappings
+
 ## [0.7.4] - 2026-05-19
 
 ### Added
@@ -145,7 +156,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial project setup
 - Base JSON schemas (model.schema.json, provider.schema.json, mapping.schema.json)
 
-[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.7.4...HEAD
+[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.7.5...HEAD
+[0.7.5]: https://github.com/openmodels/openmodels/compare/v0.7.4...v0.7.5
 [0.7.4]: https://github.com/openmodels/openmodels/compare/v0.7.3...v0.7.4
 [0.7.3]: https://github.com/openmodels/openmodels/compare/v0.7.2...v0.7.3
 [0.7.2]: https://github.com/openmodels/openmodels/compare/v0.7.1...v0.7.2

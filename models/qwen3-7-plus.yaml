@@ -1,0 +1,18 @@
+id: qwen3-7-plus
+name: Qwen 3.7 Plus
+description: Alibaba's multimodal variant in the Qwen 3.7 family, optimized for vision understanding and multimodal tasks. Ranked #5 globally in Arena AI Vision leaderboard. Supports image input alongside text for advanced visual reasoning and analysis.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - code
+context_window: 131072
+licensing: proprietary
+created_at: "2026-05-20T00:00:00.000Z"
+updated_at: "2026-05-21T00:00:00.000Z"

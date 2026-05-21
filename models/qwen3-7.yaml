@@ -1,0 +1,16 @@
+id: qwen3-7
+name: Qwen 3.7 Max
+description: Alibaba's flagship proprietary model engineered for advanced agentic coding, complex reasoning, and long-horizon task execution. Ranked #13 overall in Arena AI Text leaderboard, #7 in Math, #9 in Expert Prompts, and #10 in Coding. Capable of sustained autonomous operation with 1000+ tool integrations.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - code
+context_window: 131072
+licensing: proprietary
+created_at: "2026-05-20T00:00:00.000Z"
+updated_at: "2026-05-21T00:00:00.000Z"
