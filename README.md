@@ -2,7 +2,7 @@
 
 The open-source registry of LLM models, inference providers, and provider-model mappings. Community-maintained, schema-validated, and machine-readable.
 
-**Current stats:** 86 models · 41 providers · 133 mappings
+**Current stats:** 88 models · 42 providers · 136 mappings
 
 ## Overview
 
@@ -35,11 +35,13 @@ OpenModels is a structured, version-controlled registry that serves as the singl
 | MTS AI | Cotype Nano |
 | Tencent | Hy3 Preview |
 | Poolside | Laguna M.1 |
+| Upstage | Solar Pro 3 |
+| LLM360/MBZUAI | K2 Think |
 | OpenAI (Audio) | Whisper |
 
 ### Providers
 
-Alibaba Model Studio · Amazon Bedrock · Anthropic · Anyscale · Azure AI · Baseten · Cerebras · Cloudflare Workers AI · Cohere · Deep Infra · DeepSeek · Fireworks · Google AI Studio · Google (Vertex AI) · Groq · Hugging Face Inference · Hyperbolic · IBM watsonx.ai · Inference.net · Meta · MiniMax · Mistral · Modal · Moonshot · Nebius · NLP Cloud · Novita · NVIDIA NIM · OpenAI · OpenRouter · Perplexity · Replicate · SambaNova · Sber · Scaleway · SiliconFlow · Together AI · xAI · Xiaomi MiMo · Yandex Cloud · Zhipu AI
+Alibaba Model Studio · Amazon Bedrock · Anthropic · Anyscale · Azure AI · Baseten · Cerebras · Cloudflare Workers AI · Cohere · Deep Infra · DeepSeek · Fireworks · Google AI Studio · Google (Vertex AI) · Groq · Hugging Face Inference · Hyperbolic · IBM watsonx.ai · Inference.net · Meta · MiniMax · Mistral · Modal · Moonshot · Nebius · NLP Cloud · Novita · NVIDIA NIM · OpenAI · OpenRouter · Perplexity · Replicate · SambaNova · Sber · Scaleway · SiliconFlow · Together AI · Upstage · xAI · Xiaomi MiMo · Yandex Cloud · Zhipu AI
 
 ## Structure
 

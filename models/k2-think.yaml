@@ -1,0 +1,15 @@
+id: k2-think
+name: K2 Think
+description: A 32 billion parameter open-weights reasoning model by LLM360/MBZUAI, built on Qwen2.5-32B. Trained with reinforcement learning and verifiable rewards for long chain-of-thought reasoning, agentic planning, and complex problem solving in math, science, and code.
+capabilities:
+  - chat
+  - completion
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - code
+context_window: 131072
+licensing: apache-2.0
+created_at: "2025-09-10T00:00:00.000Z"
+updated_at: "2026-05-23T00:00:00.000Z"

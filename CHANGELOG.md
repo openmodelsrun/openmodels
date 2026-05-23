@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.7.6] - 2026-05-23
+
+### Added
+- **Solar Pro 3** — Upstage's 102B MoE language model (12B active params) with 128K context. Optimized for Korean with English and Japanese support. Strong reasoning, structured output, and agentic workflows.
+- **K2 Think** — LLM360/MBZUAI's 32B open-weights reasoning model (Apache 2.0). Trained with RL and verifiable rewards for math, science, and code. ~2000 tok/s on Cerebras WSE.
+- New provider: **Upstage** — Korean AI company with OpenAI-compatible API
+- Mappings: Solar Pro 3 on Upstage ($0.15/$0.60 per 1M tokens)
+- Mappings: Solar Pro 3 on OpenRouter ($0.15/$0.60 per 1M tokens)
+- Mappings: K2 Think on Cerebras ($0.60/$0.60 per 1M tokens)
+
+### Changed
+- Total coverage: 88 models · 42 providers · 136 mappings
+
 ## [0.7.5] - 2026-05-21
 
 ### Added
@@ -156,7 +169,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial project setup
 - Base JSON schemas (model.schema.json, provider.schema.json, mapping.schema.json)
 
-[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.7.5...HEAD
+[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.7.6...HEAD
+[0.7.6]: https://github.com/openmodels/openmodels/compare/v0.7.5...v0.7.6
 [0.7.5]: https://github.com/openmodels/openmodels/compare/v0.7.4...v0.7.5
 [0.7.4]: https://github.com/openmodels/openmodels/compare/v0.7.3...v0.7.4
 [0.7.3]: https://github.com/openmodels/openmodels/compare/v0.7.2...v0.7.3

@@ -1,0 +1,10 @@
+id: upstage
+name: Upstage
+description: South Korean AI company providing enterprise-grade language models optimized for Korean, English, and Japanese. Offers the Solar model family through a direct API with competitive pricing and high throughput.
+api_base_url: https://api.upstage.ai/v1/solar
+auth_type: api-key
+regions:
+  - global
+compatibility: openai
+created_at: "2024-03-01T00:00:00.000Z"
+updated_at: "2026-05-23T00:00:00.000Z"
