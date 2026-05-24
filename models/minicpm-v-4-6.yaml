@@ -11,5 +11,6 @@ modalities:
   - video
 context_window: 256000
 licensing: apache-2.0
+country: cn
 created_at: "2026-05-08T00:00:00.000Z"
 updated_at: "2026-05-12T00:00:00.000Z"

@@ -12,5 +12,6 @@ modalities:
   - code
 context_window: 128000
 licensing: proprietary
+country: kr
 created_at: "2026-05-23T00:00:00.000Z"
 updated_at: "2026-05-23T00:00:00.000Z"

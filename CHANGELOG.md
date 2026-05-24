@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.7.7] - 2026-05-24
+
+### Added
+- **Country of origin** field (`country`) added to all 88 models using ISO 3166-1 alpha-2 codes
+- Countries represented: US, CN, FR, KR, AE, RU, KZ
+- Model schema updated with optional `country` field
+
+### Changed
+- Total coverage: 88 models · 42 providers · 135 mappings
+
 ## [0.7.6] - 2026-05-23
 
 ### Added
@@ -169,7 +179,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial project setup
 - Base JSON schemas (model.schema.json, provider.schema.json, mapping.schema.json)
 
-[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.7.6...HEAD
+[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.7.7...HEAD
+[0.7.7]: https://github.com/openmodels/openmodels/compare/v0.7.6...v0.7.7
 [0.7.6]: https://github.com/openmodels/openmodels/compare/v0.7.5...v0.7.6
 [0.7.5]: https://github.com/openmodels/openmodels/compare/v0.7.4...v0.7.5
 [0.7.4]: https://github.com/openmodels/openmodels/compare/v0.7.3...v0.7.4

@@ -12,5 +12,6 @@ modalities:
   - code
 context_window: 256000
 licensing: other
+country: cn
 created_at: "2026-04-22T00:00:00.000Z"
 updated_at: "2026-05-12T00:00:00.000Z"

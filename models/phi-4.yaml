@@ -11,5 +11,6 @@ modalities:
   - code
 context_window: 16384
 licensing: mit
+country: us
 created_at: "2024-12-01T00:00:00.000Z"
 updated_at: "2025-05-15T00:00:00.000Z"

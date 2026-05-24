@@ -101,6 +101,13 @@
       "description": "ISO 8601 timestamp indicating when the model entry was last updated",
       "format": "date-time",
       "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d{3})?Z$"
+    },
+    "country": {
+      "type": "string",
+      "description": "ISO 3166-1 alpha-2 country code indicating the model's country of origin",
+      "pattern": "^[a-z]{2}$",
+      "minLength": 2,
+      "maxLength": 2
     }
   }
 }

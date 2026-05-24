@@ -13,5 +13,6 @@ modalities:
   - image
 context_window: 200000
 licensing: proprietary
+country: us
 created_at: "2024-03-04T00:00:00.000Z"
 updated_at: "2026-05-01T00:00:00.000Z"
