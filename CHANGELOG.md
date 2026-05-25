@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.7.9] - 2026-05-25
+
+### Added
+- **Ring-2.6-1T** (InclusionAI / Ant Group, China) — trillion-parameter MoE reasoning model with ~63B active params, hybrid linear + MLA attention, 128K context, adaptive reasoning-effort modes, MIT license
+- **New provider: InclusionAI** — Ant Group's AI research lab with ZenMux inference platform (OpenAI-compatible API)
+
+### Changed
+- Total coverage: 98 models · 48 providers · 135 mappings
+
 ## [0.7.8] - 2026-05-25
 
 ### Added
@@ -203,7 +212,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial project setup
 - Base JSON schemas (model.schema.json, provider.schema.json, mapping.schema.json)
 
-[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.7.8...HEAD
+[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.7.9...HEAD
+[0.7.9]: https://github.com/openmodels/openmodels/compare/v0.7.8...v0.7.9
 [0.7.8]: https://github.com/openmodels/openmodels/compare/v0.7.7...v0.7.8
 [0.7.7]: https://github.com/openmodels/openmodels/compare/v0.7.6...v0.7.7
 [0.7.6]: https://github.com/openmodels/openmodels/compare/v0.7.5...v0.7.6

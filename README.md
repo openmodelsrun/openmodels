@@ -2,7 +2,7 @@
 
 The open-source registry of LLM models, inference providers, and provider-model mappings. Community-maintained, schema-validated, and machine-readable.
 
-**Current stats:** 97 models · 47 providers · 135 mappings
+**Current stats:** 98 models · 48 providers · 135 mappings
 
 ## Overview
 
@@ -43,13 +43,14 @@ OpenModels is a structured, version-controlled registry that serves as the singl
 | Snowflake | Arctic |
 | Stability AI | StableLM 2 12B |
 | Uzbek LLM Lab | Alloma 8B Instruct |
+| InclusionAI | Ring-2.6-1T |
 | Upstage | Solar Pro 3 |
 | LLM360/MBZUAI | K2 Think |
 | OpenAI (Audio) | Whisper |
 
 ### Providers
 
-01.AI · AI21 Labs · Alibaba Model Studio · Amazon Bedrock · Anthropic · Anyscale · Azure AI · Baseten · Cerebras · Cloudflare Workers AI · Cohere · Deep Infra · DeepSeek · Fireworks · Google AI Studio · Google (Vertex AI) · Groq · Hugging Face Inference · Hyperbolic · IBM watsonx.ai · Inference.net · Lambda · Meta · MiniMax · Mistral · Modal · Moonshot · Nebius · NLP Cloud · Novita · NVIDIA NIM · OpenAI · OpenRouter · Perplexity · Reka AI · Replicate · SambaNova · Sber · Scaleway · SiliconFlow · Snowflake Cortex AI · Together AI · Upstage · xAI · Xiaomi MiMo · Yandex Cloud · Zhipu AI
+01.AI · AI21 Labs · Alibaba Model Studio · Amazon Bedrock · Anthropic · Anyscale · Azure AI · Baseten · Cerebras · Cloudflare Workers AI · Cohere · Deep Infra · DeepSeek · Fireworks · Google AI Studio · Google (Vertex AI) · Groq · Hugging Face Inference · Hyperbolic · IBM watsonx.ai · InclusionAI · Inference.net · Lambda · Meta · MiniMax · Mistral · Modal · Moonshot · Nebius · NLP Cloud · Novita · NVIDIA NIM · OpenAI · OpenRouter · Perplexity · Reka AI · Replicate · SambaNova · Sber · Scaleway · SiliconFlow · Snowflake Cortex AI · Together AI · Upstage · xAI · Xiaomi MiMo · Yandex Cloud · Zhipu AI
 
 ## Structure
 
