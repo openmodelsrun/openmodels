@@ -1,7 +1,7 @@
 id: hugging-face
 name: Hugging Face Inference
 description: Inference API and dedicated endpoints for open-source models hosted on the Hugging Face Hub. Offers serverless inference for popular models and dedicated GPU endpoints for production workloads.
-api_base_url: https://api-inference.huggingface.co
+api_base_url: https://router.huggingface.co/hf-inference/v1
 auth_type: bearer
 regions:
   - us-east-1
