@@ -1,0 +1,17 @@
+id: jamba-large-1-7
+name: Jamba Large 1.7
+description: AI21's latest hybrid SSM-Transformer model with Mixture-of-Experts architecture. Features a 256K context window, improved grounding and instruction-following. 94B total parameters with 398B active, optimized for enterprise long-context tasks.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - code
+context_window: 262144
+licensing: other
+country: il
+created_at: "2025-06-01T00:00:00.000Z"
+updated_at: "2026-05-25T00:00:00.000Z"

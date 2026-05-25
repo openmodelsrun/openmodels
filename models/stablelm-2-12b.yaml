@@ -1,0 +1,15 @@
+id: stablelm-2-12b
+name: StableLM 2 12B
+description: Stability AI's 12.1 billion parameter decoder-only language model pre-trained on 2 trillion tokens of diverse multilingual and code datasets. Supports multiple languages and offers strong performance for its compact size with instruction-tuned chat variant available.
+capabilities:
+  - chat
+  - completion
+  - code-generation
+modalities:
+  - text
+  - code
+context_window: 4096
+licensing: other
+country: gb
+created_at: "2024-01-15T00:00:00.000Z"
+updated_at: "2026-05-25T00:00:00.000Z"

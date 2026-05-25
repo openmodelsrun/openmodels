@@ -1,0 +1,15 @@
+id: dbrx
+name: DBRX
+description: Databricks' open-source 132B parameter Mixture-of-Experts transformer model with 36B active parameters per input. Released under Databricks Open Model License, optimized for enterprise workloads including SQL generation and coding tasks.
+capabilities:
+  - chat
+  - completion
+  - code-generation
+modalities:
+  - text
+  - code
+context_window: 32768
+licensing: other
+country: us
+created_at: "2024-03-27T00:00:00.000Z"
+updated_at: "2026-05-25T00:00:00.000Z"

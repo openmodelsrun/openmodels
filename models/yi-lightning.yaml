@@ -1,0 +1,16 @@
+id: yi-lightning
+name: Yi-Lightning
+description: 01.AI's flagship large language model with enhanced Mixture-of-Experts architecture. Ranked 6th on Chatbot Arena with particularly strong results in Chinese, Math, Coding, and Hard Prompts categories. Features advanced expert segmentation and optimized KV-caching.
+capabilities:
+  - chat
+  - completion
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - code
+context_window: 131072
+licensing: proprietary
+country: cn
+created_at: "2024-12-01T00:00:00.000Z"
+updated_at: "2026-05-25T00:00:00.000Z"

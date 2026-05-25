@@ -1,0 +1,13 @@
+id: alloma-8b
+name: Alloma 8B Instruct
+description: Uzbek LLM Lab's 8B parameter instruction-tuned model optimized for the Uzbek language. Built on Llama architecture with a custom tokenizer averaging 1.7 tokens per Uzbek word versus 3.5 in original Llama, enabling 2x faster inference. Trained on 3.6B tokens with 4096 context length.
+capabilities:
+  - chat
+  - completion
+modalities:
+  - text
+context_window: 4096
+licensing: other
+country: uz
+created_at: "2025-05-01T00:00:00.000Z"
+updated_at: "2026-05-25T00:00:00.000Z"

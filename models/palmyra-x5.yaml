@@ -1,0 +1,17 @@
+id: palmyra-x5
+name: Palmyra X5
+description: Writer's most advanced adaptive reasoning model with a 1 million token context window. Processes full million-token prompts in approximately 22 seconds with multi-turn function calls in 300ms. Optimized for enterprise agentic AI workflows at 3-4x lower cost than GPT-4.1.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - code
+context_window: 1000000
+licensing: proprietary
+country: us
+created_at: "2025-04-28T00:00:00.000Z"
+updated_at: "2026-05-25T00:00:00.000Z"

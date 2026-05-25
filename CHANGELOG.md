@@ -7,6 +7,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.7.8] - 2026-05-25
+
+### Added
+- **9 new models:**
+  - Jamba Large 1.7 (AI21 Labs, Israel) — hybrid SSM-Transformer MoE, 256K context, enterprise-grade
+  - Yi-Lightning (01.AI, China) — MoE architecture, top Chatbot Arena in Chinese/Math/Code
+  - Falcon-H1 (TII, UAE) — hybrid Mamba-Transformer, outperforms Llama/Qwen in 30-70B range
+  - Falcon 3 10B (TII, UAE) — #1 on HuggingFace leaderboard under 13B params
+  - Palmyra X5 (Writer, USA) — 1M context window, adaptive reasoning, enterprise agents
+  - DBRX (Databricks, USA) — 132B MoE (36B active), open-source enterprise model
+  - Snowflake Arctic (Snowflake, USA) — 480B MoE (17B active), Apache 2.0, SQL/code specialist
+  - StableLM 2 12B (Stability AI, UK) — 12.1B decoder, 2T tokens multilingual training
+  - Alloma 8B Instruct (Uzbek LLM Lab, Uzbekistan) — first Uzbek-optimized LLM with custom tokenizer
+- **5 new providers:**
+  - AI21 Labs — Jamba model family with hybrid SSM-Transformer architecture
+  - Reka AI — multimodal models (text/image/video/audio) with Flash and Edge variants
+  - Lambda — GPU cloud and managed inference API for open-source models
+  - Snowflake Cortex AI — Arctic models integrated with Snowflake data platform
+  - 01.AI — Yi model family with strong Chinese/multilingual capabilities
+- New countries represented: Israel (IL), UAE (AE), Uzbekistan (UZ), UK (GB)
+
+### Changed
+- Total coverage: 97 models · 47 providers · 136 mappings
+
 ## [0.7.7] - 2026-05-24
 
 ### Added
@@ -179,7 +203,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial project setup
 - Base JSON schemas (model.schema.json, provider.schema.json, mapping.schema.json)
 
-[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.7.7...HEAD
+[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.7.8...HEAD
+[0.7.8]: https://github.com/openmodels/openmodels/compare/v0.7.7...v0.7.8
 [0.7.7]: https://github.com/openmodels/openmodels/compare/v0.7.6...v0.7.7
 [0.7.6]: https://github.com/openmodels/openmodels/compare/v0.7.5...v0.7.6
 [0.7.5]: https://github.com/openmodels/openmodels/compare/v0.7.4...v0.7.5

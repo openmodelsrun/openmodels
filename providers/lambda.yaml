@@ -1,0 +1,11 @@
+id: lambda
+name: Lambda
+description: GPU cloud and inference provider offering on-demand access to NVIDIA GPUs for AI training and inference. Provides both cloud instances and managed inference API for open-source LLMs with competitive pricing.
+api_base_url: https://api.lambda.chat/v1
+auth_type: bearer
+regions:
+  - us-east-1
+  - us-west-2
+compatibility: openai
+created_at: "2024-01-01T00:00:00.000Z"
+updated_at: "2026-05-25T00:00:00.000Z"

@@ -1,0 +1,15 @@
+id: falcon-3-10b
+name: Falcon 3 10B
+description: TII's open-source 10B parameter model from the Falcon 3 family. Achieved number one position on Hugging Face's LLM leaderboard in its size category, outperforming Meta's Llama variants and other models under 13B parameters.
+capabilities:
+  - chat
+  - completion
+  - code-generation
+modalities:
+  - text
+  - code
+context_window: 32768
+licensing: apache-2.0
+country: ae
+created_at: "2024-12-17T00:00:00.000Z"
+updated_at: "2026-05-25T00:00:00.000Z"
