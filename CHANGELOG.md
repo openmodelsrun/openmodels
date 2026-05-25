@@ -29,7 +29,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - New countries represented: Israel (IL), UAE (AE), Uzbekistan (UZ), UK (GB)
 
 ### Changed
-- Total coverage: 97 models · 47 providers · 136 mappings
+- Total coverage: 97 models · 47 providers · 135 mappings
 
 ## [0.7.7] - 2026-05-24
 

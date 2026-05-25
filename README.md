@@ -2,7 +2,7 @@
 
 The open-source registry of LLM models, inference providers, and provider-model mappings. Community-maintained, schema-validated, and machine-readable.
 
-**Current stats:** 97 models · 47 providers · 136 mappings
+**Current stats:** 97 models · 47 providers · 135 mappings
 
 ## Overview
 
