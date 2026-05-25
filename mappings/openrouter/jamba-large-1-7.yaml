@@ -1,0 +1,15 @@
+model_id: jamba-large-1-7
+provider_id: openrouter
+provider_model_name: ai21/jamba-large-1.7
+pricing:
+  input_per_million: 2.00
+  output_per_million: 8.00
+  currency: USD
+rate_limits:
+  requests_per_minute: 200
+  tokens_per_minute: 800000
+context_window_override: null
+available_regions:
+  - us-east-1
+created_at: "2026-05-25T00:00:00.000Z"
+updated_at: "2026-05-25T00:00:00.000Z"

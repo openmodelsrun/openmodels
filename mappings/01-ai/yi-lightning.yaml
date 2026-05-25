@@ -1,0 +1,16 @@
+model_id: yi-lightning
+provider_id: 01-ai
+provider_model_name: yi-lightning
+pricing:
+  input_per_million: 0.99
+  output_per_million: 0.99
+  currency: USD
+rate_limits:
+  requests_per_minute: 200
+  tokens_per_minute: 800000
+context_window_override: null
+available_regions:
+  - us-east-1
+  - global
+created_at: "2026-05-25T00:00:00.000Z"
+updated_at: "2026-05-25T00:00:00.000Z"

@@ -1,0 +1,16 @@
+model_id: llama-3-3-70b
+provider_id: lambda
+provider_model_name: llama-3.3-70b-instruct
+pricing:
+  input_per_million: 0.20
+  output_per_million: 0.40
+  currency: USD
+rate_limits:
+  requests_per_minute: 200
+  tokens_per_minute: 800000
+context_window_override: null
+available_regions:
+  - us-east-1
+  - us-west-2
+created_at: "2026-05-25T00:00:00.000Z"
+updated_at: "2026-05-25T00:00:00.000Z"
