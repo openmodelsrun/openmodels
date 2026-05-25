@@ -1,6 +1,6 @@
 id: ring-2-6-1t
 name: Ring-2.6-1T
-description: InclusionAI's (Ant Group) trillion-parameter flagship reasoning model with ~63B active parameters per token (MoE architecture). Features hybrid linear + MLA attention, adaptive reasoning-effort modes, and explicit chain-of-thought via think tags. Strong performance on agentic coding, math, and complex multi-step reasoning benchmarks. Open-weights release under MIT license.
+description: InclusionAI's (Ant Group) trillion-parameter open-weights reasoning model with 63B active parameters per token. Built for real-world agent workflows with adaptive reasoning-effort modes. Features hybrid linear and MLA attention architecture with MIT license.
 capabilities:
   - chat
   - completion
