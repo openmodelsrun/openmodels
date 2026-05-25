@@ -1,7 +1,7 @@
 id: inclusionai
 name: InclusionAI
 description: Ant Group's AI research lab focused on open-source large language models. Offers inference via ZenMux platform with OpenAI-compatible API. Develops the Ling (non-thinking) and Ring (reasoning) model families at trillion-parameter scale.
-api_base_url: https://api.zenmux.ai/v1
+api_base_url: https://zenmux.ai/api/v1
 auth_type: bearer
 regions:
   - cn-east-1
