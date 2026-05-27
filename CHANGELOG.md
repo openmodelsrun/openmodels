@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.8.0] - 2026-05-27
+
+### Added
+- 16 new provider-model mappings (total: 151)
+
+### Changed
+- `meta/muse-spark` mapping: regions updated from `us-east-1`, `us-west-2` to `global`
+- `alibaba-model-studio` provider: added `ap-east-1` (Hong Kong) region
+
+### Improved
+- `validate_registry.py`: added referential integrity check — mapping `available_regions` must exist in the provider's declared regions
+- `validate_registry.py`: `global` in provider regions acts as wildcard, allowing any region in mappings
+
 ## [0.7.9] - 2026-05-25
 
 ### Added

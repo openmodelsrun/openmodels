@@ -10,7 +10,6 @@ rate_limits:
   tokens_per_minute: 200000
 context_window_override: null
 available_regions:
-  - us-east-1
-  - us-west-2
+  - global
 created_at: "2026-04-08T00:00:00.000Z"
 updated_at: "2026-05-11T00:00:00.000Z"

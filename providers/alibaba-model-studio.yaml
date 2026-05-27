@@ -4,6 +4,7 @@ description: Alibaba Cloud AI platform providing access to Qwen family models an
 api_base_url: https://dashscope-intl.aliyuncs.com/compatible-mode/v1
 auth_type: api-key
 regions:
+  - ap-east-1
   - us-east-1
   - eu-west-1
 compatibility: openai

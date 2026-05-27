@@ -259,8 +259,9 @@ class RegistryValidator:
                 except Exception as e:
                     print(f"Error reading {yaml_file}: {e}")
         
-        # Collect all valid provider IDs
+        # Collect all valid provider IDs and their declared regions
         provider_ids = set()
+        provider_regions = {}
         providers_dir = self.registry_path / 'providers'
         if providers_dir.exists():
             for yaml_file in providers_dir.glob('*.yaml'):
@@ -268,7 +269,9 @@ class RegistryValidator:
                     with open(yaml_file, 'r') as f:
                         data = yaml.safe_load(f)
                         if data and 'id' in data:
-                            provider_ids.add(data['id'])
+                            provider_id = data['id']
+                            provider_ids.add(provider_id)
+                            provider_regions[provider_id] = set(data.get('regions', []))
                 except Exception as e:
                     print(f"Error reading {yaml_file}: {e}")
         
@@ -291,6 +294,14 @@ class RegistryValidator:
                                 provider_id = data['provider_id']
                                 if provider_id not in provider_ids:
                                     errors.append(f"Mapping {yaml_file} references non-existent provider_id: {provider_id}")
+                                elif 'available_regions' in data:
+                                    available_regions = set(data['available_regions'])
+                                    invalid_regions = available_regions - provider_regions[provider_id]
+                                    if invalid_regions and 'global' not in provider_regions[provider_id]:
+                                        errors.append(
+                                            f"Mapping {yaml_file} has available_regions not declared by provider "
+                                            f"{provider_id}: {', '.join(sorted(invalid_regions))}"
+                                        )
                 except Exception as e:
                     print(f"Error reading {yaml_file}: {e}")
         
