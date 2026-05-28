@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.8.1] - 2026-05-28
+
+### Added
+- **Claude Opus 4.8** (Anthropic, US) — Anthropic's latest flagship model building on Opus 4.7 with improvements across coding, agentic skills, reasoning, and knowledge work. Enhanced honesty, better tool use efficiency, and dynamic workflows support. 300K context.
+- Mapping: Claude Opus 4.8 on Anthropic ($15/$75 per 1M tokens, with cache pricing)
+
 ## [0.8.0] - 2026-05-27
 
 ### Added
@@ -225,7 +231,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial project setup
 - Base JSON schemas (model.schema.json, provider.schema.json, mapping.schema.json)
 
-[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.7.9...HEAD
+[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.8.1...HEAD
+[0.8.1]: https://github.com/openmodels/openmodels/compare/v0.8.0...v0.8.1
+[0.8.0]: https://github.com/openmodels/openmodels/compare/v0.7.9...v0.8.0
 [0.7.9]: https://github.com/openmodels/openmodels/compare/v0.7.8...v0.7.9
 [0.7.8]: https://github.com/openmodels/openmodels/compare/v0.7.7...v0.7.8
 [0.7.7]: https://github.com/openmodels/openmodels/compare/v0.7.6...v0.7.7
