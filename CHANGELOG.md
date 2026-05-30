@@ -20,10 +20,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Trendyol LLM 8B T1 on Hugging Face Inference and Featherless
   - WiroAI Turkish LLM 9B on Hugging Face Inference, Featherless, and Azure AI
 
-### Changed
-- Country filter in web UI now includes Turkey 🇹🇷 (after Kazakhstan)
-- Total coverage: 101 models · 49 providers · 159 mappings
-
 ## [0.8.1] - 2026-05-28
 
 ### Added
