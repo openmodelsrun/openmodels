@@ -7,6 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.8.2] - 2026-05-30
+
+### Added
+- **3 new Turkish models** — first Turkey (TR) representation in the registry:
+  - **Kumru 7B** (VNGRS, Turkey) — decoder-only LLM pre-trained from scratch on 500 GB of Turkish corpora (300B tokens), custom Turkish tokenizer, outperforms larger multilingual models on the Cetvel benchmark
+  - **Trendyol LLM 8B T1** (Trendyol, Turkey) — fine-tuned from Qwen3-8B on large-scale Turkish e-commerce data, 32K context, chain-of-thought reasoning in Turkish, Apache-2.0
+  - **WiroAI Turkish LLM 9B** (WiroAI, Turkey) — fine-tuned from Gemma 2 9B on 500K+ Turkish instructions, adapted to Turkish culture and local context
+- **New provider: Featherless** — serverless inference platform hosting 20,000+ open-source HuggingFace models with flat-rate subscription pricing, OpenAI-compatible API, global availability
+- **7 new mappings:**
+  - Kumru 7B on Hugging Face Inference and Featherless
+  - Trendyol LLM 8B T1 on Hugging Face Inference and Featherless
+  - WiroAI Turkish LLM 9B on Hugging Face Inference, Featherless, and Azure AI
+
+### Changed
+- Country filter in web UI now includes Turkey 🇹🇷 (after Kazakhstan)
+- Total coverage: 101 models · 49 providers · 159 mappings
+
 ## [0.8.1] - 2026-05-28
 
 ### Added
@@ -231,7 +248,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial project setup
 - Base JSON schemas (model.schema.json, provider.schema.json, mapping.schema.json)
 
-[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.8.1...HEAD
+[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.8.2...HEAD
+[0.8.2]: https://github.com/openmodels/openmodels/compare/v0.8.1...v0.8.2
 [0.8.1]: https://github.com/openmodels/openmodels/compare/v0.8.0...v0.8.1
 [0.8.0]: https://github.com/openmodels/openmodels/compare/v0.7.9...v0.8.0
 [0.7.9]: https://github.com/openmodels/openmodels/compare/v0.7.8...v0.7.9

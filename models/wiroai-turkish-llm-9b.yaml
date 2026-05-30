@@ -1,0 +1,14 @@
+id: wiroai-turkish-llm-9b
+name: WiroAI Turkish LLM 9B
+description: Turkish-specialized 9B language model developed by WiroAI, built on Google's Gemma 2 architecture. Fine-tuned with Supervised Fine-Tuning (SFT) on over 500,000 carefully curated high-quality Turkish instructions, specifically adapted to Turkish culture and local context. Demonstrates superior performance on Turkish language processing tasks including conversation, reasoning, and instruction following.
+capabilities:
+  - chat
+  - completion
+  - reasoning
+modalities:
+  - text
+context_window: 8192
+licensing: other
+country: tr
+created_at: "2025-04-16T00:00:00.000Z"
+updated_at: "2026-05-30T00:00:00.000Z"

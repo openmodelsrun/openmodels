@@ -1,0 +1,15 @@
+id: kumru-7b
+name: Kumru 7B
+description: Turkish large language model developed by VNGRS, pre-trained from scratch on 500 GB of Turkish corpora (300B tokens). Decoder-only architecture with a custom tokenizer optimized for Turkish, supporting code, math, and chat. Outperforms significantly larger multilingual models on the Cetvel Turkish benchmark. Available for on-premise enterprise deployment.
+capabilities:
+  - chat
+  - completion
+  - code-generation
+modalities:
+  - text
+  - code
+context_window: 8192
+licensing: other
+country: tr
+created_at: "2025-04-10T00:00:00.000Z"
+updated_at: "2026-05-30T00:00:00.000Z"

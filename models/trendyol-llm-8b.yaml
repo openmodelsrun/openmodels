@@ -1,0 +1,17 @@
+id: trendyol-llm-8b
+name: Trendyol LLM 8B T1
+description: Turkish-optimized 8B chat model developed by Trendyol, Turkey's largest e-commerce platform. Built on Qwen3-8B and fine-tuned on large-scale Turkish e-commerce datasets. Features advanced chain-of-thought reasoning in Turkish with dual operation modes (/think and /no_think), strong instruction following, summarization, coding, and attribute extraction for catalogue enrichment. English reasoning capabilities are preserved alongside Turkish.
+capabilities:
+  - chat
+  - completion
+  - code-generation
+  - reasoning
+  - function-calling
+modalities:
+  - text
+  - code
+context_window: 32768
+licensing: apache-2.0
+country: tr
+created_at: "2025-07-17T00:00:00.000Z"
+updated_at: "2026-05-30T00:00:00.000Z"

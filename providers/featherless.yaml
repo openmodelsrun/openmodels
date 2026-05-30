@@ -1,0 +1,10 @@
+id: featherless
+name: Featherless
+description: Serverless LLM inference platform hosting 20,000+ open-source models from Hugging Face with flat-rate subscription pricing and unlimited token usage. OpenAI-compatible API with no per-token billing — access any model up to a given size based on subscription tier. Largest Hugging Face inference provider by model count.
+api_base_url: https://api.featherless.ai/v1
+auth_type: bearer
+regions:
+  - global
+compatibility: openai
+created_at: "2026-05-30T00:00:00.000Z"
+updated_at: "2026-05-30T00:00:00.000Z"
