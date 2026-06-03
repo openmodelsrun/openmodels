@@ -1,0 +1,20 @@
+id: minimax-m3
+name: MiniMax M3
+description: MiniMax's frontier open-weight model with 1M-token context window, native multimodality (text, image, video), and strong coding capabilities. Built on MiniMax Sparse Attention (MSA) architecture, achieving 59% on SWE-Bench Pro with significantly improved efficiency at long context.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+  - reasoning
+  - vision
+modalities:
+  - text
+  - image
+  - video
+  - code
+context_window: 1000000
+licensing: proprietary
+country: cn
+created_at: "2026-06-01T00:00:00.000Z"
+updated_at: "2026-06-01T00:00:00.000Z"

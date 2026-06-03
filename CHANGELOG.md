@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.8.3] - 2026-06-03
+
+### Added
+- **MiniMax M3** (MiniMax, China) — frontier open-weight model with 1M-token context window, native multimodality (text, image, video), and strong coding capabilities. Built on MiniMax Sparse Attention (MSA) architecture, achieving 59% on SWE-Bench Pro with 1/20 the cost of the previous generation at 1M tokens. First open-weight model to combine frontier-level coding, ultra-long context, and multimodal input in a single system.
+- **3 new mappings:**
+  - MiniMax M3 on MiniMax ($0.60/$2.40 per 1M tokens, with cache read pricing)
+  - MiniMax M3 on SiliconFlow (same pricing with cache support)
+  - MiniMax M3 on OpenRouter ($0.30/$1.20 per 1M tokens — promotional pricing)
+
 ## [0.8.2] - 2026-05-30
 
 ### Added
