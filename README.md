@@ -2,7 +2,7 @@
 
 The open-source registry of LLM models, inference providers, and provider-model mappings. Community-maintained, schema-validated, and machine-readable.
 
-**Current stats:** 101 models · 49 providers · 159 mappings
+**Current stats:** 104 models · 49 providers · 165 mappings
 
 ## Overview
 
@@ -14,7 +14,7 @@ OpenModels is a structured, version-controlled registry that serves as the singl
 |--------|--------|
 | OpenAI | GPT-4, GPT-5, GPT-5.4, GPT-5.4 Mini, GPT-5.5, GPT-5.5 Pro, GPT-OSS 20B, GPT-OSS 120B |
 | Anthropic | Claude 3 Opus, Claude Haiku 4.5, Claude Sonnet 4.5, Claude Sonnet 4.6, Claude Opus 4.6, Claude Opus 4.7, Claude Opus 4.8 |
-| Google | Gemini 2.5 Pro, Gemini 2.5 Flash, Gemini 3 Flash, Gemini 3.1 Pro, Gemini 3.1 Flash-Lite, Gemma 3 (1B/4B/12B/27B), Gemma 4 (E2B/E4B/26B/31B) |
+| Google | Gemini 2.5 Pro, Gemini 2.5 Flash, Gemini 3 Flash, Gemini 3.1 Pro, Gemini 3.1 Flash-Lite, Gemma 3 (1B/4B/12B/27B), Gemma 4 (E2B/E4B/12B/26B/31B) |
 | xAI | Grok 4, Grok 4.1 Fast, Grok 4.20, Grok 4.3 |
 | DeepSeek | DeepSeek V3, DeepSeek R1, DeepSeek V4, DeepSeek V4 Pro, DeepSeek V4 Flash |
 | Meta | Llama 3.1 8B, Llama 3.2 (3B/11B/90B), Llama 3.3 70B, Llama 4 Scout, Llama 4 Maverick, Muse Spark |

@@ -1,0 +1,22 @@
+id: gemma-4-12b
+name: Gemma 4 12B
+description: Google's medium-size open-weight model with 12 billion parameters from the Gemma 4 family. Encoder-free unified multimodal architecture that natively processes text, image, audio, and video inputs without dedicated encoders. Features a 256K context window and supports 140+ languages. First medium-sized model capable of natively ingesting audio. Suitable for local deployment on GPUs with 16GB VRAM.
+capabilities:
+  - chat
+  - completion
+  - vision
+  - audio
+  - code-generation
+  - reasoning
+  - function-calling
+modalities:
+  - text
+  - image
+  - audio
+  - video
+  - code
+context_window: 262144
+licensing: apache-2.0
+country: us
+created_at: "2026-06-04T00:00:00.000Z"
+updated_at: "2026-06-04T00:00:00.000Z"

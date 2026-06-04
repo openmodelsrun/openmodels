@@ -1,0 +1,17 @@
+model_id: gemma-4-12b
+provider_id: google-ai-studio
+provider_model_name: gemma-4-12b-it
+pricing:
+  input_per_million: 0.0
+  output_per_million: 0.0
+  currency: USD
+rate_limits:
+  requests_per_minute: 15
+  tokens_per_minute: 500000
+context_window_override: null
+available_regions:
+  - us-east-1
+  - eu-west-1
+  - global
+created_at: "2026-06-04T00:00:00.000Z"
+updated_at: "2026-06-04T00:00:00.000Z"

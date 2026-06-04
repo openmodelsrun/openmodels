@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.8.5] - 2026-06-04
+
+### Added
+- **Gemma 4 12B** (Google, US) — encoder-free unified multimodal model with 12B parameters. Natively processes text, image, audio, and video without separate encoders. 256K context window, 140+ languages, native function calling. First medium-sized model capable of natively ingesting audio. Optimized for local deployment on 16GB GPUs.
+- **3 new mappings:**
+  - Gemma 4 12B on Google AI Studio (free tier)
+  - Gemma 4 12B on Hugging Face Inference ($0.10/$0.10 per 1M tokens)
+  - Gemma 4 12B on NVIDIA NIM (free)
+
+### Changed
+- Total coverage: 104 models · 49 providers · 165 mappings
+
 ## [0.8.3] - 2026-06-03
 
 ### Added
@@ -253,7 +265,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial project setup
 - Base JSON schemas (model.schema.json, provider.schema.json, mapping.schema.json)
 
-[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.8.2...HEAD
+[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.8.5...HEAD
+[0.8.5]: https://github.com/openmodels/openmodels/compare/v0.8.3...v0.8.5
+[0.8.3]: https://github.com/openmodels/openmodels/compare/v0.8.2...v0.8.3
 [0.8.2]: https://github.com/openmodels/openmodels/compare/v0.8.1...v0.8.2
 [0.8.1]: https://github.com/openmodels/openmodels/compare/v0.8.0...v0.8.1
 [0.8.0]: https://github.com/openmodels/openmodels/compare/v0.7.9...v0.8.0
