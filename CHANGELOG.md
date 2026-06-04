@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.8.6] - 2026-06-04
+
+### Added
+- **Nemotron 3 Ultra** (NVIDIA, US) — flagship open 550B-parameter MoE model with 55B active parameters. Hybrid Mamba-Transformer architecture with LatentMoE routing, multi-token prediction, and NVFP4 precision. Built for frontier reasoning and orchestration in long-running agentic systems. 5x higher throughput and 30% lower cost-to-task-completion vs comparable open models. 1M+ context window (95% on Ruler@1M). Licensed under OpenMDW-1.1 (Linux Foundation).
+- **4 new mappings:**
+  - Nemotron 3 Ultra on NVIDIA NIM (free)
+  - Nemotron 3 Ultra on DeepInfra ($0.40/$1.60 per 1M tokens)
+  - Nemotron 3 Ultra on Together AI ($0.50/$1.50 per 1M tokens)
+  - Nemotron 3 Ultra on OpenRouter ($0.40/$1.60 per 1M tokens)
+
+### Changed
+- Total coverage: 105 models · 49 providers · 169 mappings
+
 ## [0.8.5] - 2026-06-04
 
 ### Added
@@ -265,7 +278,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial project setup
 - Base JSON schemas (model.schema.json, provider.schema.json, mapping.schema.json)
 
-[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.8.5...HEAD
+[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.8.6...HEAD
+[0.8.6]: https://github.com/openmodels/openmodels/compare/v0.8.5...v0.8.6
 [0.8.5]: https://github.com/openmodels/openmodels/compare/v0.8.3...v0.8.5
 [0.8.3]: https://github.com/openmodels/openmodels/compare/v0.8.2...v0.8.3
 [0.8.2]: https://github.com/openmodels/openmodels/compare/v0.8.1...v0.8.2
