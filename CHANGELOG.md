@@ -7,6 +7,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.8.8] - 2026-06-12
+
+### Added
+- **Kimi K2.7 Code** (Moonshot AI, China) — open-source, coding-focused model in the Kimi K2 family, built for reliable end-to-end programming over long contexts. 1-trillion-parameter model that cuts reasoning token usage ~30% vs K2.6 while improving coding and agent performance (+21.8% Kimi Code Bench v2, +11.0% Program Bench, +31.5% MLS Bench Lite). Modified MIT License, 1M context window.
+- **3 new mappings:**
+  - Kimi K2.7 Code on Moonshot ($1.00/$3.00 per 1M tokens)
+  - Kimi K2.7 Code on Hugging Face Inference ($0.60/$2.40 per 1M tokens)
+  - Kimi K2.7 Code on OpenRouter ($0.60/$2.40 per 1M tokens)
+
+### Changed
+- Total coverage: 109 models · 49 providers · 175 mappings
+
+## [0.8.7] - 2026-06-12
+
+### Added
+- **Claude Fable 5** (Anthropic, US) — first publicly available Mythos-class model, exceeding any model Anthropic has previously made generally available. State-of-the-art on nearly all tested benchmarks with exceptional software engineering, knowledge work, vision, and scientific research; its lead grows on longer, more complex tasks. Ships with safeguards that route sensitive cybersecurity, biology, chemistry, and distillation queries to Opus 4.8. 300K context window.
+- **Claude Mythos 5** (Anthropic, US) — the same underlying model as Fable 5 with safeguards lifted in some areas. Strongest cybersecurity capabilities of any model in the world. Access restricted to trusted cyberdefenders and infrastructure providers via Project Glasswing. 300K context window.
+- **DiffusionGemma** (Google, US) — experimental diffusion-based member of the Gemma 4 open family. Denoises a canvas of placeholder tokens to generate up to 256 tokens in parallel rather than autoregressively, delivering ~4x throughput of similarly sized Gemma models on local hardware. MoE with 26B total / 3.8B active parameters, Apache 2.0, 256K context window.
+- **3 new mappings:**
+  - Claude Fable 5 on Anthropic ($15/$75 per 1M tokens, with cache pricing)
+  - DiffusionGemma on Hugging Face Inference ($0.15/$0.15 per 1M tokens)
+  - DiffusionGemma on Google AI Studio (free tier)
+
+### Changed
+- Total coverage: 108 models · 49 providers · 172 mappings
+
 ## [0.8.6] - 2026-06-04
 
 ### Added

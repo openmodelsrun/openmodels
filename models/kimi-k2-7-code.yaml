@@ -1,0 +1,17 @@
+id: kimi-k2-7-code
+name: Kimi K2.7 Code
+description: Moonshot AI's latest open-source, coding-focused model in the Kimi K2 family, built to complete end-to-end programming tasks reliably over long contexts. A 1-trillion-parameter model that cuts reasoning token usage by roughly 30% versus K2.6 while improving coding and agent performance — +21.8% on Kimi Code Bench v2, +11.0% on Program Bench, and +31.5% on MLS Bench Lite for multi-language support. Released under a Modified MIT License and available via Kimi APIs and Hugging Face.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - code
+context_window: 1000000
+licensing: other
+country: cn
+created_at: "2026-06-12T00:00:00.000Z"
+updated_at: "2026-06-12T00:00:00.000Z"
