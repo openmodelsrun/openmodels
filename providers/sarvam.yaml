@@ -1,0 +1,10 @@
+id: sarvam
+name: Sarvam AI
+description: Indian AI company building sovereign language models and a full-stack GenAI platform optimized for Indian languages. Provides an OpenAI-compatible API for the Sarvam model family (Sarvam-M, Sarvam-1, Sarvam-30B, Sarvam-105B) along with speech and translation services, hosted on India-based infrastructure.
+api_base_url: https://api.sarvam.ai/v1
+auth_type: api-key
+regions:
+  - ap-south-1
+compatibility: openai
+created_at: "2026-06-13T00:00:00.000Z"
+updated_at: "2026-06-13T00:00:00.000Z"

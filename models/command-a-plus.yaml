@@ -1,0 +1,17 @@
+id: command-a-plus
+name: Command A+
+description: Cohere's enterprise flagship model building on Command A with stronger reasoning, agentic tool use, and multilingual performance across 23 languages. Optimized for secure, high-throughput RAG, retrieval, and long-horizon agent workflows in regulated environments, with private and on-premise deployment options.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - code
+context_window: 256000
+licensing: other
+country: us
+created_at: "2026-06-13T00:00:00.000Z"
+updated_at: "2026-06-13T00:00:00.000Z"

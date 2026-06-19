@@ -1,0 +1,17 @@
+id: sarvam-30b
+name: Sarvam-30B
+description: Sarvam AI's 30B-parameter Mixture-of-Experts reasoning model trained from scratch with only 2.4B active parameters per token. Optimized for real-time deployment and Indian languages, delivering strong reasoning, coding, and conversational performance while remaining efficient to serve. Open-weights.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - code
+context_window: 128000
+licensing: apache-2.0
+country: in
+created_at: "2026-06-13T00:00:00.000Z"
+updated_at: "2026-06-13T00:00:00.000Z"

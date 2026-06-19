@@ -7,6 +7,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.9.0] - 2026-06-19
+
+### Added
+- **GLM-5.2** (Z.ai / formerly Zhipu AI, China) — flagship open-weight coding model with a 1M-token context window. Mixture-of-Experts with 753B total / ~40B active parameters and two cost-balancing reasoning modes. Tops several coding benchmarks at a fraction of the cost of comparable proprietary models. MIT-licensed weights.
+- **First India (in) representation** — four models from Sarvam AI:
+  - **Sarvam-105B** — sovereign 105B MoE (~9B active) trained on 12T tokens across 22 Indian languages, 128 sparse experts with Multi-head Latent Attention, 128K context, custom low-fertility Indic tokenizer
+  - **Sarvam-30B** — 30B MoE reasoning model (2.4B active) trained from scratch, optimized for real-time deployment, 128K context
+  - **Sarvam-M** — 24B instruction-tuned derivative of Mistral-Small-3.1-24B, post-trained on English + 11 Indic languages, 131K context
+  - **Sarvam-1** — compact 2B model for 10 Indic languages, edge-deployable, Apache 2.0
+- **Command A+** (Cohere, US) — enterprise flagship building on Command A with stronger reasoning, agentic tool use, and multilingual performance; 256K context
+- **New provider: Sarvam AI** (India) — OpenAI-compatible API for the Sarvam model family, hosted on India-based infrastructure (ap-south-1)
+- **8 new mappings:**
+  - GLM-5.2 on Zhipu ($0.60/$2.00 per 1M tokens)
+  - GLM-5.2 on OpenRouter ($0.60/$2.00 per 1M tokens)
+  - Sarvam-M on Sarvam ($0.50/$1.50 per 1M tokens) and OpenRouter ($0.25/$0.75 per 1M tokens)
+  - Sarvam-105B, Sarvam-30B, and Sarvam-1 on Sarvam
+  - Command A+ on Cohere ($2.50/$10.00 per 1M tokens)
+
+### Changed
+- New country represented: India (IN)
+- Total coverage: 115 models · 50 providers · 183 mappings
+
 ## [0.8.8] - 2026-06-12
 
 ### Added
@@ -304,7 +326,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial project setup
 - Base JSON schemas (model.schema.json, provider.schema.json, mapping.schema.json)
 
-[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.8.6...HEAD
+[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.9.0...HEAD
+[0.9.0]: https://github.com/openmodels/openmodels/compare/v0.8.8...v0.9.0
+[0.8.8]: https://github.com/openmodels/openmodels/compare/v0.8.7...v0.8.8
 [0.8.6]: https://github.com/openmodels/openmodels/compare/v0.8.5...v0.8.6
 [0.8.5]: https://github.com/openmodels/openmodels/compare/v0.8.3...v0.8.5
 [0.8.3]: https://github.com/openmodels/openmodels/compare/v0.8.2...v0.8.3

@@ -1,0 +1,17 @@
+id: glm-5-2
+name: GLM-5.2
+description: Z.ai's (formerly Zhipu AI) flagship open-weight coding model with a 1M-token context window. Mixture-of-Experts architecture with 753B total parameters and ~40B active per request, featuring two cost-balancing reasoning modes. Tops several coding benchmarks while remaining a fraction of the cost of comparable proprietary frontier models. MIT-licensed weights.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - code
+context_window: 1000000
+licensing: mit
+country: cn
+created_at: "2026-06-13T00:00:00.000Z"
+updated_at: "2026-06-13T00:00:00.000Z"
