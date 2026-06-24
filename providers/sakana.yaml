@@ -1,0 +1,11 @@
+id: sakana
+name: Sakana AI
+description: Tokyo-based AI research lab building nature-inspired and evolutionary approaches to foundation models. Provides the Fugu family of multi-agent orchestration models through a single OpenAI-compatible API that coordinates a pool of specialist LLMs behind one endpoint, available via pay-as-you-go and subscription plans.
+api_base_url: https://api.sakana.ai/v1
+auth_type: api-key
+regions:
+  - ap-northeast-1
+  - global
+compatibility: openai
+created_at: "2026-06-22T00:00:00.000Z"
+updated_at: "2026-06-22T00:00:00.000Z"

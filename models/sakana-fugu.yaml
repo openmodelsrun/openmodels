@@ -1,0 +1,17 @@
+id: sakana-fugu
+name: Sakana Fugu
+description: Sakana AI's multi-agent orchestration model from Tokyo, delivered as a single OpenAI-compatible API. Fugu is itself a language model trained to call a pool of specialist LLMs (and recursive instances of itself), handling model selection, delegation, verification, and synthesis behind one endpoint. Built on Sakana AI's TRINITY and Conductor research, its routing intelligence is learned in model weights rather than hand-configured.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - code
+context_window: 256000
+licensing: proprietary
+country: jp
+created_at: "2026-06-22T00:00:00.000Z"
+updated_at: "2026-06-22T00:00:00.000Z"

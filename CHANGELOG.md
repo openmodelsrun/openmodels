@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-06-24
+
+First stable release of the OpenModels Registry. The schema, file layout, and validation rules are now considered stable.
+
+### Added
+- **Sakana Fugu** and **Sakana Fugu Ultra** (Sakana AI, Japan) — first **Japan (jp) representation**. Multi-agent orchestration models delivered as a single OpenAI-compatible API; Fugu is a language model trained to call a pool of specialist LLMs (and recursive instances of itself), handling selection, delegation, verification, and synthesis. Built on Sakana AI's TRINITY and Conductor research. Ultra is the higher-quality tier (reported 93.2 LiveCodeBench, 73.7 SWE-Bench Pro, 82.1 TerminalBench).
+- **New provider: Sakana AI** (Japan) — OpenAI-compatible API for the Fugu family (ap-northeast-1, global)
+- **2 new mappings** — Sakana Fugu ($2/$12 per 1M tokens) and Sakana Fugu Ultra ($5/$30 per 1M tokens) on Sakana
+
+### Changed
+- New country represented: Japan (JP)
+- Total coverage: 117 models · 51 providers · 185 mappings
+
 ## [0.9.0] - 2026-06-19
 
 ### Added
@@ -326,7 +339,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial project setup
 - Base JSON schemas (model.schema.json, provider.schema.json, mapping.schema.json)
 
-[Unreleased]: https://github.com/openmodels/openmodels/compare/v0.9.0...HEAD
+[Unreleased]: https://github.com/openmodels/openmodels/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/openmodels/openmodels/compare/v0.9.0...v1.0.0
 [0.9.0]: https://github.com/openmodels/openmodels/compare/v0.8.8...v0.9.0
 [0.8.8]: https://github.com/openmodels/openmodels/compare/v0.8.7...v0.8.8
 [0.8.6]: https://github.com/openmodels/openmodels/compare/v0.8.5...v0.8.6

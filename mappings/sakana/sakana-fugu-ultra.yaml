@@ -1,0 +1,16 @@
+model_id: sakana-fugu-ultra
+provider_id: sakana
+provider_model_name: fugu-ultra
+pricing:
+  input_per_million: 5.0
+  output_per_million: 30.0
+  currency: USD
+rate_limits:
+  requests_per_minute: 60
+  tokens_per_minute: 120000
+context_window_override: null
+available_regions:
+  - ap-northeast-1
+  - global
+created_at: "2026-06-22T00:00:00.000Z"
+updated_at: "2026-06-22T00:00:00.000Z"
