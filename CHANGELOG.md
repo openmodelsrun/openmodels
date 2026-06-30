@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- **Claude Sonnet 5** (Anthropic, US) — most capable Sonnet-class model with a 1M-token context window, adaptive thinking with selectable reasoning effort, and text/image/file inputs. Introductory pricing $2/$10 per 1M tokens (through 2026-08-31), then $3/$15. Added Anthropic mapping.
+
 ## [1.0.0] - 2026-06-24
 
 First stable release of the OpenModels Registry. The schema, file layout, and validation rules are now considered stable.
