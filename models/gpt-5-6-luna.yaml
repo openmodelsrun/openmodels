@@ -1,0 +1,19 @@
+id: gpt-5-6-luna
+name: GPT-5.6 Luna
+description: The fast, low-cost tier of OpenAI's GPT-5.6 series, optimized for high-volume, latency-sensitive tasks such as classification, extraction, routing, and lightweight agentic steps. Approaches the larger GPT-5.6 tiers on many benchmarks while running several times faster at a fraction of the price.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - code
+context_window: 400000
+licensing: proprietary
+country: us
+created_at: "2026-06-26T00:00:00.000Z"
+updated_at: "2026-07-09T00:00:00.000Z"

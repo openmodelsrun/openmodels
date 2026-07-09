@@ -1,0 +1,22 @@
+id: gemini-3-5-pro
+name: Gemini 3.5 Pro
+description: Google DeepMind's flagship Gemini model, rebuilt on a new foundation with a 2M-token context window and a Deep Think reasoning mode for the hardest math, coding, and multimodal tasks. Natively multimodal across text, image, audio, and video with streaming function calling and strong long-context grounding.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - audio
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - audio
+  - video
+  - code
+context_window: 2000000
+licensing: proprietary
+country: us
+created_at: "2026-07-09T00:00:00.000Z"
+updated_at: "2026-07-09T00:00:00.000Z"

@@ -1,0 +1,21 @@
+id: gpt-5-6-terra
+name: GPT-5.6 Terra
+description: The balanced tier of OpenAI's GPT-5.6 series, trading a small amount of peak quality for markedly lower latency and cost. Retains strong reasoning, coding, and agentic tool use with configurable reasoning effort, making it a default choice for production workloads that need frontier capability at scale.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - audio
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - audio
+  - code
+context_window: 1000000
+licensing: proprietary
+country: us
+created_at: "2026-06-26T00:00:00.000Z"
+updated_at: "2026-07-09T00:00:00.000Z"

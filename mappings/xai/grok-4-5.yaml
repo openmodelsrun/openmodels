@@ -1,0 +1,16 @@
+model_id: grok-4-5
+provider_id: xai
+provider_model_name: grok-4.5
+pricing:
+  input_per_million: 2.0
+  output_per_million: 10.0
+  currency: USD
+rate_limits:
+  requests_per_minute: 300
+  tokens_per_minute: 500000
+context_window_override: null
+available_regions:
+  - us-east-1
+  - global
+created_at: "2026-07-09T00:00:00.000Z"
+updated_at: "2026-07-09T00:00:00.000Z"

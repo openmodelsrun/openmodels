@@ -5,10 +5,18 @@ All notable changes to the OpenModels Registry will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [1.2.0] - 2026-07-09
 
 ### Added
+- **GPT-5.6 series** (OpenAI, US) — three new tiers: **GPT-5.6 Sol** (flagship, max reasoning-effort setting and subagent-based ultra mode, 1M context), **GPT-5.6 Terra** (balanced, 1M context), and **GPT-5.6 Luna** (fast, low-cost, 400K context). Added OpenAI mappings for all three plus an OpenRouter mapping for Sol.
+- **Muse Spark 1.1** (Meta, US) — updated Meta Superintelligence Labs flagship building on Muse Spark with stronger agentic reasoning, more reliable multi-agent orchestration, a 512K context window, and lower latency. Added Meta mapping ($4/$20 per 1M tokens).
+- **Gemini 3.5 Pro** (Google, US) — rebuilt flagship Gemini with a 2M-token context window and Deep Think reasoning mode. Added Google Vertex AI mapping ($8/$24 per 1M tokens).
+- **Gemini 3.5 Flash** (Google, US) — balanced Gemini 3.5 tier pairing Pro-line reasoning with Flash-line latency and cost, 1M context, full multimodality. Added Google Vertex AI mapping and Google AI Studio free-tier mapping.
+- **Grok 4.5** (xAI, US) — xAI's strongest model to date for coding, agentic tasks, and knowledge work, 256K context. Added xAI and OpenRouter mappings ($2/$10 per 1M tokens).
 - **Claude Sonnet 5** (Anthropic, US) — most capable Sonnet-class model with a 1M-token context window, adaptive thinking with selectable reasoning effort, and text/image/file inputs. Introductory pricing $2/$10 per 1M tokens (through 2026-08-31), then $3/$15. Added Anthropic mapping.
+
+### Changed
+- Total coverage: 125 models · 51 providers · 196 mappings
 
 ## [1.0.0] - 2026-06-24
 
@@ -342,7 +350,8 @@ First stable release of the OpenModels Registry. The schema, file layout, and va
 - Initial project setup
 - Base JSON schemas (model.schema.json, provider.schema.json, mapping.schema.json)
 
-[Unreleased]: https://github.com/openmodels/openmodels/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/openmodels/openmodels/compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/openmodels/openmodels/compare/v1.0.0...v1.2.0
 [1.0.0]: https://github.com/openmodels/openmodels/compare/v0.9.0...v1.0.0
 [0.9.0]: https://github.com/openmodels/openmodels/compare/v0.8.8...v0.9.0
 [0.8.8]: https://github.com/openmodels/openmodels/compare/v0.8.7...v0.8.8

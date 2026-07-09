@@ -1,0 +1,21 @@
+id: muse-spark-1-1
+name: Muse Spark 1.1
+description: Meta Superintelligence Labs' updated flagship, building on Muse Spark with stronger agentic reasoning, more reliable multi-agent orchestration, and improved multimodal understanding across voice, text, and image. Extends the context window and reduces latency and reasoning token usage while raising coding and tool-use accuracy. Powers Meta AI across its product ecosystem.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - audio
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - audio
+  - code
+context_window: 512000
+licensing: proprietary
+country: us
+created_at: "2026-07-09T00:00:00.000Z"
+updated_at: "2026-07-09T00:00:00.000Z"
