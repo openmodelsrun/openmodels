@@ -2,7 +2,7 @@
 
 The open-source registry of LLM models, inference providers, and provider-model mappings. Community-maintained, schema-validated, and machine-readable.
 
-**Current stats:** 117 models · 51 providers · 185 mappings
+**Current stats:** 125 models · 51 providers · 196 mappings
 
 ## Overview
 
@@ -12,12 +12,12 @@ OpenModels is a structured, version-controlled registry that serves as the singl
 
 | Vendor | Models |
 |--------|--------|
-| OpenAI | GPT-4, GPT-5, GPT-5.4, GPT-5.4 Mini, GPT-5.5, GPT-5.5 Pro, GPT-OSS 20B, GPT-OSS 120B |
+| OpenAI | GPT-4, GPT-5, GPT-5.4, GPT-5.4 Mini, GPT-5.5, GPT-5.5 Pro, GPT-5.6 Sol, GPT-5.6 Terra, GPT-5.6 Luna, GPT-OSS 20B, GPT-OSS 120B |
 | Anthropic | Claude 3 Opus, Claude Haiku 4.5, Claude Sonnet 4.5, Claude Sonnet 4.6, Claude Opus 4.6, Claude Opus 4.7, Claude Opus 4.8 |
-| Google | Gemini 2.5 Pro, Gemini 2.5 Flash, Gemini 3 Flash, Gemini 3.1 Pro, Gemini 3.1 Flash-Lite, Gemma 3 (1B/4B/12B/27B), Gemma 4 (E2B/E4B/12B/26B/31B) |
-| xAI | Grok 4, Grok 4.1 Fast, Grok 4.20, Grok 4.3 |
+| Google | Gemini 2.5 Pro, Gemini 2.5 Flash, Gemini 3 Flash, Gemini 3.1 Pro, Gemini 3.1 Flash-Lite, Gemini 3.5 Pro, Gemini 3.5 Flash, Gemma 3 (1B/4B/12B/27B), Gemma 4 (E2B/E4B/12B/26B/31B) |
+| xAI | Grok 4, Grok 4.1 Fast, Grok 4.20, Grok 4.3, Grok 4.5 |
 | DeepSeek | DeepSeek V3, DeepSeek R1, DeepSeek V4, DeepSeek V4 Pro, DeepSeek V4 Flash |
-| Meta | Llama 3.1 8B, Llama 3.2 (3B/11B/90B), Llama 3.3 70B, Llama 4 Scout, Llama 4 Maverick, Muse Spark |
+| Meta | Llama 3.1 8B, Llama 3.2 (3B/11B/90B), Llama 3.3 70B, Llama 4 Scout, Llama 4 Maverick, Muse Spark, Muse Spark 1.1 |
 | Mistral | Mistral Medium 3.5, Mistral Large 3, Mistral Small 3.1, Mistral Small 4, Devstral 2, Codestral |
 | Microsoft | Phi-4, Phi-4 Mini |
 | Alibaba | Qwen3 32B, Qwen3 235B, Qwen3 Coder, QwQ-32B, Qwen 3.6 (35B-A3B, 27B, Plus), Qwen 3.7 (Max, Plus) |
