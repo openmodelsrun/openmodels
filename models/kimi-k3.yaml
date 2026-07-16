@@ -1,0 +1,16 @@
+id: kimi-k3
+name: Kimi K3
+description: Moonshot AI's flagship Kimi model for frontier intelligence, agentic coding, knowledge work, and deep reasoning. Kimi K3 supports a 1-million-token context window for long-running software engineering and research workflows.
+capabilities:
+  - chat
+  - completion
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - code
+context_window: 1000000
+licensing: other
+country: cn
+created_at: "2026-07-15T00:00:00.000Z"
+updated_at: "2026-07-15T00:00:00.000Z"
