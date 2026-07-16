@@ -1,0 +1,10 @@
+id: tinker
+name: Tinker
+description: Thinking Machines Lab's cloud service for fine-tuning and inference. Its OpenAI-compatible inference API is currently in beta and intended for testing, evaluation, and internal workflows; production-grade inference is not yet generally available.
+api_base_url: https://tinker.thinkingmachines.dev/services/tinker-prod/oai/api/v1
+auth_type: api-key
+regions:
+  - global
+compatibility: openai
+created_at: "2026-07-15T00:00:00.000Z"
+updated_at: "2026-07-15T00:00:00.000Z"

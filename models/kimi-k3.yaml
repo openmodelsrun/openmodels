@@ -4,10 +4,14 @@ description: Moonshot AI's flagship Kimi model for frontier intelligence, agenti
 capabilities:
   - chat
   - completion
+  - function-calling
+  - vision
   - code-generation
   - reasoning
 modalities:
   - text
+  - image
+  - video
   - code
 context_window: 1000000
 licensing: other

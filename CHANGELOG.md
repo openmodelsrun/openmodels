@@ -5,6 +5,16 @@ All notable changes to the OpenModels Registry will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.1] - 2026-07-15
+
+### Added
+- **Kimi K3 mapping** — added `kimi-k3` on Moonshot AI's official OpenAI-compatible Kimi API.
+- **Tinker provider and Inkling mapping** — added Thinking Machines Lab's Tinker provider and the `thinkingmachines/Inkling` mapping, including the published 64K context and token pricing. Tinker's OpenAI-compatible inference API is currently beta and intended for testing, evaluation, and internal workflows.
+
+### Changed
+- Updated the Moonshot AI API endpoint to the official `https://api.moonshot.ai/v1` base URL.
+- Expanded Kimi K3 metadata with its official vision, video-input, and tool-calling capabilities.
+
 ## [1.3.0] - 2026-07-15
 
 ### Added
