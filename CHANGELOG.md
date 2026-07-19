@@ -5,6 +5,19 @@ All notable changes to the OpenModels Registry will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.2] - 2026-07-15
+
+### Fixed
+- Corrected recent-model pricing to match official sources:
+  - **GPT-5.6 Sol** $5 / $30, **Terra** $2.50 / $15, **Luna** $1 / $6 per 1M tokens (previously overstated); removed unverified cache-tier values.
+  - **Gemini 3.5 Flash** $1.50 / $9 per 1M tokens (previously $0.50 / $3), and corrected its release date to 2026-05-19.
+  - **Grok 4.5** output to $6 per 1M tokens (previously $10) with $0.50 cached input; corrected context window to 500K and release date to 2026-07-08.
+  - **Muse Spark 1.1** $1.25 / $4.25 per 1M tokens (previously $4 / $20).
+  - **Claude Sonnet 5** cache-write price to $2.50 per 1M tokens (introductory $2 / $10 input/output unchanged).
+
+### Notes
+- **Gemini 3.5 Pro** remains in limited preview with no official public pricing; its existing mapping values are provisional pending an official rate card.
+
 ## [1.3.1] - 2026-07-15
 
 ### Added
@@ -14,6 +27,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Updated the Moonshot AI API endpoint to the official `https://api.moonshot.ai/v1` base URL.
 - Expanded Kimi K3 metadata with its official vision, video-input, and tool-calling capabilities.
+
+### Fixed
+- Corrected the Kimi K3 Moonshot pricing to the official $3 input / $15 output per 1M tokens, with $0.30 cache-hit input.
 
 ## [1.3.0] - 2026-07-15
 

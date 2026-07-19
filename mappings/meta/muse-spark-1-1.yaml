@@ -2,8 +2,8 @@ model_id: muse-spark-1-1
 provider_id: meta
 provider_model_name: muse-spark-1.1
 pricing:
-  input_per_million: 4.0
-  output_per_million: 20.0
+  input_per_million: 1.25
+  output_per_million: 4.25
   currency: USD
 rate_limits:
   requests_per_minute: 120

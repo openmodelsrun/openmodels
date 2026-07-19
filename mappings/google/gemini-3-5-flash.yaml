@@ -2,11 +2,9 @@ model_id: gemini-3-5-flash
 provider_id: google
 provider_model_name: gemini-3.5-flash
 pricing:
-  input_per_million: 0.5
-  output_per_million: 3.0
+  input_per_million: 1.5
+  output_per_million: 9.0
   currency: USD
-  cache_write_per_million: 0.13
-  cache_read_per_million: 0.06
 rate_limits:
   requests_per_minute: 1000
   tokens_per_minute: 8000000
@@ -15,5 +13,5 @@ available_regions:
   - us-east-1
   - eu-west-1
   - global
-created_at: "2026-07-09T00:00:00.000Z"
-updated_at: "2026-07-09T00:00:00.000Z"
+created_at: "2026-05-19T00:00:00.000Z"
+updated_at: "2026-07-15T00:00:00.000Z"

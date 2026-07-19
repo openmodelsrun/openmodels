@@ -2,8 +2,8 @@ model_id: gpt-5-6-sol
 provider_id: openrouter
 provider_model_name: openai/gpt-5.6-sol
 pricing:
-  input_per_million: 14.0
-  output_per_million: 56.0
+  input_per_million: 5.0
+  output_per_million: 30.0
   currency: USD
 rate_limits:
   requests_per_minute: 200
