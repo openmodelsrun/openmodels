@@ -1,0 +1,22 @@
+id: gemini-3-5-flash-lite
+name: Gemini 3.5 Flash-Lite
+description: Google's fastest and most cost-effective Gemini 3.5-class model, delivering around 350 output tokens per second per the Artificial Analysis Index. Designed for low-latency and high-throughput agentic workflows such as agentic search and document processing, with configurable thinking levels, built-in computer use, and full multimodal support across a 1M-token context window.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - audio
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - audio
+  - video
+  - code
+context_window: 1000000
+licensing: proprietary
+country: us
+created_at: "2026-07-21T00:00:00.000Z"
+updated_at: "2026-07-21T00:00:00.000Z"

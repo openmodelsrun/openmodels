@@ -1,0 +1,17 @@
+id: gemini-3-5-flash-cyber
+name: Gemini 3.5 Flash Cyber
+description: A specialized, cyber-focused Gemini model built on top of Gemini 3.5 Flash and fine-tuned for finding and fixing cybersecurity vulnerabilities at a lower price per token than larger models. Deployed within Google's CodeMender code security agent, where multiple 3.5 Flash Cyber agents collaborate to reach competitive frontier performance on benchmarks like CyberGym. Given its dual-use nature, it is available exclusively to governments and trusted partners via CodeMender as a limited-access pilot.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - code
+context_window: 1000000
+licensing: proprietary
+country: us
+created_at: "2026-07-21T00:00:00.000Z"
+updated_at: "2026-07-21T00:00:00.000Z"

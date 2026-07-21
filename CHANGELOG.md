@@ -5,6 +5,13 @@ All notable changes to the OpenModels Registry will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.4.0] - 2026-07-21
+
+### Added
+- **Gemini 3.6 Flash** — Google DeepMind's new workhorse Flash model with better coding, knowledge work, and multimodal performance and ~17% lower output token usage than 3.5 Flash. Added the canonical model plus `google` (Vertex AI) and `google-ai-studio` mappings at $1.50 / $7.50 per 1M tokens.
+- **Gemini 3.5 Flash-Lite** — Google's fastest, most cost-effective 3.5-class model (~350 output tokens/s) for high-throughput agentic workflows. Added the canonical model plus `google` and `google-ai-studio` mappings at $0.30 / $2.50 per 1M tokens.
+- **Gemini 3.5 Flash Cyber** — specialized cyber-focused model built on 3.5 Flash for finding and fixing vulnerabilities within Google's CodeMender agent. Added the canonical model only; it is a limited-access pilot available exclusively to governments and trusted partners with no public rate card, so no provider mapping was added.
+
 ## [1.3.3] - 2026-07-19
 
 ### Added
