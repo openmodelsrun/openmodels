@@ -1,6 +1,6 @@
 id: greenpt
 name: GreenPT
-description: European AI inference provider offering an OpenAI-compatible API for chat, reasoning, coding, multimodal, embedding, speech, and reranking models.
+description: European AI inference provider offering flagship GLM-5.2 and Kimi K2.7 Code models alongside OpenAI-compatible chat and embeddings, reranking, and speech-to-text.
 api_base_url: https://api.greenpt.ai/v1
 auth_type: bearer
 regions:
