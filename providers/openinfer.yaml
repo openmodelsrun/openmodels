@@ -1,0 +1,14 @@
+id: openinfer
+name: OpenInfer
+description: >-
+  Hosted, OpenAI-compatible inference API serving popular open-source
+  models on OpenInfer OS. Routes every request across distributed
+  CPU, GPU, and NPU compute with SLA-aware routing and automatic
+  fallback for lower cost per token.
+api_base_url: https://platform.openinfer.io/v1
+auth_type: bearer
+regions:
+  - global
+compatibility: openai
+created_at: "2026-08-19T00:00:00.000Z"
+updated_at: "2026-08-19T00:00:00.000Z"
