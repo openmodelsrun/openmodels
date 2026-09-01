@@ -1,0 +1,13 @@
+id: granite-speech-5-0-470m-turboctc
+name: Granite Speech 5.0 470M TurboCTC
+description: IBM's compact 470M parameter English automatic speech recognition model from the Granite Speech 5.0 family. Uses a conformer acoustic encoder with CTC, non-autoregressive greedy decoding, and high-throughput transcription for edge and enterprise speech workloads. Released under Apache 2.0.
+capabilities:
+  - audio
+modalities:
+  - audio
+  - text
+context_window: 448
+licensing: apache-2.0
+country: us
+created_at: "2026-08-25T00:00:00.000Z"
+updated_at: "2026-08-25T00:00:00.000Z"

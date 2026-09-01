@@ -1,0 +1,17 @@
+id: granite-4-2-8b
+name: Granite 4.2 8B
+description: IBM's balanced dense decoder-only reasoning language model from the Granite 4.2 family. Designed for enterprise agentic workflows, coding, tool calling, instruction following, multilingual dialog across 12 tested languages, and native thinking modes with a 128K-token context window. Released under Apache 2.0.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - code
+context_window: 131072
+licensing: apache-2.0
+country: us
+created_at: "2026-08-25T00:00:00.000Z"
+updated_at: "2026-08-25T00:00:00.000Z"

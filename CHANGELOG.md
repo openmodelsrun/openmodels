@@ -5,6 +5,19 @@ All notable changes to the OpenModels Registry will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.11.0] - 2026-09-01
+
+### Added
+- **Granite 4.2 family** — IBM's Apache-2.0 Granite 4.2 language models: 3B, 8B, and 30B, with native reasoning, tool calling, code generation, multilingual dialog, and 128K native context. The 30B entry records IBM's long-context extension up to 512K tokens. Added DeepInfra mappings for all three and an OpenRouter mapping for Granite 4.2 8B.
+- **Granite Speech 5.0 TurboCTC** — IBM's 470M-parameter automatic speech recognition model in commercial Apache-2.0 and non-commercial variants. Added canonical model entries only; Hugging Face did not list a hosted inference provider at the time of update.
+- **Qwen 3.8 updates** — added `qwen3-8-flash`, `qwen3-8-27b`, `qwen3-8-2-4t-a95b`, and `qwen-flash-character`, including Alibaba Model Studio mappings and OpenRouter mappings where publicly listed. These cover QwenCloud's hosted Flash model, the open-weight 27B vision-language model, the open-weight Max-class 2.4T-A95B model, and the text-only character model.
+- **Hy4 Preview** — Tencent Hunyuan's Apache-2.0 open-weight 770B/49B-active MoE flagship preview with ~1M context, tool calling, reasoning modes, and productivity/coding focus. Added an OpenRouter mapping at the published $0.834 / $2.501 per 1M-token pricing with cache-read pricing.
+- **DeepSeek V4 Flash Vision Exp** — DeepSeek's experimental multimodal V4 Flash model with image input, tool use, Responses API support, and 1M context. Added a DeepSeek direct mapping using the published V4 Flash peak token pricing.
+
+### Changed
+- **Qwen 3.8 Max** Alibaba Model Studio limits updated to the current QwenCloud listing: 15K RPM and 2M TPM.
+- Total coverage: 149 models · 52 providers · 222 mappings.
+
 ## [1.10.0] - 2026-08-27
 
 ### Added

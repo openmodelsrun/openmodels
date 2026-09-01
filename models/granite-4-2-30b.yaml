@@ -1,0 +1,17 @@
+id: granite-4-2-30b
+name: Granite 4.2 30B
+description: IBM's flagship dense decoder-only reasoning language model from the Granite 4.2 family. Built for complex reasoning, coding, agentic tool use, instruction following, and multilingual dialog across 12 tested languages, with native 128K context and long-context extension up to 512K tokens. Released under Apache 2.0.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - code
+context_window: 524288
+licensing: apache-2.0
+country: us
+created_at: "2026-08-25T00:00:00.000Z"
+updated_at: "2026-08-25T00:00:00.000Z"

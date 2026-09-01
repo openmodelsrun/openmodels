@@ -1,0 +1,14 @@
+id: qwen-flash-character
+name: Qwen Flash Character
+description: Alibaba's Qwen role-playing model optimized for multilingual character interaction, persona consistency, context-aware dialogue progression, narrative coherence, and Japanese localization including dialects and honorifics. It is a compact text-only hosted model for character chat and story-driven conversational experiences.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+modalities:
+  - text
+context_window: 8192
+licensing: proprietary
+country: cn
+created_at: "2026-08-30T00:00:00.000Z"
+updated_at: "2026-08-30T00:00:00.000Z"

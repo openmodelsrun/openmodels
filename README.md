@@ -2,7 +2,7 @@
 
 The open-source registry of LLM models, inference providers, and provider-model mappings. Community-maintained, schema-validated, and machine-readable.
 
-**Current stats:** 138 models · 52 providers · 209 mappings
+**Current stats:** 149 models · 52 providers · 222 mappings
 
 ## Overview
 
@@ -16,10 +16,10 @@ OpenModels is a structured, version-controlled registry that serves as the singl
 | Anthropic | Claude Opus 5, Claude Sonnet 5, Claude Mythos 5, Claude Fable 5, Claude Opus 4.8, Claude Opus 4.7, Claude Sonnet 4.6, Claude Opus 4.6, Claude Sonnet 4.5, Claude Haiku 4.5, Claude 3 Opus |
 | Google | Gemini 3.7 Flash, Gemini 3.6 Flash, Gemini 3.5 Flash-Lite, Gemini 3.5 Flash Cyber, Gemini 3.5 Pro, DiffusionGemma, Gemma 4 12B, Gemini 3 Flash, Gemini 3.5 Flash, Gemini 3.1 Flash-Lite, Gemma 4 (E2B/E4B/26B/31B), Gemini 3.1 Pro, Gemini 2.5 Pro, Gemini 2.5 Flash, Gemma 3 (1B/4B/12B/27B) |
 | xAI | Grok 4.6, Grok 4.5, Grok 4.3, Grok 4.20, Grok 4.1 Fast, Grok 4 |
-| DeepSeek | DeepSeek V4 Pro, DeepSeek V4 Flash, DeepSeek V4, DeepSeek R1, DeepSeek V3 |
+| DeepSeek | DeepSeek V4 Flash Vision Exp, DeepSeek V4 Pro, DeepSeek V4 Flash, DeepSeek V4, DeepSeek R1, DeepSeek V3 |
 | Meta | Muse Spark 1.1, Muse Spark, Llama 4 Scout, Llama 4 Maverick, Llama 3.3 70B, Llama 3.2 (3B/11B/90B), Llama 3.1 8B |
 | Mistral | Mistral Small 4, Mistral Medium 3.5, Mistral Large 3, Devstral 2, Mistral Small 3.1, Codestral |
-| Alibaba | Qwen3.8-Flash-Next, Qwen 3.8 Max, Qwen 3.7 Plus, Qwen 3.7 Max, Qwen 3.6 (27B, 35B-A3B, Plus), Qwen 3.6, Qwen3 Coder, Qwen3 235B, Qwen3 32B, QwQ-32B |
+| Alibaba | Qwen 3.8 Flash, Qwen3.8-Flash-Next, Qwen 3.8 Max, Qwen 3.8 2.4T-A95B, Qwen 3.8 27B, Qwen Flash Character, Qwen 3.7 Plus, Qwen 3.7 Max, Qwen 3.6 (27B, 35B-A3B, Plus), Qwen 3.6, Qwen3 Coder, Qwen3 235B, Qwen3 32B, QwQ-32B |
 | Moonshot | Kimi K3, Kimi K2.7 Code, Kimi K2.6 |
 | Cohere | Command A+, Command A, Command R7B |
 | Cohere For AI | Tiny Aya, Aya Expanse 32B |
@@ -36,10 +36,10 @@ OpenModels is a structured, version-controlled registry that serves as the singl
 | Sber | GigaChat 3.1 Ultra, GigaChat 3.1 Lightning |
 | ISSAI | KazLLM 1.0 70B |
 | Astana Hub | AlemLLM |
-| IBM | Granite 4.1 30B, Granite 4.1 8B |
+| IBM | Granite 4.2 30B, Granite 4.2 8B, Granite 4.2 3B, Granite Speech 5.0 TurboCTC, Granite 4.1 30B, Granite 4.1 8B |
 | Xiaomi | MiMo-V2.5-Pro |
 | MTS AI | Cotype Nano |
-| Tencent | Hy3 Preview |
+| Tencent | Hy4 Preview, Hy3 Preview |
 | Poolside | Laguna M.1 |
 | AI21 Labs | Jamba Large 1.7 |
 | TII | Falcon-H1, Falcon 3 10B |

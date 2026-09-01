@@ -1,0 +1,17 @@
+id: hy4-preview
+name: Hy4 Preview
+description: Tencent Hunyuan's fourth-generation open-weight flagship preview model, a Mixture-of-Experts system with 770B total parameters and 49B active parameters per token. It targets real-world productivity tasks across coding, office work, scientific research, and multi-step tool workflows, supports function calling, reasoning modes, and a context window of about one million tokens.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - code
+context_window: 1048576
+licensing: apache-2.0
+country: cn
+created_at: "2026-08-28T00:00:00.000Z"
+updated_at: "2026-08-28T00:00:00.000Z"

@@ -1,0 +1,20 @@
+id: qwen3-8-flash
+name: Qwen 3.8 Flash
+description: Alibaba's hosted Qwen 3.8 Flash model, a low-cost multimodal reasoning model based on the Qwen3.8-Flash-Next architecture. It supports text, image, and video inputs, one million tokens of context, function calling, structured output, built-in tools, and thinking mode for high-throughput coding, agentic workflows, document analysis, and visual understanding.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - video
+  - code
+context_window: 1000000
+licensing: proprietary
+country: cn
+created_at: "2026-08-26T00:00:00.000Z"
+updated_at: "2026-08-26T00:00:00.000Z"

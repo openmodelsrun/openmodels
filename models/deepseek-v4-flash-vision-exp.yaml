@@ -1,0 +1,19 @@
+id: deepseek-v4-flash-vision-exp
+name: DeepSeek V4 Flash Vision Exp
+description: DeepSeek's experimental multimodal V4 Flash model that adds image input while matching DeepSeek V4 Flash text capabilities for agents, reasoning, world knowledge, tool use, and Responses API workflows. It supports mixed text and image requests, one million tokens of context, and the same token-based pricing as DeepSeek V4 Flash.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - code
+context_window: 1000000
+licensing: proprietary
+country: cn
+created_at: "2026-08-21T00:00:00.000Z"
+updated_at: "2026-08-21T00:00:00.000Z"
