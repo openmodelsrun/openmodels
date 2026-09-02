@@ -5,6 +5,14 @@ All notable changes to the OpenModels Registry will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.11.1] - 2026-09-02
+
+### Added
+- **Claude Fable 5.1** — Anthropic's latest generally available Fable model for demanding reasoning, long-horizon agentic work, ambitious coding projects, multistep research, and document-heavy analysis. Added the canonical model plus the direct Anthropic mapping at $10 / $50 per 1M input/output tokens, with 1M context and 128K max output documented in the source metadata.
+
+### Changed
+- Total coverage: 150 models · 52 providers · 223 mappings.
+
 ## [1.11.0] - 2026-09-01
 
 ### Added

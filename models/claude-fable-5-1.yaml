@@ -1,0 +1,19 @@
+id: claude-fable-5-1
+name: Claude Fable 5.1
+description: Anthropic's latest generally available Fable model for demanding reasoning, long-horizon agentic work, ambitious coding projects, multistep research, and document-heavy analysis. It extends Claude Fable 5 with stronger agentic coding and knowledge work, adaptive thinking, more precise safeguards, content provenance, lower cache-read pricing, and 1M-token context support.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - code
+context_window: 1000000
+licensing: proprietary
+country: us
+created_at: "2026-09-01T00:00:00.000Z"
+updated_at: "2026-09-02T00:00:00.000Z"
