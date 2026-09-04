@@ -1,0 +1,19 @@
+id: gpt-6-astra
+name: GPT-6 Astra
+description: OpenAI's most capable frontier model for the hardest end-to-end work across complex reasoning, coding, computer use, browsing, research, scientific analysis, cybersecurity defense, and professional document creation. Supports long-context multimodal input, structured outputs, function calling, reasoning effort controls, MCP, skills, computer use, hosted shell, code interpreter, web search, file search, and apply-patch workflows through the Responses API.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - code
+context_window: 1050000
+licensing: proprietary
+country: us
+created_at: "2026-09-03T00:00:00.000Z"
+updated_at: "2026-09-04T00:00:00.000Z"

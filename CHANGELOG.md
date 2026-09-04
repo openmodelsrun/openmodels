@@ -5,6 +5,14 @@ All notable changes to the OpenModels Registry will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.12.0] - 2026-09-04
+
+### Added
+- **GPT-6 Astra** — OpenAI's latest frontier model for complex reasoning, coding, computer use, browsing, research, and document-heavy work. Added the canonical model plus the direct OpenAI mapping at $10 / $50 per 1M input/output tokens, with 1,050,000-token context and cache pricing.
+
+### Changed
+- Total coverage: 151 models · 52 providers · 224 mappings.
+
 ## [1.11.1] - 2026-09-02
 
 ### Added
