@@ -2,8 +2,8 @@ model_id: qwen3-5-9b
 provider_id: openinfer
 provider_model_name: "@oi/Qwen3.5-9B"
 pricing:
-  input_per_million: 0.00
-  output_per_million: 0.00
+  input_per_million: 0.15
+  output_per_million: 0.18
   currency: USD
 rate_limits:
   requests_per_minute: 60
@@ -12,4 +12,4 @@ context_window_override: null
 available_regions:
   - global
 created_at: "2026-08-19T00:00:00.000Z"
-updated_at: "2026-08-19T00:00:00.000Z"
+updated_at: "2026-09-08T00:00:00.000Z"
