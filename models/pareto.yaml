@@ -1,0 +1,17 @@
+id: pareto
+name: Pareto
+description: A multimodal composite model from Unbiased built for research, coding, and agentic workflows, aiming at frontier-level performance across a broad range of general-purpose tasks. Supports image input, tool use, and a 262K-token context window.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - code-generation
+modalities:
+  - text
+  - image
+  - code
+context_window: 262144
+licensing: proprietary
+created_at: "2026-09-18T00:00:00.000Z"
+updated_at: "2026-10-01T00:00:00.000Z"

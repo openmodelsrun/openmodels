@@ -1,0 +1,20 @@
+id: perceptron-mk1-5
+name: Perceptron Mk1.5
+description: Perceptron's embodied reasoning model for physical agents. Accepts text, image, video, and audio input and answers with text plus optional structured annotations such as points, boxes, polygons, and tracks, with a 36K-token context window.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - audio
+  - reasoning
+modalities:
+  - text
+  - image
+  - audio
+  - video
+context_window: 36864
+licensing: proprietary
+country: us
+created_at: "2026-09-25T00:00:00.000Z"
+updated_at: "2026-10-01T00:00:00.000Z"

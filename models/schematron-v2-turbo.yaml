@@ -1,0 +1,13 @@
+id: schematron-v2-turbo
+name: Schematron V2 Turbo
+description: Inference.net's open-weight 3B-parameter HTML-to-JSON extraction model, prioritizing throughput for high-volume extraction workloads. Extraction instructions are supplied through a JSON schema rather than a prompt. 128K-token context window.
+capabilities:
+  - chat
+  - completion
+modalities:
+  - text
+context_window: 128000
+licensing: other
+country: us
+created_at: "2026-09-12T00:00:00.000Z"
+updated_at: "2026-10-01T00:00:00.000Z"

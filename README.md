@@ -2,7 +2,7 @@
 
 The open-source registry of LLM models, inference providers, and provider-model mappings. Community-maintained, schema-validated, and machine-readable.
 
-**Current stats:** 179 models · 52 providers · 254 mappings
+**Current stats:** 203 models · 52 providers · 278 mappings
 
 ## Overview
 
@@ -39,7 +39,7 @@ OpenModels is a structured, version-controlled registry that serves as the singl
 | IBM | Granite 4.2 30B, Granite 4.2 8B, Granite 4.2 3B, Granite Speech 5.0 TurboCTC, Granite 4.1 30B, Granite 4.1 8B |
 | Xiaomi | MiMo-V2.6-Pro, MiMo-V2.6-Flash, MiMo-V2.5-Pro |
 | MTS AI | Cotype Nano |
-| Tencent | Hy4 Preview, Hy3 Preview |
+| Tencent | Hy4 Preview, Hy3, Hy3 Preview, Hy-MT2 (1.8B/7B/30B-A3B) |
 | Poolside | Laguna S 2.1, Laguna XS 2.1, Laguna M.1 |
 | AI21 Labs | Jamba Large 1.7 |
 | TII | Falcon-H1, Falcon 3 10B |
@@ -49,7 +49,20 @@ OpenModels is a structured, version-controlled registry that serves as the singl
 | Snowflake | Arctic |
 | Stability AI | StableLM 2 12B |
 | Uzbek LLM Lab | Alloma 8B Instruct |
-| InclusionAI | Ring-2.6-1T |
+| InclusionAI | Ling 3.0 Flash VL, Ling 3.0 Flash Fin, Ling 3.0 Flash, Ring-2.6-1T |
+| ByteDance Seed | Seed 2.1 Turbo, Seed 2.0 Code |
+| Meituan | LongCat 2.0 |
+| Kwaipilot | KAT-Coder-Pro V2.5 |
+| Fireworks Research | Ember-1 |
+| Inception | Mercury 2.5 |
+| Perceptron | Perceptron Mk1.5 |
+| AionLabs | Aion 3.5, Aion 3.5 Mini |
+| Nex AGI | Nex-N2.5-Pro, Nex-N2.5-Mini |
+| PrismML | Ternary Bonsai 2 27B |
+| Unbiased | Pareto |
+| Dots Studio | Dots3-Note Preview |
+| Liquid AI | LFM2.5-2.6B |
+| Inference.net | Schematron V2 Turbo, Schematron V2 Small |
 | Upstage | Solar Pro 4, Solar Mini 4, Solar Pro 3 |
 | LLM360/MBZUAI | K2 Think |
 | OpenAI (Audio) | Whisper |

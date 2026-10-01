@@ -1,0 +1,17 @@
+id: longcat-2-0
+name: LongCat 2.0
+description: Meituan's open-weight sparse mixture-of-experts language model with 48B active parameters out of 1.6T total. Suited for coding, repository-level changes, long-horizon problem solving, and agentic work, with reasoning, tool use, and a 1M-token context window.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - code
+context_window: 1048576
+licensing: other
+country: cn
+created_at: "2026-07-20T00:00:00.000Z"
+updated_at: "2026-10-01T00:00:00.000Z"

@@ -1,0 +1,13 @@
+id: hy-mt2-30b-a3b
+name: Hy-MT2-30B-A3B
+description: Tencent's flagship open-weight translation model in the Hy-MT2 family. Supports 33 language pairs and five Chinese dialect and minority-language pairs, with workflows for structured, contextual, glossary-based, and style-guided translation.
+capabilities:
+  - chat
+  - completion
+modalities:
+  - text
+context_window: 8192
+licensing: other
+country: cn
+created_at: "2026-08-20T00:00:00.000Z"
+updated_at: "2026-10-01T00:00:00.000Z"

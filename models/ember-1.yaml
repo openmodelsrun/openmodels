@@ -1,0 +1,19 @@
+id: ember-1
+name: Ember-1
+description: A specialized reasoning model from Fireworks Research, built on Kimi K3 and designed to make every token go further by producing shorter reasoning traces. Supports image input, tool use, and a 1M-token context window.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - code
+context_window: 1048576
+licensing: proprietary
+country: us
+created_at: "2026-09-24T00:00:00.000Z"
+updated_at: "2026-10-01T00:00:00.000Z"

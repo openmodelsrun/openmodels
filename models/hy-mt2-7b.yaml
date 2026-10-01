@@ -1,0 +1,13 @@
+id: hy-mt2-7b
+name: Hy-MT2-7B
+description: Tencent's open-weight 7B-parameter translation model. Supports 33 language pairs and five Chinese dialect and minority-language pairs, with workflows for structured, delimiter-based, contextual, glossary-based, and style-guided translation.
+capabilities:
+  - chat
+  - completion
+modalities:
+  - text
+context_window: 8192
+licensing: other
+country: cn
+created_at: "2026-08-19T00:00:00.000Z"
+updated_at: "2026-10-01T00:00:00.000Z"

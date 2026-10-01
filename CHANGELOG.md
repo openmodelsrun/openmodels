@@ -5,6 +5,17 @@ All notable changes to the OpenModels Registry will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.14.0] - 2026-10-01
+
+### Added
+- **New vendors** — ByteDance Seed (**Seed 2.1 Turbo**, **Seed 2.0 Code**), Meituan (**LongCat 2.0**), Kwaipilot (**KAT-Coder-Pro V2.5**), Fireworks Research (**Ember-1**), Inception (**Mercury 2.5**), Perceptron (**Perceptron Mk1.5**), AionLabs (**Aion 3.5**, **Aion 3.5 Mini**), Nex AGI (**Nex-N2.5-Pro**, **Nex-N2.5-Mini**), PrismML (**Ternary Bonsai 2 27B**), Unbiased (**Pareto**), Dots Studio (**Dots3-Note Preview**), Liquid AI (**LFM2.5-2.6B**), and Inference.net (**Schematron V2 Turbo**, **Schematron V2 Small**).
+- **InclusionAI Ling 3.0** — **Ling 3.0 Flash**, **Ling 3.0 Flash VL**, and **Ling 3.0 Flash Fin**.
+- **Tencent** — the generally available **Hy3** and the **Hy-MT2** translation family (1.8B, 7B, 30B-A3B).
+- All 24 models ship with OpenRouter mappings at the publicly listed per-token and cache-read pricing. Dots3-Note Preview and LFM2.5-2.6B are listed only as free endpoints. `country` is omitted where the vendor's origin is not confirmed, and open-weight entries use `licensing: other` until the exact license is confirmed.
+
+### Changed
+- Total coverage: 203 models · 52 providers · 278 mappings.
+
 ## [1.13.0] - 2026-10-01
 
 ### Added

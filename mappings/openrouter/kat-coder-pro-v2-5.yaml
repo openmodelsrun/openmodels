@@ -1,0 +1,16 @@
+model_id: kat-coder-pro-v2-5
+provider_id: openrouter
+provider_model_name: kwaipilot/kat-coder-pro-v2.5
+pricing:
+  input_per_million: 0.74
+  output_per_million: 2.96
+  currency: USD
+  cache_read_per_million: 0.15
+rate_limits:
+  requests_per_minute: 60
+  tokens_per_minute: 200000
+context_window_override: null
+available_regions:
+  - us-east-1
+created_at: "2026-07-11T00:00:00.000Z"
+updated_at: "2026-10-01T00:00:00.000Z"

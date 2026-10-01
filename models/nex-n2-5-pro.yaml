@@ -1,0 +1,18 @@
+id: nex-n2-5-pro
+name: Nex-N2.5-Pro
+description: Nex AGI's open-weight agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop, exploring codebases and implementing multi-file changes, with image input, tool use, and a 262K-token context window.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - code
+context_window: 262144
+licensing: other
+created_at: "2026-09-08T00:00:00.000Z"
+updated_at: "2026-10-01T00:00:00.000Z"

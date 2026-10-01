@@ -1,0 +1,17 @@
+id: ling-3-0-flash
+name: Ling 3.0 Flash
+description: InclusionAI's open-weight 124B-parameter mixture-of-experts model with about 5.1B parameters activated per token, designed for token efficiency and production-scale agentic inference. Supports reasoning, tool use, and a 262K-token context window.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - code
+context_window: 262144
+licensing: other
+country: cn
+created_at: "2026-07-23T00:00:00.000Z"
+updated_at: "2026-10-01T00:00:00.000Z"

@@ -1,0 +1,17 @@
+id: mercury-2-5
+name: Mercury 2.5
+description: Inception's latest diffusion LLM (dLLM), a fast reasoning model that produces and refines multiple tokens in parallel instead of generating them sequentially. Supports reasoning, tool use, and a 260K-token context window.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - code
+context_window: 260000
+licensing: proprietary
+country: us
+created_at: "2026-09-08T00:00:00.000Z"
+updated_at: "2026-10-01T00:00:00.000Z"

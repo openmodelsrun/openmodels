@@ -1,0 +1,15 @@
+model_id: seed-2-1-turbo
+provider_id: openrouter
+provider_model_name: bytedance-seed/seed-2-1-turbo
+pricing:
+  input_per_million: 0.5
+  output_per_million: 2.5
+  currency: USD
+rate_limits:
+  requests_per_minute: 60
+  tokens_per_minute: 200000
+context_window_override: null
+available_regions:
+  - us-east-1
+created_at: "2026-08-12T00:00:00.000Z"
+updated_at: "2026-10-01T00:00:00.000Z"

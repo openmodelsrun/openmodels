@@ -1,0 +1,15 @@
+id: lfm2-5-2-6b
+name: LFM2.5-2.6B
+description: Liquid AI's compact open-weight reasoning model, suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding. 65K-token context window.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - reasoning
+modalities:
+  - text
+context_window: 65536
+licensing: other
+country: us
+created_at: "2026-08-11T00:00:00.000Z"
+updated_at: "2026-10-01T00:00:00.000Z"

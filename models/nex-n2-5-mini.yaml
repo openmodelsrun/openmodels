@@ -1,0 +1,17 @@
+id: nex-n2-5-mini
+name: Nex-N2.5-Mini
+description: The smaller member of Nex AGI's open-weight Nex-N2.5 agentic family, aimed at agentic coding within a visual feedback loop at lower cost. Supports image input, reasoning, and a 262K-token context window.
+capabilities:
+  - chat
+  - completion
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - code
+context_window: 262144
+licensing: other
+created_at: "2026-09-08T00:00:00.000Z"
+updated_at: "2026-10-01T00:00:00.000Z"
