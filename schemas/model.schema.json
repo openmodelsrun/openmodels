@@ -108,6 +108,103 @@
       "pattern": "^[a-z]{2}$",
       "minLength": 2,
       "maxLength": 2
+    },
+    "benchmarks": {
+      "type": "array",
+      "description": "Published benchmark results for the model. Scores are copied from the cited source; do not add estimates.",
+      "maxItems": 50,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "benchmark",
+          "name",
+          "score",
+          "reported_by",
+          "source_name",
+          "source_url"
+        ],
+        "properties": {
+          "benchmark": {
+            "type": "string",
+            "description": "Benchmark slug in kebab-case",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+            "maxLength": 128
+          },
+          "name": {
+            "type": "string",
+            "description": "Benchmark display name",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "version": {
+            "type": "string",
+            "description": "Benchmark version, when the benchmark is versioned",
+            "maxLength": 64
+          },
+          "category": {
+            "type": "string",
+            "description": "What the benchmark measures",
+            "enum": [
+              "coding",
+              "agentic",
+              "reasoning",
+              "knowledge",
+              "math",
+              "multimodal",
+              "security",
+              "general"
+            ]
+          },
+          "score": {
+            "type": "number",
+            "description": "Reported score"
+          },
+          "unit": {
+            "type": "string",
+            "description": "Score unit, for example % or points",
+            "maxLength": 64
+          },
+          "higher_is_better": {
+            "type": "boolean",
+            "description": "Whether a higher score is better (default true)"
+          },
+          "reported_by": {
+            "type": "string",
+            "description": "vendor = reported by the model developer; independent = third-party evaluation",
+            "enum": [
+              "vendor",
+              "independent"
+            ]
+          },
+          "source_name": {
+            "type": "string",
+            "description": "Publisher of the result",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "source_url": {
+            "type": "string",
+            "description": "URL where the score is published",
+            "format": "uri"
+          },
+          "published_at": {
+            "type": "string",
+            "description": "Publication date (YYYY-MM-DD)",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          },
+          "benchmark_url": {
+            "type": "string",
+            "description": "Official benchmark page",
+            "format": "uri"
+          },
+          "notes": {
+            "type": "string",
+            "description": "Evaluation settings or caveats",
+            "maxLength": 500
+          }
+        }
+      }
     }
   }
 }

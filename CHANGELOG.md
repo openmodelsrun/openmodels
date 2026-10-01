@@ -5,6 +5,16 @@ All notable changes to the OpenModels Registry will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.15.0] - 2026-10-01
+
+### Added
+- **Benchmarks field** — model files accept an optional `benchmarks` list. Each entry names the benchmark, score, unit, who reported it (`vendor` or `independent`) and the source URL. Scores are copied from the cited source; estimates are not accepted.
+- **Benchmark results for 17 models** (47 results):
+  - Anthropic's published table for Claude Opus 5.5, Claude Fable 5.1 and Claude Opus 5 (Terminal-Bench 4.0, FrontierCode 1.1, CursorBench 4.0, GDPval-AA 2.1, AutomationBench, Humanity's Last Exam, Terminal-Bench-Science 0.1, OSWorld 2.1, Chartography).
+  - Google-reported results for Gemini 4 Argon (DeepSWE 1.1, AutomationBench, LVBench, CWE-bench).
+  - Poolside-reported Terminal-Bench 2.1 for Laguna S 2.1.
+  - Artificial Analysis Intelligence Index (independent) for 16 models, as listed on 2026-10-01.
+
 ## [1.14.0] - 2026-10-01
 
 ### Added

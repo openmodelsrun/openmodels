@@ -18,5 +18,57 @@ modalities:
 context_window: 1000000
 licensing: proprietary
 country: us
+benchmarks:
+  - benchmark: deepswe
+    name: "DeepSWE"
+    version: "1.1"
+    category: coding
+    score: 77.9
+    unit: "%"
+    reported_by: vendor
+    source_name: "Google (via Help Net Security)"
+    source_url: https://www.helpnetsecurity.com/2026/10/01/google-gemini-4-argon/
+    published_at: "2026-10-01"
+    notes: "Google-reported"
+  - benchmark: automationbench
+    name: "AutomationBench"
+    category: agentic
+    score: 51.3
+    unit: "%"
+    reported_by: vendor
+    source_name: "Google (via Help Net Security)"
+    source_url: https://www.helpnetsecurity.com/2026/10/01/google-gemini-4-argon/
+    published_at: "2026-10-01"
+    notes: "Google-reported"
+  - benchmark: lvbench
+    name: "LVBench"
+    category: multimodal
+    score: 91.7
+    unit: "%"
+    reported_by: vendor
+    source_name: "Google (via Help Net Security)"
+    source_url: https://www.helpnetsecurity.com/2026/10/01/google-gemini-4-argon/
+    published_at: "2026-10-01"
+    notes: "Google-reported, long-video test"
+  - benchmark: cwe-bench
+    name: "CWE-bench"
+    version: "1"
+    category: security
+    score: 68
+    unit: "%"
+    reported_by: vendor
+    source_name: "Google (via Help Net Security)"
+    source_url: https://www.helpnetsecurity.com/2026/10/01/google-gemini-4-argon/
+    published_at: "2026-10-01"
+    notes: "Google-reported, vulnerability fixing"
+  - benchmark: aa-intelligence-index
+    name: "Artificial Analysis Intelligence Index"
+    category: general
+    score: 53
+    unit: "points"
+    reported_by: independent
+    source_name: "Artificial Analysis"
+    source_url: https://artificialanalysis.ai/leaderboards/models
+    notes: "high effort, as listed on 2026-10-01"
 created_at: "2026-10-01T00:00:00.000Z"
 updated_at: "2026-10-01T00:00:00.000Z"

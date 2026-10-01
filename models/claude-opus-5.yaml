@@ -15,5 +15,102 @@ modalities:
 context_window: 300000
 licensing: proprietary
 country: us
+benchmarks:
+  - benchmark: terminal-bench
+    name: "Terminal-Bench"
+    version: "4.0"
+    category: coding
+    score: 52.3
+    unit: "%"
+    reported_by: vendor
+    source_name: "Anthropic"
+    source_url: https://www.anthropic.com/claude-opus-5-5
+    published_at: "2026-09-22"
+    notes: "as reported in Anthropic's Claude Opus 5.5 announcement"
+  - benchmark: frontiercode
+    name: "FrontierCode Main"
+    version: "1.1"
+    category: coding
+    score: 48.0
+    unit: "%"
+    reported_by: vendor
+    source_name: "Anthropic"
+    source_url: https://www.anthropic.com/claude-opus-5-5
+    published_at: "2026-09-22"
+    notes: "as reported in Anthropic's Claude Opus 5.5 announcement"
+  - benchmark: cursorbench
+    name: "CursorBench"
+    version: "4.0"
+    category: coding
+    score: 46.6
+    unit: "%"
+    reported_by: vendor
+    source_name: "Anthropic"
+    source_url: https://www.anthropic.com/claude-opus-5-5
+    published_at: "2026-09-22"
+    notes: "as reported in Anthropic's Claude Opus 5.5 announcement"
+  - benchmark: gdpval-aa
+    name: "GDPval-AA"
+    version: "2.1"
+    category: knowledge
+    score: 1708
+    unit: "points"
+    reported_by: vendor
+    source_name: "Anthropic"
+    source_url: https://www.anthropic.com/claude-opus-5-5
+    published_at: "2026-09-22"
+    notes: "as reported in Anthropic's Claude Opus 5.5 announcement"
+  - benchmark: automationbench
+    name: "AutomationBench"
+    category: agentic
+    score: 26.9
+    unit: "%"
+    reported_by: vendor
+    source_name: "Anthropic"
+    source_url: https://www.anthropic.com/claude-opus-5-5
+    published_at: "2026-09-22"
+    notes: "as reported in Anthropic's Claude Opus 5.5 announcement"
+  - benchmark: humanitys-last-exam
+    name: "Humanity's Last Exam"
+    category: reasoning
+    score: 63.6
+    unit: "%"
+    reported_by: vendor
+    source_name: "Anthropic"
+    source_url: https://www.anthropic.com/claude-opus-5-5
+    published_at: "2026-09-22"
+    notes: "with tools; as reported in Anthropic's Claude Opus 5.5 announcement"
+  - benchmark: terminal-bench-science
+    name: "Terminal-Bench-Science"
+    version: "0.1"
+    category: agentic
+    score: 29.0
+    unit: "%"
+    reported_by: vendor
+    source_name: "Anthropic"
+    source_url: https://www.anthropic.com/claude-opus-5-5
+    published_at: "2026-09-22"
+    notes: "as reported in Anthropic's Claude Opus 5.5 announcement"
+  - benchmark: osworld
+    name: "OSWorld"
+    version: "2.1"
+    category: agentic
+    score: 74.0
+    unit: "%"
+    reported_by: vendor
+    source_name: "Anthropic"
+    source_url: https://www.anthropic.com/claude-opus-5-5
+    published_at: "2026-09-22"
+    notes: "partial credit; as reported in Anthropic's Claude Opus 5.5 announcement"
+  - benchmark: chartography
+    name: "Chartography"
+    category: multimodal
+    score: 83.4
+    unit: "%"
+    reported_by: vendor
+    source_name: "Anthropic"
+    source_url: https://www.anthropic.com/claude-opus-5-5
+    published_at: "2026-09-22"
+    notes: "with tools; as reported in Anthropic's Claude Opus 5.5 announcement"
 created_at: "2026-07-21T00:00:00.000Z"
-updated_at: "2026-07-21T00:00:00.000Z"
+updated_at: "2026-10-01T00:00:00.000Z"

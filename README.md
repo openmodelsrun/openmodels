@@ -129,6 +129,25 @@ updated_at: "2025-01-01T00:00:00.000Z"
 
 **Required fields:** id, name, description, capabilities, modalities, context_window, licensing, created_at, updated_at
 
+#### Benchmark results (optional)
+
+A model file may list published benchmark scores. Copy the score from the cited source and say who reported it; do not add estimates.
+
+```yaml
+benchmarks:
+  - benchmark: terminal-bench    # Slug (kebab-case)
+    name: "Terminal-Bench"
+    version: "4.0"               # Optional
+    category: coding             # coding, agentic, reasoning, knowledge, math, multimodal, security, general
+    score: 66.4
+    unit: "%"
+    reported_by: vendor          # vendor or independent
+    source_name: "Anthropic"
+    source_url: https://www.anthropic.com/claude-opus-5-5
+    published_at: "2026-09-22"   # Optional
+    notes: "max effort"          # Optional evaluation settings
+```
+
 ### Adding a Provider
 
 Create a new file at `providers/{provider-id}.yaml`:

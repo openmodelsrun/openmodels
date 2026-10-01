@@ -15,5 +15,15 @@ modalities:
 context_window: 1000000
 licensing: proprietary
 country: us
+benchmarks:
+  - benchmark: aa-intelligence-index
+    name: "Artificial Analysis Intelligence Index"
+    category: general
+    score: 56
+    unit: "points"
+    reported_by: independent
+    source_name: "Artificial Analysis"
+    source_url: https://artificialanalysis.ai/leaderboards/models
+    notes: "max effort with fallback, as listed on 2026-10-01"
 created_at: "2026-09-28T00:00:00.000Z"
 updated_at: "2026-10-01T00:00:00.000Z"
