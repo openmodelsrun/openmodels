@@ -1,0 +1,22 @@
+id: gemini-4-argon
+name: Gemini 4 Argon
+description: Google's top-tier model anchoring the Gemini 4 generation, larger than the previous Pro line and built for complex workloads, coding, and cybersecurity. Can locate, validate, and patch critical software vulnerabilities autonomously and raises the output limit to 1M tokens. At launch, access is limited to selected cybersecurity organizations through Google's Fairwind Program, with paid API customers and Google AI Ultra subscribers to follow; no public availability date has been announced.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - audio
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - audio
+  - video
+  - code
+context_window: 1000000
+licensing: proprietary
+country: us
+created_at: "2026-10-01T00:00:00.000Z"
+updated_at: "2026-10-01T00:00:00.000Z"

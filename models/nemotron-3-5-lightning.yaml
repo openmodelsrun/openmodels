@@ -1,0 +1,17 @@
+id: nemotron-3-5-lightning
+name: Nemotron 3.5 Lightning
+description: NVIDIA's open mixture-of-experts model with 3B active parameters out of 30B total, suited for high-throughput agentic workloads and specialized tasks. Supports reasoning and tool use with a 262K-token context window.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - code
+context_window: 262144
+licensing: other
+country: us
+created_at: "2026-08-11T00:00:00.000Z"
+updated_at: "2026-10-01T00:00:00.000Z"

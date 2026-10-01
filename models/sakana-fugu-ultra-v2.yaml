@@ -1,0 +1,19 @@
+id: sakana-fugu-ultra-v2
+name: Sakana Fugu Ultra v2
+description: The higher-performance model in Sakana AI's Fugu family. Rather than a single monolithic model, Fugu is a learned multi-agent orchestration system, a language model trained to route and coordinate work across a pool of models. Supports image and file input, reasoning, tool use, and a 1M-token context window.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - code
+context_window: 1000000
+licensing: proprietary
+country: jp
+created_at: "2026-09-11T00:00:00.000Z"
+updated_at: "2026-10-01T00:00:00.000Z"

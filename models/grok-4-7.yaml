@@ -1,0 +1,19 @@
+id: grok-4-7
+name: Grok 4.7
+description: xAI's flagship model for coding, agentic tasks, and knowledge work, succeeding Grok 4.6. Particularly strong at long-running software engineering tasks and verifying its own work, with image and file input, reasoning, tool use, a 500K-token context window, and an OpenAI-compatible API.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - code
+context_window: 500000
+licensing: proprietary
+country: us
+created_at: "2026-09-21T00:00:00.000Z"
+updated_at: "2026-10-01T00:00:00.000Z"

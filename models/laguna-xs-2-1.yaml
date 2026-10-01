@@ -1,0 +1,17 @@
+id: laguna-xs-2-1
+name: Laguna XS 2.1
+description: Poolside's open-weight coding agent model in the 33B-A3B class and a step forward from Laguna XS.2. Built for efficient agentic software engineering with reasoning, tool use, and a 262K-token context window.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - code
+context_window: 262144
+licensing: other
+country: us
+created_at: "2026-07-02T00:00:00.000Z"
+updated_at: "2026-10-01T00:00:00.000Z"

@@ -1,0 +1,20 @@
+id: qwen3-7-flash
+name: Qwen 3.7 Flash
+description: Alibaba's low-cost vision-language reasoning model, suited for multimodal agents, visual coding, search, and computer interaction, with strengths in object recognition and spatial understanding. Accepts text, image, and video input with a 1M-token context window.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - video
+  - code
+context_window: 1000000
+licensing: proprietary
+country: cn
+created_at: "2026-07-28T00:00:00.000Z"
+updated_at: "2026-10-01T00:00:00.000Z"

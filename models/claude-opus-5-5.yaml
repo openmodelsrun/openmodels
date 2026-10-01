@@ -1,0 +1,19 @@
+id: claude-opus-5-5
+name: Claude Opus 5.5
+description: Anthropic's Opus-class model for long-running agentic coding and knowledge work, succeeding Claude Opus 5 at a lower price. Particularly strong at multi-step changes in large codebases and sustained autonomous tasks, with always-on adaptive thinking steered by an effort parameter, a 1M-token context window, and up to 128K output tokens. Anthropic's recommended starting point for most workloads.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - code
+context_window: 1000000
+licensing: proprietary
+country: us
+created_at: "2026-09-22T00:00:00.000Z"
+updated_at: "2026-10-01T00:00:00.000Z"

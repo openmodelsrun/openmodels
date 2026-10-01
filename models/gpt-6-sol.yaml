@@ -1,0 +1,19 @@
+id: gpt-6-sol
+name: GPT-6 Sol
+description: The cost-efficient high-end model in OpenAI's GPT-6 series, positioned below the flagship GPT-6 Astra and above the fast GPT-6 Luna tier. Suited for demanding professional work, agentic coding, and document-heavy tasks, with multimodal input, function calling, reasoning effort controls, a 1.05M-token context window, and up to 128K output tokens.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - code
+context_window: 1050000
+licensing: proprietary
+country: us
+created_at: "2026-09-22T00:00:00.000Z"
+updated_at: "2026-10-01T00:00:00.000Z"

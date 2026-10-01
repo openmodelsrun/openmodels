@@ -5,6 +5,19 @@ All notable changes to the OpenModels Registry will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.13.0] - 2026-10-01
+
+### Added
+- **Claude Opus 5.5 and Claude Sonnet 5.5** — Anthropic's current Opus and Sonnet models with 1M context and 128K max output. Added canonical models plus direct Anthropic mappings at $4 / $20 and $2 / $10 per 1M input/output tokens, with cache pricing.
+- **GPT-6 Sol, GPT-6.1 Sol, and GPT-6 Luna** — the rest of OpenAI's GPT-6 series below GPT-6 Astra, each with 1,050,000-token context. Added direct OpenAI mappings at $2 / $10 (Sol and 6.1 Sol) and $0.10 / $0.50 (Luna), with cache pricing.
+- **Gemini 4 Argon** — Google's top-tier Gemini 4 model, announced October 1 with access limited to selected cybersecurity organizations. Added the canonical model only: no public API model ID or general availability yet, and the input context window is recorded as 1M pending official documentation.
+- **Gemini 3.8 Flash** — Google's most intelligent Flash model. Added Google (Vertex AI) and Google AI Studio mappings at $0.75 / $3.75.
+- **Grok 4.7** — xAI's flagship successor to Grok 4.6. Added xAI and OpenRouter mappings at $2 / $6.
+- **DeepSeek V4.1 Flash**, **Muse Spark 1.2**, **Muse Spark 1.3**, **Muse Glimmer 30B**, **MiMo-V2.6-Pro**, **MiMo-V2.6-Flash**, **GLM-5.3-Prime**, **GLM-5.3-FlashX**, **Qwen 3.8 Max Prime**, **Qwen 3.8 Omni Flash**, **Qwen 3.7 Flash**, **Sakana Fugu Ultra v2**, **Sakana Fugu Max**, **Sakana Namazu**, **Solar Pro 4**, **Solar Mini 4**, **Nemotron 3.5 Lightning**, **Inkling Small**, **Laguna S 2.1**, and **Laguna XS 2.1** — added canonical models with OpenRouter mappings at the publicly listed per-token and cache-read pricing. Open-weight entries use `licensing: other` until the exact license is confirmed.
+
+### Changed
+- Total coverage: 179 models · 52 providers · 254 mappings.
+
 ## [1.12.0] - 2026-09-04
 
 ### Added

@@ -1,0 +1,17 @@
+id: laguna-s-2-1
+name: Laguna S 2.1
+description: Poolside's open-weight coding agent model with 118B total and 8B active parameters, scoring 70.2% on Terminal-Bench 2.1. Built for agentic software engineering with reasoning, tool use, and a 1M-token context window.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - code
+context_window: 1048576
+licensing: other
+country: us
+created_at: "2026-07-21T00:00:00.000Z"
+updated_at: "2026-10-01T00:00:00.000Z"

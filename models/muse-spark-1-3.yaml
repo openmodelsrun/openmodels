@@ -1,0 +1,20 @@
+id: muse-spark-1-3
+name: Muse Spark 1.3
+description: Meta's multimodal reasoning model for long-running agentic, multi-agent, and coding workflows. Designed to keep track of information across extended tasks, it accepts text, images, video, and documents and offers a 1M-token context window with tool use.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - video
+  - code
+context_window: 1048576
+licensing: proprietary
+country: us
+created_at: "2026-09-03T00:00:00.000Z"
+updated_at: "2026-10-01T00:00:00.000Z"
