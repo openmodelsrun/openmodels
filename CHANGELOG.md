@@ -5,6 +5,19 @@ All notable changes to the OpenModels Registry will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.20.0] - 2026-10-21
+
+### Added
+- **Synap by Linkrra** and three provider mappings from [community PR #9](https://github.com/openmodelsrun/openmodels/pull/9): GPT-OSS 20B ($0.017 / $0.085 per million input/output tokens, 32,768 context), Gemma 4 26B A4B ($0.04 / $0.21, 131,072 context), and Qwen3 Coder 30B A3B ($0.0675 / $0.27, 32,768 context). Prices and served limits were checked against the [public provider feed](https://pool.linkrra.com/v1/models) on October 21. Plan-specific rate limits remain null.
+- **Qwen3 Coder 30B A3B Instruct** as a distinct canonical model: 30.5B total / 3.3B active parameters, Apache 2.0, native 262,144-token context extendable to 1M with YaRN. The Linkrra mapping preserves its smaller served limit. [Qwen model card](https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct).
+
+### Fixed
+- Corrected the existing **Gemma 4 26B** description from dense to **26B A4B MoE**, with 25.2B total and 3.8B active parameters. Its canonical text/image capabilities are distinct from Linkrra's text-only deployment. [Google model card](https://huggingface.co/google/gemma-4-26B-A4B-it).
+
+### Changed
+- Documented Linkrra-reported MXFP4 / AWQ 4-bit weights, Gemma's text-only input, the current outage forwarding caveat, and the provider's [data handling policy](https://synap.linkrra.com/privacy). Listing does not certify zero retention or exclusively local request handling. Brokered models and router aliases remain excluded.
+- Total coverage: **218 models, 53 providers, 297 mappings**, excluding the hidden pricing example.
+
 ## [1.19.0] - 2026-10-20
 
 ### Added

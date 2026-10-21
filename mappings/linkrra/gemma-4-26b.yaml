@@ -1,3 +1,7 @@
+# Source: https://pool.linkrra.com/v1/models (checked 2026-10-21).
+# Linkrra reports AWQ 4-bit weights and text input only for this deployment.
+# The feed advertises tools, json_schema and tool_choice none/auto, not required.
+# These prices apply to Linkrra nodes while available; see the provider's routing caveat.
 model_id: gemma-4-26b
 provider_id: linkrra
 provider_model_name: gemma-4-26b-a4b-it

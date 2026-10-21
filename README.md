@@ -2,7 +2,7 @@
 
 The open-source registry of LLM models, inference providers, and provider-model mappings. Community-maintained, schema-validated, and machine-readable.
 
-**Current stats:** 217 models · 52 providers · 294 mappings
+**Current stats:** 218 models · 53 providers · 297 mappings
 
 ## Overview
 
@@ -19,7 +19,7 @@ OpenModels is a structured, version-controlled registry that serves as the singl
 | DeepSeek | DeepSeek V4.1 Flash 1017, DeepSeek V4 Flash Vision Exp, DeepSeek V4 Pro, DeepSeek V4 Flash, DeepSeek V4, DeepSeek R1, DeepSeek V3 |
 | Meta | Muse Spark 1.3, Muse Spark 1.2, Muse Glimmer 30B, Muse Spark 1.1, Muse Spark, Llama 4 Scout, Llama 4 Maverick, Llama 3.3 70B, Llama 3.2 (3B/11B/90B), Llama 3.1 8B |
 | Mistral | Mistral Large 4, Mistral Small 4, Mistral Medium 3.5, Mistral Large 3, Devstral 2, Mistral Small 3.1, Codestral |
-| Alibaba | Qwen 3.8 Max Prime, Qwen 3.8 Omni Flash, Qwen 3.8 Flash, Qwen3.8-Flash-Next, Qwen 3.8 Max, Qwen 3.8 2.4T-A95B, Qwen 3.8 27B, Qwen Flash Character, Qwen 3.7 Flash, Qwen 3.7 Plus, Qwen 3.7 Max, Qwen 3.6 (27B, 35B-A3B, Plus), Qwen 3.6, Qwen3 Coder, Qwen3 235B, Qwen3 32B, QwQ-32B |
+| Alibaba | Qwen 3.8 Max Prime, Qwen 3.8 Omni Flash, Qwen 3.8 Flash, Qwen3.8-Flash-Next, Qwen 3.8 Max, Qwen 3.8 2.4T-A95B, Qwen 3.8 27B, Qwen Flash Character, Qwen 3.7 Flash, Qwen 3.7 Plus, Qwen 3.7 Max, Qwen 3.6 (27B, 35B-A3B, Plus), Qwen 3.6, Qwen3 Coder, Qwen3 Coder 30B A3B Instruct, Qwen3 235B, Qwen3 32B, QwQ-32B |
 | Moonshot | Kimi K3, Kimi K2.7 Code, Kimi K2.6 |
 | Cohere | Command A+, Command A, Command R7B |
 | Cohere For AI | Tiny Aya, Aya Expanse 32B |
@@ -74,7 +74,7 @@ OpenModels is a structured, version-controlled registry that serves as the singl
 
 ### Providers
 
-01.AI · AI21 Labs · Alibaba Model Studio · Amazon Bedrock · Anthropic · Anyscale · Azure AI · Baseten · Cerebras · Cloudflare Workers AI · Cohere · Deep Infra · DeepSeek · Featherless · Fireworks · Google AI Studio · Google (Vertex AI) · Groq · Hugging Face Inference · Hyperbolic · IBM watsonx.ai · InclusionAI · Inference.net · Lambda · Meta · MiniMax · Mistral · Modal · Moonshot · Nebius · NLP Cloud · Novita · NVIDIA NIM · OpenAI · OpenRouter · Perplexity · Reka AI · Replicate · Sakana AI · SambaNova · Sarvam AI · Sber · Scaleway · SiliconFlow · Snowflake Cortex AI · Tinker · Together AI · Upstage · xAI · Xiaomi MiMo · Yandex Cloud · Zhipu AI
+01.AI · AI21 Labs · Alibaba Model Studio · Amazon Bedrock · Anthropic · Anyscale · Azure AI · Baseten · Cerebras · Cloudflare Workers AI · Cohere · Deep Infra · DeepSeek · Featherless · Fireworks · Google AI Studio · Google (Vertex AI) · Groq · Hugging Face Inference · Hyperbolic · IBM watsonx.ai · InclusionAI · Inference.net · Lambda · Meta · MiniMax · Mistral · Modal · Moonshot · Nebius · NLP Cloud · Novita · NVIDIA NIM · OpenAI · OpenRouter · Perplexity · Reka AI · Replicate · Sakana AI · SambaNova · Sarvam AI · Sber · Scaleway · SiliconFlow · Snowflake Cortex AI · Synap by Linkrra · Tinker · Together AI · Upstage · xAI · Xiaomi MiMo · Yandex Cloud · Zhipu AI
 
 ## Structure
 

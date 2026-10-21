@@ -1,3 +1,5 @@
+# Source: https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct.
+# The canonical maximum includes YaRN; deployment context limits are recorded in mappings.
 id: qwen3-coder-30b-a3b
 name: Qwen3 Coder 30B A3B Instruct
 description: Alibaba's Qwen3-Coder-30B-A3B-Instruct, a mixture-of-experts coding model with 30.5B total and 3.3B activated parameters. Built for agentic coding and tool use, with native 262,144-token context extendable to 1M tokens with YaRN.
