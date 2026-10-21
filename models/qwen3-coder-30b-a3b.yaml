@@ -1,0 +1,16 @@
+id: qwen3-coder-30b-a3b
+name: Qwen3 Coder 30B A3B Instruct
+description: Alibaba's Qwen3-Coder-30B-A3B-Instruct, a mixture-of-experts coding model with 30.5B total and 3.3B activated parameters. Built for agentic coding and tool use, with native 262,144-token context extendable to 1M tokens with YaRN.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+modalities:
+  - text
+  - code
+context_window: 1000000
+licensing: apache-2.0
+country: cn
+created_at: "2026-10-21T00:00:00.000Z"
+updated_at: "2026-10-21T00:00:00.000Z"

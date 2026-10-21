@@ -1,0 +1,10 @@
+id: linkrra
+name: Synap by Linkrra
+description: OpenAI-compatible inference API for open-weight models, served on GPUs operated by Linkrra. Streaming, tool calling and structured outputs. Pay-as-you-go credits or monthly plans; per-model prices are published in a public, unauthenticated /v1/models feed.
+api_base_url: https://pool.linkrra.com/v1
+auth_type: bearer
+regions:
+  - global
+compatibility: openai
+created_at: "2026-10-21T00:00:00.000Z"
+updated_at: "2026-10-21T00:00:00.000Z"

@@ -1,0 +1,15 @@
+model_id: qwen3-coder-30b-a3b
+provider_id: linkrra
+provider_model_name: qwen3-coder-30b
+pricing:
+  input_per_million: 0.0675
+  output_per_million: 0.27
+  currency: USD
+rate_limits:
+  requests_per_minute: null
+  tokens_per_minute: null
+context_window_override: 32768
+available_regions:
+  - global
+created_at: "2026-10-21T00:00:00.000Z"
+updated_at: "2026-10-21T00:00:00.000Z"
