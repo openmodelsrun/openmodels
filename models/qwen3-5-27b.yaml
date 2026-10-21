@@ -1,0 +1,20 @@
+id: qwen3-5-27b
+name: Qwen 3.5 27B
+description: Alibaba's mid-size 27 billion parameter multimodal model from the Qwen3.5 family. Shares the hybrid architecture of its 9B sibling, combining Gated Delta Networks and Gated Attention for a 262K native context window, with text, image, and video understanding and coverage of 201 languages. Trades throughput for stronger reasoning, agentic tool use, and coding performance. Released under Apache 2.0.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - video
+  - code
+context_window: 262144
+licensing: apache-2.0
+country: cn
+created_at: "2026-09-08T00:00:00.000Z"
+updated_at: "2026-09-08T00:00:00.000Z"
