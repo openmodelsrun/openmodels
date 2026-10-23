@@ -1,9 +1,10 @@
 # Source: https://vercel.com/changelog/ling-3-1-flash-is-now-available-on-ai-gateway
 # Source: https://openrouter.ai/inclusionai/ling-3.1-flash
-# Hosted release; no open-weight license was published in the checked sources.
+# Source: https://huggingface.co/inclusionAI/Ling-3.1-flash (checked 2026-10-23).
+# The model card advertises 1M; the released config and checked providers use 262144.
 id: "ling-3-1-flash"
 name: "Ling 3.1 Flash"
-description: "InclusionAI's hybrid reasoning mixture-of-experts model with 560B total and 25B active parameters, built for coding, tool use, and long-document analysis. The currently served context window is 262,144 tokens."
+description: "InclusionAI's hybrid reasoning mixture-of-experts model with 560B total and 25B active parameters, built for coding, tool use and long-document analysis. Public weights are now available under MIT. The official model card advertises a 1M-token context; the released configuration and checked OpenRouter and Novita deployments currently expose 262,144 tokens."
 capabilities:
   - chat
   - completion
@@ -13,8 +14,8 @@ capabilities:
 modalities:
   - text
   - code
-context_window: 262144
-licensing: "other"
+context_window: 1000000
+licensing: "mit"
 country: "cn"
 created_at: "2026-09-30T00:00:00.000Z"
-updated_at: "2026-10-06T00:00:00.000Z"
+updated_at: "2026-10-23T00:00:00.000Z"

@@ -1,17 +1,18 @@
 # Source: https://openrouter.ai/api/v1/models
-# Zero-priced endpoint as of 2026-10-06; promotional availability may change. Limits are account-specific.
+# Checked 2026-10-23: the earlier free offer has ended. Rates are USD per million tokens.
 model_id: "ling-3-1-flash"
 provider_id: "openrouter"
 provider_model_name: "inclusionai/ling-3.1-flash"
 pricing:
-  input_per_million: 0
-  output_per_million: 0
+  input_per_million: 0.075
+  output_per_million: 0.225
+  cache_read_per_million: 0.015
   currency: "USD"
-context_window_override: null
+context_window_override: 262144
 available_regions:
   - us-east-1
 rate_limits:
   requests_per_minute: null
   tokens_per_minute: null
 created_at: "2026-10-02T00:00:00.000Z"
-updated_at: "2026-10-06T00:00:00.000Z"
+updated_at: "2026-10-23T00:00:00.000Z"

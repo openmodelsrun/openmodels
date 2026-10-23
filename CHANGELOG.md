@@ -5,6 +5,20 @@ All notable changes to the OpenModels Registry will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.21.0] - 2026-10-23
+
+### Added
+- **Kimi K3.1 Pro** with the documented Moonshot API identifier `kimi-k3.1-pro`, text/image/video input, tool use, reasoning and a 1,048,576-token context. Standard rates are **$2 input / $10 output / $0.20 cached input** per million tokens. Default five-minute cache writes cost $2; the separately documented one-hour tier is $4. Highspeed uses a distinct $4 / $20 endpoint and is not substituted for the standard mapping. Weights are announced for November 4; their exact license remains unpublished (`other`). [Moonshot guide](https://platform.kimi.ai/docs/guide/kimi-k3-1-pro-quickstart), [pricing](https://platform.kimi.ai/docs/pricing/chat).
+- **Recursive Flint**, an Apache 2.0 coding and reasoning MoE with 39.8B total / approximately 2.5B active parameters. Its current checkpoint and OpenRouter deployment configure 262,144 tokens; the developer's larger 512K claim is documented separately. Added the currently free `recursive/flint-v1.0:free` connection. [Model card](https://huggingface.co/RecursiveSI/flint), [developer announcement](https://recursive.com/updates/introducing-recursive-flint), [OpenRouter feed](https://openrouter.ai/api/v1/models).
+- **Ling 3.0 Flash Sante**, the healthcare-focused 124B / 5.1B-active MoE with MIT weights and 262,144-token context. Preserved its September 4 hosted-release date; the later weight publication is not a new API launch. Added Novita at $0.075 input / $0.22 output / $0.015 cached input. [Model card](https://huggingface.co/inclusionAI/Ling-3.0-flash-Sante), [original hosted announcement](https://vercel.com/changelog/ling-3-0-flash-sante-is-now-available-on-ai-gateway-for-free), [Novita feed](https://api.novita.ai/v3/openai/models).
+- **Tencent WeVisOne-VL 2B and 4B**, Apache 2.0 vision-language checkpoints for detection, OCR, grounding, segmentation and matting. The 262,144-token field describes their text-backbone configuration. No hosted mappings or token prices are invented for these self-hosted releases. [Tencent repository](https://github.com/Tencent/WeVisOne-VL).
+- Four new mappings in total: Kimi on Moonshot, Flint on OpenRouter, and both Ling models on Novita. Unknown or account-specific limits remain null.
+
+### Changed
+- Updated the existing **Ling 3.1 Flash** record to reflect its published MIT weights and advertised 1M context. Its released configuration and checked hosted limits remain 262,144 and are preserved in provider overrides. The OpenRouter promotional zero price is replaced with the current **$0.075 / $0.225 / $0.015** input/output/cache-read rates. Novita is separately priced at **$0.30 / $0.90 / $0.06**. [Official card](https://huggingface.co/inclusionAI/Ling-3.1-flash).
+- No distinct Ling 3.1 Flash **1019** record is created: the checked official model card and provider feeds do not identify a separately addressable checkpoint. Existing Ling URLs are preserved.
+- Total coverage: **223 models, 53 providers, 301 mappings**, excluding the hidden pricing example.
+
 ## [1.20.0] - 2026-10-21
 
 ### Added

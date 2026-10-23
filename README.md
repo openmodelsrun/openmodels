@@ -2,7 +2,7 @@
 
 The open-source registry of LLM models, inference providers, and provider-model mappings. Community-maintained, schema-validated, and machine-readable.
 
-**Current stats:** 218 models · 53 providers · 297 mappings
+**Current stats:** 223 models · 53 providers · 301 mappings
 
 ## Overview
 
@@ -20,7 +20,7 @@ OpenModels is a structured, version-controlled registry that serves as the singl
 | Meta | Muse Spark 1.3, Muse Spark 1.2, Muse Glimmer 30B, Muse Spark 1.1, Muse Spark, Llama 4 Scout, Llama 4 Maverick, Llama 3.3 70B, Llama 3.2 (3B/11B/90B), Llama 3.1 8B |
 | Mistral | Mistral Large 4, Mistral Small 4, Mistral Medium 3.5, Mistral Large 3, Devstral 2, Mistral Small 3.1, Codestral |
 | Alibaba | Qwen 3.8 Max Prime, Qwen 3.8 Omni Flash, Qwen 3.8 Flash, Qwen3.8-Flash-Next, Qwen 3.8 Max, Qwen 3.8 2.4T-A95B, Qwen 3.8 27B, Qwen Flash Character, Qwen 3.7 Flash, Qwen 3.7 Plus, Qwen 3.7 Max, Qwen 3.6 (27B, 35B-A3B, Plus), Qwen 3.6, Qwen3 Coder, Qwen3 Coder 30B A3B Instruct, Qwen3 235B, Qwen3 32B, QwQ-32B |
-| Moonshot | Kimi K3, Kimi K2.7 Code, Kimi K2.6 |
+| Moonshot | Kimi K3.1 Pro, Kimi K3, Kimi K2.7 Code, Kimi K2.6 |
 | Cohere | Command A+, Command A, Command R7B |
 | Cohere For AI | Tiny Aya, Aya Expanse 32B |
 | Zhipu | GLM-5.3-Prime, GLM-5.3-FlashX, GLM-5.3-Flash, GLM-5.3, GLM-5.2, GLM-5.1, GLM-4.7 |
@@ -40,7 +40,8 @@ OpenModels is a structured, version-controlled registry that serves as the singl
 | IBM | Granite 4.2 30B, Granite 4.2 8B, Granite 4.2 3B, Granite Speech 5.0 TurboCTC, Granite 4.1 30B, Granite 4.1 8B |
 | Xiaomi | MiMo-V2.6-Pro, MiMo-V2.6-Flash, MiMo-V2.5-Pro |
 | MTS AI | Cotype Nano |
-| Tencent | Hy4 Preview, Hy3, Hy3 Preview, Hy-MT2 (1.8B/7B/30B-A3B) |
+| Tencent | WeVisOne-VL 2B, WeVisOne-VL 4B, Hy4 Preview, Hy3, Hy3 Preview, Hy-MT2 (1.8B/7B/30B-A3B) |
+| Recursive | Flint |
 | Poolside | Laguna S 2.1, Laguna XS 2.1, Laguna M.1 |
 | AI21 Labs | Jamba Large 1.7 |
 | TII | Falcon-H1, Falcon 3 10B |
@@ -50,7 +51,7 @@ OpenModels is a structured, version-controlled registry that serves as the singl
 | Snowflake | Arctic |
 | Stability AI | StableLM 2 12B |
 | Uzbek LLM Lab | Alloma 8B Instruct |
-| InclusionAI | Ling 3.1 Flash, Ling 3.0 Flash VL, Ling 3.0 Flash Fin, Ling 3.0 Flash, Ring-2.6-1T |
+| InclusionAI | Ling 3.1 Flash, Ling 3.0 Flash Sante, Ling 3.0 Flash VL, Ling 3.0 Flash Fin, Ling 3.0 Flash, Ring-2.6-1T |
 | Aleph Alpha | Kolibri 1 |
 | ByteDance Seed | Seed 2.1 Turbo, Seed 2.0 Code |
 | Meituan | LongCat 2.0 |

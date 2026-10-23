@@ -1,0 +1,22 @@
+# Source: https://platform.kimi.ai/docs/pricing/chat (checked 2026-10-23).
+# Standard Pro endpoint. Highspeed is separate at $4 input / $20 output / $0.20 cache read.
+# Default 5-minute cache writes cost $2 per million; 1-hour writes cost $4.
+# The single cache_write field records the default 5-minute tier only.
+# API access requires an account top-up; published prices exclude applicable taxes.
+model_id: kimi-k3-1-pro
+provider_id: moonshot
+provider_model_name: kimi-k3.1-pro
+pricing:
+  input_per_million: 2
+  output_per_million: 10
+  cache_read_per_million: 0.2
+  cache_write_per_million: 2
+  currency: USD
+rate_limits:
+  requests_per_minute: null
+  tokens_per_minute: null
+context_window_override: null
+available_regions:
+  - global
+created_at: "2026-10-23T00:00:00.000Z"
+updated_at: "2026-10-23T00:00:00.000Z"

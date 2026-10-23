@@ -1,0 +1,18 @@
+# Sources checked 2026-10-23:
+# https://huggingface.co/tencent/WeVisOne-VL-2B
+# https://huggingface.co/tencent/WeVisOne-VL-2B/raw/main/config.json
+# https://github.com/Tencent/WeVisOne-VL
+# Context is the text backbone configuration, not a measured image-processing capacity.
+id: wevisone-vl-2b
+name: WeVisOne-VL 2B
+description: Tencent WeChat Vision's 2B vision-language model built on Qwen3-VL for object detection, grounding, counting, OCR, segmentation and alpha matting. Released under Apache 2.0 with a required lightweight pixel decoder and a 262,144-token text-backbone configuration. Targets single-turn image perception with structured outputs; the pixel decoder does not support video grids. Available for self-hosting; no verified hosted token price is recorded.
+capabilities:
+  - vision
+modalities:
+  - text
+  - image
+context_window: 262144
+licensing: apache-2.0
+country: cn
+created_at: "2026-10-22T00:00:00.000Z"
+updated_at: "2026-10-23T00:00:00.000Z"
