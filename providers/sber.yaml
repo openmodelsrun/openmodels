@@ -1,10 +1,10 @@
 id: sber
 name: Sber
-description: Russian banking and technology conglomerate providing access to GigaChat family of language models through a dedicated API. Offers models ranging from compact Lightning to flagship Ultra with strong multilingual and reasoning capabilities.
-api_base_url: https://gigachat.devices.sberbank.ru/api/v1
+description: Sber GigaChat API uses OAuth 2.0 access tokens and the https://api.giga.chat/v1 endpoint. The documented API lists GigaChat 2 Lite, Pro and Max, plus GigaChat 3 Ultra for individual Freemium accounts. Open-weight GigaChat 3.1 Lightning and Ultra checkpoints are not confirmed hosted endpoints. Official tariffs are in RUB and depend on account type and plan; no verified USD rates are listed here.
+api_base_url: https://api.giga.chat/v1
 auth_type: oauth2
 regions:
   - ru-central-1
 compatibility: custom
 created_at: "2024-01-01T00:00:00.000Z"
-updated_at: "2026-05-01T00:00:00.000Z"
+updated_at: "2026-10-24T00:00:00.000Z"

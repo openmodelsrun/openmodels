@@ -5,6 +5,13 @@ All notable changes to the OpenModels Registry will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.21.1] - 2026-10-24
+
+### Fixed
+- Updated Sber's API base URL to `https://api.giga.chat/v1` and documented OAuth 2.0, account-specific access and RUB tariffs. [Official API model catalog](https://developers.sber.ru/docs/ru/gigachat/models/main), [API release history](https://developers.sber.ru/docs/ru/gigachat/changelog), [tariffs](https://developers.sber.ru/docs/ru/gigachat/tariffs/legal-tariffs).
+- Removed the unconfirmed `GigaChat-Lightning` and `GigaChat-Ultra` hosted mappings and their unsupported USD prices and RPM/TPM limits. The open-weight GigaChat 3.1 model records remain unchanged. The documented `GigaChat-3-Ultra` endpoint is a different listing available to individual Freemium users, not a justification for a paid 3.1 mapping. [Official Ultra documentation](https://developers.sber.ru/docs/ru/gigachat/models/gigachat-3-ultra).
+- Coverage is now **223 models, 53 providers, 299 mappings**, excluding the hidden pricing example. No RUB-to-USD conversion or unsupported hosted offer is fabricated.
+
 ## [1.21.0] - 2026-10-23
 
 ### Added

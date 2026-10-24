@@ -2,7 +2,9 @@
 
 The open-source registry of LLM models, inference providers, and provider-model mappings. Community-maintained, schema-validated, and machine-readable.
 
-**Current stats:** 223 models · 53 providers · 301 mappings
+**Current stats:** 223 models · 53 providers · 299 mappings
+
+Sber's GigaChat 3.1 open-weight entries are retained as models, but their unverified hosted endpoints and USD rates are no longer listed as provider mappings. Current API access and RUB tariffs are described in the provider record and linked release notes.
 
 ## Overview
 
