@@ -1,0 +1,28 @@
+# Sources checked 2026-10-27:
+# https://developers.openai.com/api/docs/models/gpt-6.1-terra
+# https://developers.openai.com/api/docs/pricing
+# Standard USD prices for prompts up to 272K input tokens; cache writes use 30-minute retention.
+# For the entire request above 272K input tokens: $2 input / $7.50 output / $0.10 cache read,
+# with $2.50 cache writes (30 minutes). Short-context 12-hour cache writes cost $2.50;
+# long-context 12-hour cache writes cost $5. Batch/Flex are 50% below Standard,
+# Fast mode is 2x Standard, and regional processing adds 10% where available.
+# A single schema price tier cannot represent these conditional prices.
+# Tool calling requires the Responses API. RPM/TPM depend on the account's usage tier.
+model_id: gpt-6-1-terra
+provider_id: openai
+provider_model_name: gpt-6.1-terra
+pricing:
+  input_per_million: 1.0
+  output_per_million: 5.0
+  currency: USD
+  cache_write_per_million: 1.25
+  cache_read_per_million: 0.05
+rate_limits:
+  requests_per_minute: null
+  tokens_per_minute: null
+context_window_override: null
+available_regions:
+  - us-east-1
+  - eu-west-1
+created_at: "2026-10-26T00:00:00.000Z"
+updated_at: "2026-10-27T00:00:00.000Z"

@@ -5,6 +5,15 @@ All notable changes to the OpenModels Registry will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+## [1.22.0] - 2026-10-27
+
+### Added
+- **GPT-6.1 Terra**, released October 26, 2026, with text/image input, text output, reasoning, tool use and a 1,050,000-token context. Maximum output is 128,000 tokens; tool calling requires the Responses API. No audio/video, fine-tuning support or benchmark scores are inferred. [Official model documentation](https://developers.openai.com/api/docs/models/gpt-6.1-terra), [release changelog](https://developers.openai.com/api/docs/changelog).
+- Direct OpenAI connection `gpt-6.1-terra` with Standard short-context prices of **$1 input / $5 output / $0.05 cache read / $1.25 cache write** per million tokens. The mapping documents the 272K long-context threshold, 30-minute versus 12-hour cache writes, Batch/Flex discounts, Fast mode and regional premiums. Account-specific RPM/TPM remain null. [Official pricing](https://developers.openai.com/api/docs/pricing).
+- Total coverage: **224 models, 54 providers, 302 mappings**, excluding the hidden pricing example and including the previously merged Raindragon provider and its two connections.
+
 ## [1.21.1] - 2026-10-24
 
 ### Fixed

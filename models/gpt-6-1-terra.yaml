@@ -1,0 +1,30 @@
+# Official sources checked 2026-10-27:
+# https://developers.openai.com/api/docs/models/gpt-6.1-terra
+# https://developers.openai.com/api/docs/changelog (released October 26, 2026)
+id: gpt-6-1-terra
+name: GPT-6.1 Terra
+description: >-
+  OpenAI's efficient GPT-6.1 model for image-based reasoning, screen interaction,
+  writing and focused coding tasks. Accepts text and images and generates text,
+  with a 1,050,000-token context and up to 128,000 output tokens. Reasoning effort
+  ranges from none to max, with medium as the default. Streaming and structured
+  outputs are supported; tool calling requires the Responses API, not Chat
+  Completions. Fine-tuning, audio and video are not supported. Standard prompts
+  above 272K input tokens cost 2x the input/cache rates and 1.5x the output rate
+  for the entire request; Fast mode and regional processing have separate premiums.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - code
+context_window: 1050000
+licensing: proprietary
+country: us
+created_at: "2026-10-26T00:00:00.000Z"
+updated_at: "2026-10-27T00:00:00.000Z"
