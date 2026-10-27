@@ -1,0 +1,15 @@
+model_id: qwen3-5-27b
+provider_id: openinfer
+provider_model_name: "@oi/Qwen3.5-27B"
+pricing:
+  input_per_million: 0.72
+  output_per_million: 0.72
+  currency: USD
+rate_limits:
+  requests_per_minute: 60
+  tokens_per_minute: 100000
+context_window_override: 32768
+available_regions:
+  - global
+created_at: "2026-09-08T00:00:00.000Z"
+updated_at: "2026-09-08T00:00:00.000Z"
