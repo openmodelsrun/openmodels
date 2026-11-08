@@ -1,6 +1,5 @@
 # Source: https://synap402.com/v1/models (checked 2026-11-08).
 # Linkrra reports native MXFP4 weights; tools, tool_choice none/auto/required and json_schema are advertised.
-# Served only on Linkrra nodes; refused (HTTP 503) when none is available.
 model_id: gpt-oss-20b
 provider_id: linkrra
 provider_model_name: gpt-oss-20b

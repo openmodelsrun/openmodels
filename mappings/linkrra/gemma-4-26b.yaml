@@ -1,7 +1,6 @@
 # Source: https://synap402.com/v1/models (checked 2026-11-08).
 # Linkrra reports AWQ 4-bit weights and text input only for this deployment.
 # The feed advertises tools, json_schema and tool_choice none/auto, not required.
-# Served only on Linkrra nodes; refused (HTTP 503) when none is available.
 model_id: gemma-4-26b
 provider_id: linkrra
 provider_model_name: gemma-4-26b-a4b-it

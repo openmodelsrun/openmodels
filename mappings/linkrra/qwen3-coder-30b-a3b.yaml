@@ -1,6 +1,5 @@
 # Source: https://synap402.com/v1/models (checked 2026-11-08).
 # Linkrra reports AWQ 4-bit weights; tools, tool_choice none/auto/required and json_schema are advertised.
-# Served only on Linkrra nodes; refused (HTTP 503) when none is available.
 model_id: qwen3-coder-30b-a3b
 provider_id: linkrra
 provider_model_name: qwen3-coder-30b

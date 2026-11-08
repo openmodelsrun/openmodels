@@ -1,9 +1,6 @@
 # Source: https://synap402.com/v1/models (checked 2026-11-08).
 # Linkrra reports AWQ 4-bit weights; this deployment accepts text and image input (no video).
 # The feed advertises tools and tool_choice none/auto.
-# Served on Linkrra nodes first. When none is available, Linkrra routes the request through
-# OpenRouter to zero-data-retention endpoints with data collection denied. The prices below are the
-# Linkrra node prices; the fallback path is billed at the higher brokered price shown in the feed.
 model_id: qwen3-vl-30b-a3b-instruct
 provider_id: linkrra
 provider_model_name: qwen/qwen3-vl-30b-a3b-instruct

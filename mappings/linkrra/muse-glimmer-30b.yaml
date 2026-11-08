@@ -1,7 +1,6 @@
 # Source: https://synap402.com/v1/models (checked 2026-11-08).
 # Linkrra reports AWQ 4-bit weights and text input only for this deployment (the vision tower is not loaded).
 # The feed advertises tools and tool_choice none/auto.
-# Served only on Linkrra nodes; refused (HTTP 503) when none is available.
 model_id: muse-glimmer-30b
 provider_id: linkrra
 provider_model_name: meta/muse-glimmer-30b
