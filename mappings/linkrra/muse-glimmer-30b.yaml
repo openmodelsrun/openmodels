@@ -1,0 +1,18 @@
+# Source: https://synap402.com/v1/models (checked 2026-11-08).
+# Linkrra reports AWQ 4-bit weights and text input only for this deployment (the vision tower is not loaded).
+# The feed advertises tools and tool_choice none/auto.
+model_id: muse-glimmer-30b
+provider_id: linkrra
+provider_model_name: meta/muse-glimmer-30b
+pricing:
+  input_per_million: 0.28
+  output_per_million: 1.1
+  currency: USD
+rate_limits:
+  requests_per_minute: null
+  tokens_per_minute: null
+context_window_override: 131072
+available_regions:
+  - global
+created_at: "2026-11-08T00:00:00.000Z"
+updated_at: "2026-11-08T00:00:00.000Z"

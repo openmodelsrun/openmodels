@@ -1,6 +1,5 @@
-# Source: https://pool.linkrra.com/v1/models (checked 2026-10-21).
-# Linkrra reports AWQ 4-bit weights; tools and json_schema are advertised.
-# These prices apply to Linkrra nodes while available; see the provider's routing caveat.
+# Source: https://synap402.com/v1/models (checked 2026-11-08).
+# Linkrra reports AWQ 4-bit weights; tools, tool_choice none/auto/required and json_schema are advertised.
 model_id: qwen3-coder-30b-a3b
 provider_id: linkrra
 provider_model_name: qwen3-coder-30b
@@ -11,8 +10,8 @@ pricing:
 rate_limits:
   requests_per_minute: null
   tokens_per_minute: null
-context_window_override: 32768
+context_window_override: 98304
 available_regions:
   - global
 created_at: "2026-10-21T00:00:00.000Z"
-updated_at: "2026-10-21T00:00:00.000Z"
+updated_at: "2026-11-08T00:00:00.000Z"

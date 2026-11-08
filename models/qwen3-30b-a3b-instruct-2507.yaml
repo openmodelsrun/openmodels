@@ -1,0 +1,18 @@
+# Source: https://huggingface.co/Qwen/Qwen3-30B-A3B-Instruct-2507.
+# The canonical maximum is the card's 1M-token configuration; deployment context limits are recorded in mappings.
+id: qwen3-30b-a3b-instruct-2507
+name: Qwen3 30B A3B Instruct 2507
+description: Alibaba's Qwen3-30B-A3B-Instruct-2507, the July 2025 update of the Qwen3 30B A3B mixture-of-experts model in non-thinking mode, with 30.5B total and 3.3B activated parameters. Improved instruction following, reasoning, coding and tool use, with native 262,144-token context extendable to 1M tokens with Dual Chunk Attention and MInference.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+modalities:
+  - text
+  - code
+context_window: 1000000
+licensing: apache-2.0
+country: cn
+created_at: "2025-07-28T00:00:00.000Z"
+updated_at: "2026-11-08T00:00:00.000Z"
