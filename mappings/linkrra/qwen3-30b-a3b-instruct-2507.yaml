@@ -1,7 +1,10 @@
 # Source: https://synap402.com/v1/models (checked 2026-11-08).
 # Linkrra reports AWQ 4-bit weights; tools and tool_choice none/auto are advertised.
 # Served on Linkrra nodes first. When none is available, Linkrra routes the request through
-# OpenRouter to zero-data-retention endpoints with data collection denied, at the same listed price.
+# OpenRouter to zero-data-retention endpoints with data collection denied. The prices below are the
+# Linkrra node prices; the fallback path is billed at the higher brokered price shown in the feed.
+# The fallback currently requests OpenRouter's qwen/qwen3-30b-a3b slug (the original Qwen3 30B A3B
+# release), not the 2507 weights.
 model_id: qwen3-30b-a3b-instruct-2507
 provider_id: linkrra
 provider_model_name: qwen/qwen3-30b-a3b-instruct-2507

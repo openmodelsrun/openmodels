@@ -5,15 +5,17 @@ description: >-
   The listed GPT-OSS 20B, Gemma 4 26B A4B, Qwen3 Coder 30B A3B, Qwen3 30B A3B Instruct 2507, Qwen3 VL 30B A3B Instruct and Muse Glimmer 30B deployments have public token prices and served context limits.
   Linkrra reports native MXFP4 for GPT-OSS and AWQ 4-bit for the other five; the Gemma and Muse Glimmer deployments accept text input only.
   GPT-OSS 20B, Gemma 4 26B A4B, Qwen3 Coder 30B A3B and Muse Glimmer 30B are served only on Linkrra nodes; since a gateway change on 2026-10-29, a request for them is refused (HTTP 503) when no node is available instead of being forwarded to OpenRouter.
-  Qwen3 30B A3B Instruct 2507 and Qwen3 VL 30B A3B Instruct are served on Linkrra nodes first; when none is available, Linkrra routes them through OpenRouter to zero-data-retention endpoints with data collection denied, billed at the same listed price.
+  Qwen3 30B A3B Instruct 2507 and Qwen3 VL 30B A3B Instruct are served on Linkrra nodes first; when none is available, Linkrra routes them through OpenRouter to zero-data-retention endpoints with data collection denied.
+  The listed prices are the Linkrra node prices; a request served on that fallback path is billed at Linkrra's higher brokered price, which https://synap402.com/v1/models shows while no node is online.
+  The Qwen3 30B A3B Instruct 2507 fallback currently requests OpenRouter's qwen/qwen3-30b-a3b slug (the original Qwen3 30B A3B release), not the 2507 weights.
   This listing does not guarantee exclusively local request handling or zero retention. Data handling policy: https://synap402.com/privacy.
 api_base_url: https://synap402.com/v1
 auth_type: bearer
 regions:
   # Worldwide API access, not guaranteed processing residency. The public feed
-  # reported serving nodes in South Korea, Spain and the United States on
-  # 2026-11-08; they are rented GPUs and locations can change.
+  # reported serving nodes in Asia, Europe and North America on 2026-11-08;
+  # locations can change.
   - global
 compatibility: openai
 created_at: "2026-10-21T00:00:00.000Z"
-updated_at: "2026-11-08T00:00:00.000Z"
+updated_at: "2026-11-09T00:00:00.000Z"
