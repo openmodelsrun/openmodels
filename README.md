@@ -2,9 +2,9 @@
 
 The open-source registry of LLM models, inference providers, and provider-model mappings. Community-maintained, schema-validated, and machine-readable.
 
-**Current stats:** 224 models · 54 providers · 302 mappings
+**Current stats:** 241 models · 55 providers · 323 mappings
 
-Latest addition: GPT-6.1 Terra and its direct OpenAI connection in registry 1.22.0. Standard prices are $1 input / $5 output per million tokens, with conditional long-context and cache pricing documented in the mapping.
+Registry 1.23.0 adds 17 models and 21 verified connections, including GPT-6.2 Astra and Sol, Claude Fable 5.2, Gemini 4 Carbon, Hydrogen and Neon, Qwen4-Max, and Olala on OVHcloud AI Endpoints. Models without public pay-as-you-go API access are listed without inferred prices.
 
 Sber's GigaChat 3.1 open-weight entries are retained as models, but their unverified hosted endpoints and USD rates are no longer listed as provider mappings. Current API access and RUB tariffs are described in the provider record and linked release notes.
 
@@ -16,27 +16,28 @@ OpenModels is a structured, version-controlled registry that serves as the singl
 
 | Vendor | Models |
 |--------|--------|
-| OpenAI | GPT-6.1 Terra, GPT-6.1 Sol, GPT-6 Sol, GPT-6 Luna, GPT-6 Astra, GPT-5.6 Terra, GPT-5.6 Sol, GPT-5.6 Luna, GPT-5.5, GPT-5.4 Mini, GPT-OSS 120B, GPT-OSS 20B, GPT-5.4, GPT-5.5 Pro, GPT-5, GPT-4 |
-| Anthropic | Claude Haiku 5.5, Claude Sonnet 5.5, Claude Opus 5.5, Claude Fable 5.1, Claude Opus 5, Claude Sonnet 5, Claude Mythos 5, Claude Fable 5, Claude Opus 4.8, Claude Opus 4.7, Claude Sonnet 4.6, Claude Opus 4.6, Claude Sonnet 4.5, Claude Haiku 4.5, Claude 3 Opus |
-| Google | Gemini 4 Argon, Gemini 3.8 Flash, Gemini 3.7 Flash, Gemini 3.6 Flash, Gemini 3.5 Flash-Lite, Gemini 3.5 Flash Cyber, Gemini 3.5 Pro, DiffusionGemma, Gemma 4 12B, Gemini 3 Flash, Gemini 3.5 Flash, Gemini 3.1 Flash-Lite, Gemma 4 (E2B/E4B/26B/31B), Gemini 3.1 Pro, Gemini 2.5 Pro, Gemini 2.5 Flash, Gemma 3 (1B/4B/12B/27B) |
+| OpenAI | GPT-6.2 Astra, GPT-6.2 Sol, GPT-6.1 Terra, GPT-6.1 Sol, GPT-6 Sol, GPT-6 Luna, GPT-6 Astra, GPT-5.6 Terra, GPT-5.6 Sol, GPT-5.6 Luna, GPT-5.5, GPT-5.4 Mini, GPT-OSS 120B, GPT-OSS 20B, GPT-5.4, GPT-5.5 Pro, GPT-5, GPT-4 |
+| Anthropic | Claude Fable 5.2, Claude Haiku 5.5, Claude Sonnet 5.5, Claude Opus 5.5, Claude Fable 5.1, Claude Opus 5, Claude Sonnet 5, Claude Mythos 5, Claude Fable 5, Claude Opus 4.8, Claude Opus 4.7, Claude Sonnet 4.6, Claude Opus 4.6, Claude Sonnet 4.5, Claude Haiku 4.5, Claude 3 Opus |
+| Google | Gemini 4 Neon, Gemini 4 Hydrogen, Gemini 4 Carbon, Gemini 4 Argon, Gemini 3.8 Flash, Gemini 3.7 Flash, Gemini 3.6 Flash, Gemini 3.5 Flash-Lite, Gemini 3.5 Flash Cyber, Gemini 3.5 Pro, DiffusionGemma, Gemma 4 12B, Gemini 3 Flash, Gemini 3.5 Flash, Gemini 3.1 Flash-Lite, Gemma 4 (E2B/E4B/26B/31B), Gemini 3.1 Pro, Gemini 2.5 Pro, Gemini 2.5 Flash, Gemma 3 (1B/4B/12B/27B) |
 | xAI | Grok 4.7, Grok 4.6, Grok 4.5, Grok 4.3, Grok 4.20, Grok 4.1 Fast, Grok 4 |
 | DeepSeek | DeepSeek V4.1 Flash 1017, DeepSeek V4 Flash Vision Exp, DeepSeek V4 Pro, DeepSeek V4 Flash, DeepSeek V4, DeepSeek R1, DeepSeek V3 |
-| Meta | Muse Spark 1.3, Muse Spark 1.2, Muse Glimmer 30B, Muse Spark 1.1, Muse Spark, Llama 4 Scout, Llama 4 Maverick, Llama 3.3 70B, Llama 3.2 (3B/11B/90B), Llama 3.1 8B |
+| Meta | Muse Ember, Muse Spark 1.3, Muse Spark 1.2, Muse Glimmer 30B, Muse Spark 1.1, Muse Spark, Llama 4 Scout, Llama 4 Maverick, Llama 3.3 70B, Llama 3.2 (3B/11B/90B), Llama 3.1 8B |
 | Mistral | Mistral Large 4, Mistral Small 4, Mistral Medium 3.5, Mistral Large 3, Devstral 2, Mistral Small 3.1, Codestral |
-| Alibaba | Qwen 3.8 Max Prime, Qwen 3.8 Omni Flash, Qwen 3.8 Flash, Qwen3.8-Flash-Next, Qwen 3.8 Max, Qwen 3.8 2.4T-A95B, Qwen 3.8 27B, Qwen Flash Character, Qwen 3.7 Flash, Qwen 3.7 Plus, Qwen 3.7 Max, Qwen 3.6 (27B, 35B-A3B, Plus), Qwen 3.6, Qwen3 Coder, Qwen3 Coder 30B A3B Instruct, Qwen3 235B, Qwen3 32B, QwQ-32B |
+| Alibaba | Qwen4-Max, Qwen 3.8 Max Prime, Qwen 3.8 Omni Flash, Qwen 3.8 Flash, Qwen3.8-Flash-Next, Qwen 3.8 Max, Qwen 3.8 2.4T-A95B, Qwen 3.8 27B, Qwen Flash Character, Qwen 3.7 Flash, Qwen 3.7 Plus, Qwen 3.7 Max, Qwen 3.6 (27B, 35B-A3B, Plus), Qwen 3.6, Qwen3 Coder, Qwen3 Coder 30B A3B Instruct, Qwen3 235B, Qwen3 32B, QwQ-32B |
 | Moonshot | Kimi K3.1 Pro, Kimi K3, Kimi K2.7 Code, Kimi K2.6 |
 | Cohere | Command A+, Command A, Command R7B |
 | Cohere For AI | Tiny Aya, Aya Expanse 32B |
-| Zhipu | GLM-5.3-Prime, GLM-5.3-FlashX, GLM-5.3-Flash, GLM-5.3, GLM-5.2, GLM-5.1, GLM-4.7 |
+| Zhipu | GLM-5.4, GLM-5.3-Prime, GLM-5.3-FlashX, GLM-5.3-Flash, GLM-5.3, GLM-5.2, GLM-5.1, GLM-4.7 |
 | MiniMax | M3.1 Flash, M3, M2.7 |
 | China Telecom (TeleAI) | Xing4.0-29B-A4B |
 | Sarvam AI | Sarvam-M, Sarvam-105B, Sarvam-30B, Sarvam-1 |
 | Sakana AI | Sakana Fugu Ultra v2, Sakana Fugu Max, Sakana Namazu, Sakana Fugu Ultra, Sakana Fugu |
 | Motif Technologies | Motif 3 Beta |
-| Thinking Machines Lab | Inkling, Inkling Small |
+| Thinking Machines Lab | Inkling 2 Mini, Inkling 2 Small, Inkling, Inkling Small |
 | OpenBMB | MiniCPM-V 4.6 |
 | NVIDIA | Nemotron 3.5 Lightning, Nemotron 3 Ultra, Nemotron 3 Super 120B, Nemotron Nano 9B |
-| Microsoft | Phi-4 Mini, Phi-4 |
+| Microsoft | MAI Code 2, MAI Code 2 Flash, Aion 1.0 Instruct 2.3B, Phi-4 Mini, Phi-4 |
+| OVHai LLM | Olala v1.0 mini 7A1B |
 | Yandex | YandexGPT 5 Lite |
 | Sber | GigaChat 3.1 Ultra, GigaChat 3.1 Lightning |
 | ISSAI | KazLLM 1.0 70B |
@@ -44,7 +45,7 @@ OpenModels is a structured, version-controlled registry that serves as the singl
 | IBM | Granite 4.2 30B, Granite 4.2 8B, Granite 4.2 3B, Granite Speech 5.0 TurboCTC, Granite 4.1 30B, Granite 4.1 8B |
 | Xiaomi | MiMo-V2.6-Pro, MiMo-V2.6-Flash, MiMo-V2.5-Pro |
 | MTS AI | Cotype Nano |
-| Tencent | WeVisOne-VL 2B, WeVisOne-VL 4B, Hy4 Preview, Hy3, Hy3 Preview, Hy-MT2 (1.8B/7B/30B-A3B) |
+| Tencent | Hy4, Hy4 Flash, WeVisOne-VL 2B, WeVisOne-VL 4B, Hy4 Preview, Hy3, Hy3 Preview, Hy-MT2 (1.8B/7B/30B-A3B) |
 | Recursive | Flint |
 | Poolside | Laguna S 2.1, Laguna XS 2.1, Laguna M.1 |
 | AI21 Labs | Jamba Large 1.7 |
@@ -79,7 +80,7 @@ OpenModels is a structured, version-controlled registry that serves as the singl
 
 ### Providers
 
-01.AI · AI21 Labs · Alibaba Model Studio · Amazon Bedrock · Anthropic · Anyscale · Azure AI · Baseten · Cerebras · Cloudflare Workers AI · Cohere · Deep Infra · DeepSeek · Featherless · Fireworks · Google AI Studio · Google (Vertex AI) · Groq · Hugging Face Inference · Hyperbolic · IBM watsonx.ai · InclusionAI · Inference.net · Lambda · Meta · MiniMax · Mistral · Modal · Moonshot · Nebius · NLP Cloud · Novita · NVIDIA NIM · OpenAI · OpenRouter · Perplexity · Reka AI · Replicate · Sakana AI · SambaNova · Sarvam AI · Sber · Scaleway · SiliconFlow · Snowflake Cortex AI · Synap by Linkrra · Tinker · Together AI · Upstage · xAI · Xiaomi MiMo · Yandex Cloud · Zhipu AI
+01.AI · AI21 Labs · Alibaba Model Studio · Amazon Bedrock · Anthropic · Anyscale · Azure AI · Baseten · Cerebras · Cloudflare Workers AI · Cohere · Deep Infra · DeepSeek · Featherless · Fireworks · Google AI Studio · Google (Vertex AI) · Groq · Hugging Face Inference · Hyperbolic · IBM watsonx.ai · InclusionAI · Inference.net · Lambda · Meta · MiniMax · Mistral · Modal · Moonshot · Nebius · NLP Cloud · Novita · NVIDIA NIM · OpenAI · OpenRouter · OVHcloud AI Endpoints · Perplexity · Reka AI · Replicate · Sakana AI · SambaNova · Sarvam AI · Sber · Scaleway · SiliconFlow · Snowflake Cortex AI · Synap by Linkrra · Tinker · Together AI · Upstage · xAI · Xiaomi MiMo · Yandex Cloud · Zhipu AI
 
 ## Structure
 

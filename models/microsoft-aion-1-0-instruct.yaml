@@ -1,0 +1,16 @@
+# Source: https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B
+# Source: https://blogs.windows.com/msedgedev/2026/11/19/hybrid-intelligence-on-the-web-introducing-aion-instruct-and-prompt-api-in-microsoft-edge/
+id: microsoft-aion-1-0-instruct
+name: Aion 1.0 Instruct 2.3B
+description: >-
+  Microsoft's 2.3B on-device text model for writing, summarization, and document understanding. It is built into Edge and was generally released with MIT weights on November 19 after an earlier developer preview. No hosted inference endpoint is listed.
+capabilities:
+  - chat
+  - completion
+modalities:
+  - text
+context_window: 32768
+licensing: mit
+country: us
+created_at: "2026-11-19T00:00:00.000Z"
+updated_at: "2026-11-24T00:00:00.000Z"

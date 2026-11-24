@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.23.0] - 2026-11-24
+
+### Added
+- **GPT-6.2 Astra**, **GPT-6.2 Sol**, **Claude Fable 5.2**, **Gemini 4 Neon**, **Gemini 4 Hydrogen**, **Gemini 4 Carbon**, **Qwen4-Max**, and **Muse Ember**, with direct and OpenRouter connections. Source URLs and pricing conditions are recorded in the YAML files.
+- **Hy4**, **Hy4 Flash**, **Inkling 2 Mini**, and **Inkling 2 Small**, with their documented weight licenses and OpenRouter connections. Hy4 is distinct from the previously listed preview; non-promotional prices are documented separately from the advertised offers.
+- **Olala v1.0 mini 7A1B** and its **OVHcloud AI Endpoints** connection, currently shown as free by OVHcloud with request quotas.
+- **Aion 1.0 Instruct 2.3B**, **GLM-5.4**, **MAI Code 2**, and **MAI Code 2 Flash** as model records without public pay-as-you-go mappings. The records distinguish local weights, product access, and limited preview access.
+
+### Changed
+- Added Singapore to the Alibaba Model Studio provider record to show the region for the Qwen4-Max international tariff. Gemini 4 Carbon's current Google rates are introductory through November 30, with the December 1 standard rates documented.
+- Total coverage: **241 models, 55 providers, 323 mappings**, excluding the hidden pricing example.
+
 ## [1.22.0] - 2026-10-27
 
 ### Added

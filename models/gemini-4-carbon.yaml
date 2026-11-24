@@ -1,0 +1,25 @@
+# Source: https://aistudio.google.com/docs/models/gemini-4-carbon
+# Source: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/
+id: gemini-4-carbon
+name: Gemini 4 Carbon
+description: >-
+  Google DeepMind's Gemini 4 model for long-horizon reasoning and complex software work. The paid Gemini API opened to developers on November 10 after an earlier restricted rollout. Input, thinking, and output share a 1,048,576-token window. Google lists introductory rates through November 30 and higher standard rates starting December 1, 2026.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - audio
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - audio
+  - video
+  - code
+context_window: 1048576
+licensing: proprietary
+country: us
+created_at: "2026-11-10T00:00:00.000Z"
+updated_at: "2026-11-24T00:00:00.000Z"

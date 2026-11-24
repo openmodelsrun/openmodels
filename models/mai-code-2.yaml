@@ -1,0 +1,20 @@
+# Source: https://microsoft.ai/news/microsoft-ignite-2026/
+# Source: https://microsoft.ai/pdf/MAI-Code-2-And-MAI-Code-2-Flash-Model-Card.pdf
+id: mai-code-2
+name: MAI Code 2
+description: >-
+  Microsoft's larger MAI Code 2 model for software engineering across repositories. It accepts text and images and generates text, with up to 922,000 input and 128,000 output tokens. Available through GitHub Copilot; no public pay-as-you-go API connection is listed.
+capabilities:
+  - chat
+  - completion
+  - vision
+  - code-generation
+modalities:
+  - text
+  - image
+  - code
+context_window: 1050000
+licensing: proprietary
+country: us
+created_at: "2026-11-17T00:00:00.000Z"
+updated_at: "2026-11-24T00:00:00.000Z"

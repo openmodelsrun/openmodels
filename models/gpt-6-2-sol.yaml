@@ -1,0 +1,22 @@
+# Source: https://developers.openai.com/api/docs/models/gpt-6.2-sol
+# Source: https://developers.openai.com/api/docs/changelog
+id: gpt-6-2-sol
+name: GPT-6.2 Sol
+description: >-
+  OpenAI's GPT-6.2 model for day-to-day development and tool-using workflows, at the same standard token rates as GPT-6.1 Sol. It accepts text and images and supports up to 128,000 output tokens. Tool calling requires the Responses API.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - code
+context_window: 1050000
+licensing: proprietary
+country: us
+created_at: "2026-11-17T00:00:00.000Z"
+updated_at: "2026-11-24T00:00:00.000Z"

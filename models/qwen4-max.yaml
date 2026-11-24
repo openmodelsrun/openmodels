@@ -1,0 +1,23 @@
+# Source: https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen4-max
+# Source: https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen4-max
+id: qwen4-max
+name: Qwen4-Max
+description: >-
+  Alibaba's production Qwen4 flagship with a one-million-token context and native visual input. It accepts text, images, and video, generates text, and supports thinking and non-thinking modes, structured output, and tool calling. This is the production model, not the time-limited preview checkpoint.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - video
+  - code
+context_window: 1000000
+licensing: proprietary
+country: cn
+created_at: "2026-11-16T00:00:00.000Z"
+updated_at: "2026-11-24T00:00:00.000Z"

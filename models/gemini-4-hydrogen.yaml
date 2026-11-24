@@ -1,0 +1,25 @@
+# Source: https://aistudio.google.com/docs/models/gemini-4-hydrogen
+# Source: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/
+id: gemini-4-hydrogen
+name: Gemini 4 Hydrogen
+description: >-
+  Google DeepMind's speed-focused Gemini 4 model for frequent coding and agentic tasks. It accepts text, images, audio, video, and PDFs, returns text, and uses a unified 1,048,576-token context. Google offers a limited free tier as well as paid Standard API access.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - audio
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - audio
+  - video
+  - code
+context_window: 1048576
+licensing: proprietary
+country: us
+created_at: "2026-11-12T00:00:00.000Z"
+updated_at: "2026-11-24T00:00:00.000Z"

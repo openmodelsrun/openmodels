@@ -1,0 +1,19 @@
+# Source checked 2026-11-24: https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen4-max
+# International deployment (Singapore). Cache write shown for five minutes. Rates for other regions differ.
+model_id: qwen4-max
+provider_id: alibaba-model-studio
+provider_model_name: qwen4-max
+pricing:
+  input_per_million: 1.5
+  output_per_million: 4.5
+  cache_read_per_million: 0.075
+  cache_write_per_million: 1.875
+  currency: USD
+rate_limits:
+  requests_per_minute: null
+  tokens_per_minute: null
+context_window_override: null
+available_regions:
+  - ap-southeast-1
+created_at: "2026-11-16T00:00:00.000Z"
+updated_at: "2026-11-24T00:00:00.000Z"

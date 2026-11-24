@@ -1,0 +1,19 @@
+# Source checked 2026-11-24: https://openrouter.ai/api/v1/models
+# Base serving rates; cache write shown for five minutes.
+model_id: claude-fable-5-2
+provider_id: openrouter
+provider_model_name: anthropic/claude-fable-5.2
+pricing:
+  input_per_million: 8
+  output_per_million: 40
+  cache_read_per_million: 0.2
+  cache_write_per_million: 10
+  currency: USD
+rate_limits:
+  requests_per_minute: null
+  tokens_per_minute: null
+context_window_override: null
+available_regions:
+  - us-east-1
+created_at: "2026-11-24T00:00:00.000Z"
+updated_at: "2026-11-24T00:00:00.000Z"

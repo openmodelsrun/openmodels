@@ -1,0 +1,24 @@
+# Source: https://huggingface.co/tencent/Hy4
+# Source: https://openrouter.ai/tencent/hy4
+id: hy4
+name: Hy4
+description: >-
+  Tencent's production Hy4, distinct from Hy4 Preview. Its language backbone has 770B total parameters and 49B active per token. The downloadable model handles text, images, and video under the Tencent Hy License. Hosted modalities vary; the listed OpenRouter endpoint advertises text and image inputs.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - fine-tuning
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - video
+  - code
+context_window: 1048576
+licensing: other
+country: cn
+created_at: "2026-11-04T00:00:00.000Z"
+updated_at: "2026-11-24T00:00:00.000Z"

@@ -1,0 +1,23 @@
+# Source: https://huggingface.co/tencent/Hy4-flash
+# Source: https://openrouter.ai/tencent/hy4-flash
+id: hy4-flash
+name: Hy4 Flash
+description: >-
+  Tencent's lower-cost Hy4 variant, with 220B total parameters including its n-gram embeddings and 12B active per token according to the developer. It accepts text and images, generates text, and is distributed under the Tencent Hy License.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - fine-tuning
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - code
+context_window: 1048576
+licensing: other
+country: cn
+created_at: "2026-11-16T00:00:00.000Z"
+updated_at: "2026-11-24T00:00:00.000Z"

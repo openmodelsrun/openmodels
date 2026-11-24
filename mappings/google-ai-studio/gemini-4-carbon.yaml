@@ -1,0 +1,18 @@
+# Source checked 2026-11-24: https://aistudio.google.com/docs/pricing#gemini-4-carbon
+# Introductory Standard rates through 2026-11-30. From 2026-12-01 Google lists $4 input / $20 output / $0.20 cache read. Implicit caching only.
+model_id: gemini-4-carbon
+provider_id: google-ai-studio
+provider_model_name: gemini-4-carbon
+pricing:
+  input_per_million: 2
+  output_per_million: 10
+  cache_read_per_million: 0.1
+  currency: USD
+rate_limits:
+  requests_per_minute: null
+  tokens_per_minute: null
+context_window_override: null
+available_regions:
+  - global
+created_at: "2026-11-10T00:00:00.000Z"
+updated_at: "2026-11-24T00:00:00.000Z"

@@ -1,0 +1,25 @@
+# Source: https://aistudio.google.com/docs/models/gemini-4-neon
+# Source: https://aistudio.google.com/docs/changelog#11-18-2026
+id: gemini-4-neon
+name: Gemini 4 Neon
+description: >-
+  Google DeepMind's Gemini 4 model for coding and multi-step professional work. It accepts text, images, audio, video, and PDFs and returns text. Input and output share a 1,048,576-token window; extended text generation uses long decode. Available on the paid Gemini API tier.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - audio
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - audio
+  - video
+  - code
+context_window: 1048576
+licensing: proprietary
+country: us
+created_at: "2026-11-18T00:00:00.000Z"
+updated_at: "2026-11-24T00:00:00.000Z"

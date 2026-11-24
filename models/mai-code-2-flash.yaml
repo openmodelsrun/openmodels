@@ -1,0 +1,20 @@
+# Source: https://microsoft.ai/news/microsoft-ignite-2026/
+# Source: https://microsoft.ai/pdf/MAI-Code-2-And-MAI-Code-2-Flash-Model-Card.pdf
+id: mai-code-2-flash
+name: MAI Code 2 Flash
+description: >-
+  Microsoft's smaller MAI Code 2 model for routine code changes, explanations, and fast iteration. It accepts text and images and generates text with the same published context limit as MAI Code 2. Available in GitHub Copilot and in limited-access Microsoft Foundry preview; the preview is not listed as a public API connection.
+capabilities:
+  - chat
+  - completion
+  - vision
+  - code-generation
+modalities:
+  - text
+  - image
+  - code
+context_window: 1050000
+licensing: proprietary
+country: us
+created_at: "2026-11-17T00:00:00.000Z"
+updated_at: "2026-11-24T00:00:00.000Z"

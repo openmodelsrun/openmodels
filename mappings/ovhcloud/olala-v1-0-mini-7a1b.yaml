@@ -1,0 +1,17 @@
+# Source checked 2026-11-24: https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/olala-v1-0-mini-7a1b/
+# OVHcloud currently lists this endpoint as free. Anonymous and authenticated usage are subject to different quotas.
+model_id: olala-v1-0-mini-7a1b
+provider_id: ovhcloud
+provider_model_name: Olala-v1.0-mini-7A1B
+pricing:
+  input_per_million: 0
+  output_per_million: 0
+  currency: USD
+rate_limits:
+  requests_per_minute: null
+  tokens_per_minute: null
+context_window_override: null
+available_regions:
+  - eu-west-1
+created_at: "2026-11-18T00:00:00.000Z"
+updated_at: "2026-11-24T00:00:00.000Z"
