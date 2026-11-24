@@ -1,10 +1,17 @@
-# Sources checked 2026-10-23:
+# Sources checked 2026-11-24:
 # https://platform.kimi.ai/docs/models
 # https://platform.kimi.ai/docs/guide/kimi-k3-1-pro-quickstart
-# Weights are announced for November 4; no downloadable K3.1 license is published yet.
+# Weights: https://huggingface.co/moonshotai/Kimi-K3.1-Pro
+# License: https://huggingface.co/moonshotai/Kimi-K3.1-Pro/blob/main/LICENSE
 id: kimi-k3-1-pro
 name: Kimi K3.1 Pro
-description: Moonshot AI's K3.1 Pro multimodal reasoning model, post-trained from Kimi K3 for coding, 3D creation, financial research and tool-using agents. The documented API supports text, image and video input, structured output and a 1,048,576-token context. Downloadable weights are announced for November 4, 2026; the exact weight license is not yet published. A separately priced Highspeed endpoint is also documented.
+description: >-
+  Moonshot AI's K3.1 Pro multimodal reasoning model, post-trained from Kimi K3
+  for coding, 3D creation, financial research, and tool-using agents. The API
+  supports text, images, and video, structured output, and a 1,048,576-token
+  context. The weights are downloadable from Moonshot AI on Hugging Face under
+  the Kimi K3.1-Pro License, which has additional terms for certain commercial uses.
+  A separately priced Highspeed endpoint is also available.
 capabilities:
   - chat
   - completion
@@ -21,4 +28,4 @@ context_window: 1048576
 licensing: other
 country: cn
 created_at: "2026-10-23T00:00:00.000Z"
-updated_at: "2026-10-23T00:00:00.000Z"
+updated_at: "2026-11-24T00:00:00.000Z"

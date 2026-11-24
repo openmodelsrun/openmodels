@@ -1,18 +1,18 @@
-# Source: https://openrouter.ai/api/v1/models
-# OpenRouter currently serves 512K context. Limits depend on the account and routed provider.
+# Source checked 2026-11-24: https://openrouter.ai/api/v1/models
+# OpenRouter lists 1,048,576 context and up to 262,144 output tokens.
 model_id: "mistral-large-4"
 provider_id: "openrouter"
 provider_model_name: "mistralai/mistral-large-4-0"
 pricing:
-  input_per_million: 0.68
-  output_per_million: 2.09
+  input_per_million: 0.70
+  output_per_million: 2.10
   currency: "USD"
   cache_read_per_million: 0.07
-context_window_override: 524288
+context_window_override: 1048576
 available_regions:
   - us-east-1
 rate_limits:
   requests_per_minute: null
   tokens_per_minute: null
 created_at: "2026-10-06T00:00:00.000Z"
-updated_at: "2026-10-06T00:00:00.000Z"
+updated_at: "2026-11-24T00:00:00.000Z"

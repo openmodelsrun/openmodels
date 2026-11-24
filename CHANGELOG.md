@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.23.1] - 2026-11-24
+
+### Changed
+- **Kimi K3.1 Pro** now records its published [downloadable weights](https://huggingface.co/moonshotai/Kimi-K3.1-Pro) and [Kimi K3.1-Pro License](https://huggingface.co/moonshotai/Kimi-K3.1-Pro/blob/main/LICENSE). The custom license is not classified as MIT; Moonshot API prices are unchanged.
+- **Mistral Large 4** now reflects November 5 general availability, published weights, and 52B active parameters. Updated Mistral and OpenRouter to **$0.70 input / $2.10 output / $0.07 cached input** per million tokens. The OpenRouter feed now lists a 1,048,576-token context. Existing model and mapping IDs are preserved. [Mistral model](https://docs.mistral.ai/models/mistral-large-4-0), [pricing](https://docs.mistral.ai/inference/pricing?currency=usd), [OpenRouter feed](https://openrouter.ai/api/v1/models).
+
 ## [1.23.0] - 2026-11-24
 
 ### Added

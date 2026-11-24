@@ -1,8 +1,13 @@
-# Source: https://docs.mistral.ai/models/mistral-large-4-0
-# The docs advertise 1M context without an exact token count. Weights/license pending.
+# Model and GA status: https://docs.mistral.ai/models/mistral-large-4-0
+# Weights and release notes: https://mistral.ai/news/mistral-large-4-oss/
 id: "mistral-large-4"
 name: "Mistral Large 4"
-description: "Mistral AI's multimodal model for reasoning, coding, and agentic workloads, with 1.05T total and 49B active parameters. Public preview with a 1M-token context; downloadable weights and the exact license are still marked as coming soon."
+description: >-
+  Mistral AI's multimodal Mixture-of-Experts model for reasoning, coding, and
+  tool-using workflows, with 1.05T total and 52B active parameters and a
+  one-million-token context. Generally available in the Mistral API since
+  November 5, 2026. Downloadable weights are published under the Mistral
+  Ecosystem Open Weight License v26.10.
 capabilities:
   - chat
   - completion
@@ -18,4 +23,4 @@ context_window: 1000000
 licensing: "other"
 country: "fr"
 created_at: "2026-10-06T00:00:00.000Z"
-updated_at: "2026-10-06T00:00:00.000Z"
+updated_at: "2026-11-24T00:00:00.000Z"
