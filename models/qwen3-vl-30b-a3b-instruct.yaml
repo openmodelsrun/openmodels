@@ -1,0 +1,19 @@
+# Source: https://huggingface.co/Qwen/Qwen3-VL-30B-A3B-Instruct.
+# The canonical maximum is the card's expanded 1M-token context; deployment context limits are recorded in mappings.
+id: qwen3-vl-30b-a3b-instruct
+name: Qwen3 VL 30B A3B Instruct
+description: Alibaba's Qwen3-VL-30B-A3B-Instruct, a mixture-of-experts vision-language model with image and video understanding, document OCR, visual agent and tool use. Native 262,144-token context, expandable to 1M tokens.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+modalities:
+  - text
+  - image
+  - video
+context_window: 1000000
+licensing: apache-2.0
+country: cn
+created_at: "2025-09-30T00:00:00.000Z"
+updated_at: "2026-11-08T00:00:00.000Z"
