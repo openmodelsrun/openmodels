@@ -1,0 +1,17 @@
+# Source: https://api.runcrate.ai/v1/models (public, no login; checked 2026-11-12).
+model_id: qwen3-8-flash
+provider_id: runcrate
+provider_model_name: Qwen/Qwen3.8-Flash
+pricing:
+  input_per_million: 0.11865
+  output_per_million: 0.4011
+  cache_read_per_million: 0.012656
+  currency: USD
+rate_limits:
+  requests_per_minute: null
+  tokens_per_minute: null
+context_window_override: null
+available_regions:
+  - global
+created_at: "2026-11-12T00:00:00.000Z"
+updated_at: "2026-11-12T00:00:00.000Z"
